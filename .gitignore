@@ -1,13 +1,14 @@
-### Mac OS X files ###
-
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon
+local_config.php
 
-# Thumbnails
-._*
+public_html/assets/images/captchas/*
+public_html/assets/images/forum_attachments/*
+public_html/assets/images/member_photos/*
+public_html/assets/images/pm_attachments/*
+public_html/assets/images/signature_attachments/*
+public_html/assets/images/uploads/*
+public_html/assets/br_media/cache/*
+br_download_files/download/*
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+ee_system_folder/installer/*
+ee_system_folder/expressionengine/cache/*
