@@ -1,0 +1,124 @@
+/******************************************************************
+Site Name: CatapultPGH
+Author: Lara Schenck
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+Here's where you can start getting into the good stuff.
+This size will work on iPads, other tablets, and desktops.
+So you can start working with more styles, background images,
+and other resources. You'll also notice the grid starts to
+come into play. Have fun!
+
+******************************************************************/
+// import animate.css
+	//@import "../css/animate.css";
+
+/*********************
+GENERAL STYLES
+*********************/
+
+body {}
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+.wrap {
+	max-width: 1140px;
+}
+
+/*********************
+HEADER SYTLES
+*********************/
+
+.header {
+
+}
+
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+.nav li {
+	padding: 0 3em;
+}
+
+
+/*********************
+CONTENT
+*********************/
+
+
+.member {
+
+	// Adding .sixcol manually
+	&.first {
+		margin-left: 0;
+	}
+
+	width: 48.618784527%;
+	position: relative;
+	float: left;
+	margin-left: 2.762430939%;
+}
+
+.programs-nav, .presenter-gallery {
+	a, img {
+		@include transition(all 0.2s ease-in-out);
+
+		&:hover {
+			@include transition(all 0.2s ease-in-out);
+		}
+	}
+}
+
+.programs-nav {
+
+	a {
+		text-align: center;
+		width: 100%;
+	}
+
+	img {
+		// Remove these when actually photos are there
+		display: block;
+		border: 6px $light-grey solid;
+		opacity: 0.6;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	.current {
+		background: none;
+		color: $link-color;
+		
+		img {
+			border: 6px $green solid;
+			opacity: 1;
+			&:hover {
+				opacity: 1;	
+			}
+		}
+	}
+}
+
+.presenter-gallery {
+	img:hover {
+		opacity: 0.6;
+	}
+}
+
+
+/*********************
+SIDEBARS & ASIDES
+*********************/
+
+
+/*********************
+FOOTER STYLES
+*********************/
+
