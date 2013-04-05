@@ -107,7 +107,7 @@ http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
 /* line 148, ../scss/_mixins.scss */
 span.amp {
-  font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
+  font-family: Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", serif !important;
   font-style: italic;
 }
 
@@ -314,7 +314,7 @@ upon your base.scss styles.
 
 ******************************************************************/
 /*********************
-HEADER SYTLES
+HEADER STYLES
 *********************/
 /* line 24, ../scss/_481up.scss */
 .header {
@@ -393,6 +393,11 @@ CONTENT STYLES
   margin-left: 2.762430939%;
 }
 
+/* line 95, ../scss/_481up.scss */
+.presenter {
+  width: 33%;
+}
+
 /*********************
 FOOTER STYLES
 *********************/
@@ -434,19 +439,20 @@ NAVIGATION STYLES
 /*********************
 CONTENT
 *********************/
-/* line 54, ../scss/_768up.scss */
-.member {
-  width: 48.618784527%;
-  position: relative;
-  float: left;
-  margin-left: 2.762430939%;
-}
-/* line 57, ../scss/_768up.scss */
+/* line 56, ../scss/_768up.scss */
 .member.first {
   margin-left: 0;
 }
+/* line 60, ../scss/_768up.scss */
+.member .member-info {
+  width: 74.30939%;
+}
+/* line 64, ../scss/_768up.scss */
+.member .photo {
+  width: 22.92818%;
+}
 
-/* line 68, ../scss/_768up.scss */
+/* line 70, ../scss/_768up.scss */
 .programs-nav a, .programs-nav img, .presenter-gallery a, .presenter-gallery img {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -455,7 +461,7 @@ CONTENT
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 71, ../scss/_768up.scss */
+/* line 73, ../scss/_768up.scss */
 .programs-nav a:hover, .programs-nav img:hover, .presenter-gallery a:hover, .presenter-gallery img:hover {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -465,39 +471,39 @@ CONTENT
   transition: all 0.2s ease-in-out;
 }
 
-/* line 79, ../scss/_768up.scss */
+/* line 81, ../scss/_768up.scss */
 .programs-nav a {
   text-align: center;
   width: 100%;
 }
-/* line 84, ../scss/_768up.scss */
+/* line 86, ../scss/_768up.scss */
 .programs-nav img {
   display: block;
   border: 6px #cccccc solid;
   opacity: 0.6;
 }
-/* line 90, ../scss/_768up.scss */
+/* line 92, ../scss/_768up.scss */
 .programs-nav img:hover {
   opacity: 1;
 }
-/* line 95, ../scss/_768up.scss */
+/* line 97, ../scss/_768up.scss */
 .programs-nav .current {
   background: none;
   color: #f04c23;
 }
-/* line 99, ../scss/_768up.scss */
+/* line 101, ../scss/_768up.scss */
 .programs-nav .current img {
   border: 6px #5ab448 solid;
   opacity: 1;
 }
-/* line 102, ../scss/_768up.scss */
+/* line 104, ../scss/_768up.scss */
 .programs-nav .current img:hover {
   opacity: 1;
 }
 
-/* line 110, ../scss/_768up.scss */
-.presenter-gallery img:hover {
-  opacity: 0.6;
+/* line 111, ../scss/_768up.scss */
+.presenter {
+  width: 25%;
 }
 
 /*********************
@@ -525,6 +531,11 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
+/* line 29, ../scss/_1030up.scss */
+.presenter {
+  width: 20%;
+}
+
 /*********************
 FOOTER STYLES
 *********************/

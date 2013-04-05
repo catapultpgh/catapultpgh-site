@@ -237,7 +237,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, serif;
-  _font-family: 'courier new', monospace;
+  _font-family: "courier new", monospace;
   font-size: 1em;
 }
 
@@ -388,7 +388,7 @@ form {
  */
 /* line 372, ../scss/_normalize.scss */
 fieldset {
-  border: 1px solid #c0c0c0;
+  border: 1px solid silver;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
@@ -649,7 +649,7 @@ http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
 /* line 148, ../scss/_mixins.scss */
 span.amp {
-  font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
+  font-family: Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", serif !important;
   font-style: italic;
 }
 
@@ -928,7 +928,7 @@ html[xmlns] .slides {
 .flexslider {
   margin: 0 0 60px;
   background: #fff;
-  border: 4px solid #fff;
+  border: 4px solid white;
   position: relative;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -983,7 +983,7 @@ html[xmlns] .slides {
   cursor: pointer;
   text-indent: -9999px;
   opacity: 0;
-  -webkit-transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
 }
 
 /* line 53, ../scss/_flexslider.scss */
@@ -1557,9 +1557,9 @@ CONTENT STYLES
 
 /* line 389, ../scss/_base.scss */
 .presenter {
-  width: 20%;
+  width: 50%;
   float: left;
-  padding: 0 0.2em;
+  padding: 0.2em;
 }
 
 /* line 397, ../scss/_base.scss */
@@ -1615,7 +1615,7 @@ tweeners.
   
   ******************************************************************/
   /*********************
-  HEADER SYTLES
+  HEADER STYLES
   *********************/
   /* line 24, ../scss/_481up.scss */
   .header {
@@ -1692,6 +1692,11 @@ tweeners.
   .member .member-info {
     width: 65.74585634900001%;
     margin-left: 2.762430939%;
+  }
+
+  /* line 95, ../scss/_481up.scss */
+  .presenter {
+    width: 33%;
   }
 
   /*********************
@@ -6620,19 +6625,20 @@ you can add resource intensive styles.
   /*********************
   CONTENT
   *********************/
-  /* line 54, ../scss/_768up.scss */
-  .member {
-    width: 48.618784527%;
-    position: relative;
-    float: left;
-    margin-left: 2.762430939%;
-  }
-  /* line 57, ../scss/_768up.scss */
+  /* line 56, ../scss/_768up.scss */
   .member.first {
     margin-left: 0;
   }
+  /* line 60, ../scss/_768up.scss */
+  .member .member-info {
+    width: 74.30939%;
+  }
+  /* line 64, ../scss/_768up.scss */
+  .member .photo {
+    width: 22.92818%;
+  }
 
-  /* line 68, ../scss/_768up.scss */
+  /* line 70, ../scss/_768up.scss */
   .programs-nav a, .programs-nav img, .presenter-gallery a, .presenter-gallery img {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -6641,7 +6647,7 @@ you can add resource intensive styles.
     -transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
-  /* line 71, ../scss/_768up.scss */
+  /* line 73, ../scss/_768up.scss */
   .programs-nav a:hover, .programs-nav img:hover, .presenter-gallery a:hover, .presenter-gallery img:hover {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -6651,39 +6657,39 @@ you can add resource intensive styles.
     transition: all 0.2s ease-in-out;
   }
 
-  /* line 79, ../scss/_768up.scss */
+  /* line 81, ../scss/_768up.scss */
   .programs-nav a {
     text-align: center;
     width: 100%;
   }
-  /* line 84, ../scss/_768up.scss */
+  /* line 86, ../scss/_768up.scss */
   .programs-nav img {
     display: block;
     border: 6px #cccccc solid;
     opacity: 0.6;
   }
-  /* line 90, ../scss/_768up.scss */
+  /* line 92, ../scss/_768up.scss */
   .programs-nav img:hover {
     opacity: 1;
   }
-  /* line 95, ../scss/_768up.scss */
+  /* line 97, ../scss/_768up.scss */
   .programs-nav .current {
     background: none;
     color: #f04c23;
   }
-  /* line 99, ../scss/_768up.scss */
+  /* line 101, ../scss/_768up.scss */
   .programs-nav .current img {
     border: 6px #5ab448 solid;
     opacity: 1;
   }
-  /* line 102, ../scss/_768up.scss */
+  /* line 104, ../scss/_768up.scss */
   .programs-nav .current img:hover {
     opacity: 1;
   }
 
-  /* line 110, ../scss/_768up.scss */
-  .presenter-gallery img:hover {
-    opacity: 0.6;
+  /* line 111, ../scss/_768up.scss */
+  .presenter {
+    width: 25%;
   }
 
   /*********************
@@ -6719,6 +6725,11 @@ you can add resource intensive styles.
   /*********************
   CONTENT STYLES
   *********************/
+  /* line 29, ../scss/_1030up.scss */
+  .presenter {
+    width: 20%;
+  }
+
   /*********************
   FOOTER STYLES
   *********************/
@@ -6832,7 +6843,7 @@ be set to display none.
 
   /* line 23, ../scss/_print.scss */
   a, a:visited {
-    color: #444 !important;
+    color: #444444 !important;
     text-decoration: underline;
   }
   /* line 28, ../scss/_print.scss */
@@ -6853,7 +6864,7 @@ be set to display none.
 
   /* line 44, ../scss/_print.scss */
   pre, blockquote {
-    border: 1px solid #999;
+    border: 1px solid #999999;
     page-break-inside: avoid;
   }
 

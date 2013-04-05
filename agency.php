@@ -3,7 +3,7 @@
         <header class="header animated fadeInDown">
             <img class="logo" alt="CatapultPGH logo" />
             <img src="img/agencyHeaderImage.jpg" alt="CatapultPGH"/>
-            <?php include('parts/nav.html'); ?>
+            <?php include('parts/nav.php'); ?>
         </header>
 
         <div class="agency-tagline animated fadeIn">
@@ -30,37 +30,59 @@
            
             <section>
                 <h2>Team</h2>
-                <div class="row">
+                <div class="row clearfix">
 
                     <div class="member first clearfix">
                         <div class="photo first">
-                            <img src="img/members/lara.jpg" alt="Lara Schenck" />
+                            <img src="img/members/elliott.jpeg" alt="Elliott Williams" />
                         </div>
                         <div class="member-info last">
-                            <h4><a href="http://notlaura.com" target="blank">Lara Schenck</a></h4>
-                            <p>Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                            <h4><a href="http://elliottw.io" target="blank">Elliott Williams</a></h4>
+                            <p>Elliott holds an undergraduate degree in Cognitive Science from MIT, and a Masters in Human Computer Interaction from CMU. After completing his Masters, he and his business partners launched Pink*, a Service Design firm in Pittsburgh with a emphasis on using HCI research techniques to improve not only digital interfaces, but environments and processes as well. Elliott's areas of expertise include: digitally assisted collaborative work, ethnographic research, work flow analysis, design theory, and rapid prototyping methodologies. Before coming to Catapult, Elliott did consulting work with GlaxoSmithKline to create new strategies to enter the service industry, and worked on several projects to improve the efficacy of technology use for doctors in West Africa.</p>
                         </div>
                     </div>
                     
-                    <div class="member last clearfix">
+                    <div class="member clearfix">
                         <div class="photo first">
                             <img src="img/members/lara.jpg" alt="Lara Schenck" />
                         </div>
                         <div class="member-info last">
                             <h4><a href="http://notlaura.com" target="blank">Lara Schenck</a></h4>
-                            <p>Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                            <p>Lara is a designer and front-end developer and specializes in creating unique branding and websites for startups. She places a high value on self-taught technical skills and is passionate about education reform. Lara is pursuing a career in game-like curriculum design for undergraduate programs. When she's not at Catapult, you can find her at the <a href="http://steelcityimprov.com" target="blank">Steel City Improv Theater</a> in Shadyside.</p>
+                        </div>
+                    </div>
+                </div> <!-- member row -->
+                
+                <div class="row clearfix">
+                    <div class="member first clearfix">
+                        <div class="photo first">
+                            <img src="img/members/bill.jpg" alt="Bill Moore" />
+                        </div>
+                        <div class="member-info last">
+                            <h4><a href="http://lnkd.in/PhzDku" target="blank">Bill Moore</a></h4>
+                            <p>If you need some video marketing for your business, talk to Bill. He will also willingly discuss going on adventures, playing chess, flying airplanes, speed reading, space exploration, jet-pack racing, and the proper use of an Oxford comma.</p>
                         </div>
                     </div>
 
-                </div>
+                    <div class="member clearfix">
+                        <div class="photo first">
+                            <img src="img/members/raquel.png" alt="Raquel Rodriguez" />
+                        </div>
+                        <div class="member-info last">
+                            <h4><a href="http://raquelcps.com" target="blank">Raquel Rodriguez</a></h4>
+                            <p>Raquel Rodriguez is a Pittsburgh-based creative specializing in lettering, graphic design and web design. Formerly a doctoral student, librarian, and graffiti writer she employs a bit of what she learned in all those arenas in her current practice and especially enjoys collaborating with creatives, entrepreneurs, non-profits and educational organizations. She is also co-creator of the podcast <a href="http://queerandbrown.tumblr.com/" target="blank">Queer &amp; Brown in Steeltown</a>.</p>
+                        </div>
+                    </div>
+                </div> <!-- member row -->
+
             </section>
 
         </div> <!-- .main -->
 
         <div class="agency-contact animated fadeIn">
             <div class="wrap clearfix">
-                <h1>Get in touch. <a href="mailto:inbox@catapultpgh.org">Email us</a> or call on: (412) 407-3327</h1>
+                <h1>Get in touch. <a href="mailto:inbox@catapultpgh.org">Email us</a> or call at: (412) 407-3327</h1>
             </div>
         </div>
  
-<?php include('parts/footer.html'); ?>
+<?php include('parts/footer.php'); ?>

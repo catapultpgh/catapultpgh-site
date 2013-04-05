@@ -3,7 +3,7 @@
         <header class="header animated fadeInDown">
             <img class="logo" alt="CatapultPGH logo" />
             <img src="img/communityHeaderImage.jpg" alt="CatapultPGH"/>
-            <?php include('parts/nav.html'); ?>
+            <?php include('parts/nav.php'); ?>
         </header>
 
         <div class="main wrap animated fadeIn clearfix">
@@ -50,51 +50,59 @@
                     <div class="presenter-gallery animated fadeInUp clearfix">
 
                         <?php
-                        function printPresenter($num, $link) {
-                            $tab = "\t";
-                            $newline = "\n";
 
-                            $content = '';
-                            $content .= '<a href="'.$link.'" class="presenter">';
-                            $content .= '<img src="img/presenters/presenter' . $num . '.jpg" alt="'.$link.'" />';
-                            $content .= '<span class="name">'.$link.'</span>';
-                            $content .= $newline . $tab;
-                            $content .= '</a>';
+                         // Loop through image directory and print markup for each
+                        function printAll($dir) {
+                            $fdir = 'img/' . $dir . '/*';
+                            foreach(glob($fdir) as $img_path) {  
+                                printPresenter($img_path);
+                            }
+                        }
+
+                        // Print each presenter
+                        function printPresenter($path) {
+                            $content = '<img class="presenter" src="' . $path . '" alt="Show-n-Tell Presenter" />';
                             echo $content;
                         }
 
-                        // Inefficient, for testing purposes
-                        $names = array(
-                                'Podcamp guy' => '01', 
-                                'Red Blue Voice'=> '02', 
-                                'Kate Stoltzfus' => '03', 
-                                'Brian Shope' => '04', 
-                                'Green &amp; Screen' => '05', 
-                                'Alex Leeson-Brown' => '06', 
-                                'Cassidy Krug' => '07', 
-                                'Feebee' => '08', 
-                                'Eric Singer' => '09', 
-                                'Nick Fedoreck' => '10', 
-                                'Anne Marie' => '11', 
-                                'Derek Minto' => '12', 
-                                'Some Guy' => '13', 
-                                'Jonny Goldstein' => '14', 
-                                'Laurie Trok' => '15', 
-                                'Kit Mueller' => '16', 
-                                'Chalkboard gurl' => '17', 
-                                'Prenatal Woman' => '18', 
-                                'Healcrest Farms' => '19', 
-                                'Chatham Woman' => '20',
-                                'Other' => '21',
-                                'Other2' => '22',
-                                'Other3' => '23',
-                                'Other4' => '24'
+                        
+                        printAll('presenters');
 
-                            );
+                        /* Lara was experimenting with an array to print presenter image, name, and URL. Incomplete, obvy. */
 
-                        foreach ($names as $n => $i) {
-                            printPresenter($i, '');
-                        }
+                        // Inefficient, for testing purposes.
+                        // $names = array(
+                        //         'Podcamp guy' => '01', 
+                        //         'Red Blue Voice'=> '02', 
+                        //         'Kate Stoltzfus' => '03', 
+                        //         'Brian Shope' => '04', 
+                        //         'Green &amp; Screen' => '05', 
+                        //         'Alex Leeson-Brown' => '06', 
+                        //         'Cassidy Krug' => '07', 
+                        //         'Feebee' => '08', 
+                        //         'Eric Singer' => '09', 
+                        //         'Nick Fedoreck' => '10', 
+                        //         'Anne Marie' => '11', 
+                        //         'Derek Minto' => '12', 
+                        //         'Some Guy' => '13', 
+                        //         'Jonny Goldstein' => '14', 
+                        //         'Laurie Trok' => '15', 
+                        //         'Kit Mueller' => '16', 
+                        //         'Chalkboard gurl' => '17', 
+                        //         'Prenatal Woman' => '18', 
+                        //         'Healcrest Farms' => '19', 
+                        //         'Chatham Woman' => '20',
+                        //         'Other' => '21',
+                        //         'Other2' => '22',
+                        //         'Other3' => '23',
+                        //         'Other4' => '24'
+
+                        //     );
+
+                        
+                        // foreach ($names as $n => $i) {
+                        //     printPresenter($i, '');
+                        // }
 
                         ?>
 
@@ -173,4 +181,4 @@
 
         </div> <!-- .main -->
  
-<?php include('parts/footer.html'); ?>
+<?php include('parts/footer.php'); ?>

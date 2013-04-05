@@ -52,16 +52,18 @@ CONTENT
 
 
 .member {
-
-	// Adding .sixcol manually
+	
 	&.first {
 		margin-left: 0;
 	}
 
-	width: 48.618784527%;
-	position: relative;
-	float: left;
-	margin-left: 2.762430939%;
+	.member-info {
+		width: 74.30939226%
+	}
+
+	.photo {
+		width: 22.928176794%
+	}
 }
 
 .programs-nav, .presenter-gallery {
@@ -106,12 +108,9 @@ CONTENT
 	}
 }
 
-.presenter-gallery {
-	img:hover {
-		opacity: 0.6;
-	}
+.presenter {
+	width: 25%;
 }
-
 
 /*********************
 SIDEBARS & ASIDES
