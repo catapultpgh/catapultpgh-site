@@ -35,8 +35,7 @@ $(document).ready(function() {
 		$('.tab-content'+tab).fadeIn();
 
 		// Remove link functionality
-		return false;
-
+		return false;	
 	});
 
 });

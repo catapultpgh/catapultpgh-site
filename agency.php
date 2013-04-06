@@ -38,7 +38,7 @@
                         </div>
                         <div class="member-info last">
                             <h4><a href="http://elliott.io" target="blank">Elliott Williams</a></h4>
-                            <p>Elliott holds an undergraduate degree in Cognitive Science from MIT, and a Masters in Human Computer Interaction from CMU. After completing his Masters, he and his business partners launched Pink*, a Service Design firm in Pittsburgh with a emphasis on using HCI research techniques to improve not only digital interfaces, but environments and processes as well. Elliott's areas of expertise include: digitally assisted collaborative work, ethnographic research, work flow analysis, design theory, and rapid prototyping methodologies. Before coming to Catapult, Elliott did consulting work with GlaxoSmithKline to create new strategies to enter the service industry, and worked on several projects to improve the efficacy of technology use for doctors in West Africa.</p>
+                            <p>Elliott has spent the last four years focusing on User-Centered Design to help companies such as GSK and Africa Aid create new strategies and product prototypes. Despite his degrees from MIT and CMU, he wishes there was a website that teaches long division to grown-ups.</p>
                         </div>
                     </div>
                     
@@ -48,7 +48,7 @@
                         </div>
                         <div class="member-info last">
                             <h4><a href="http://notlaura.com" target="blank">Lara Schenck</a></h4>
-                            <p>Lara is a designer and front-end developer and specializes in creating unique branding and websites for startups. She places a high value on self-taught technical skills and is passionate about education reform. Lara is pursuing a career in game-like curriculum design for undergraduate programs. When she's not at Catapult, you can find her at the <a href="http://steelcityimprov.com" target="blank">Steel City Improv Theater</a> in Shadyside.</p>
+                            <p>Lara is a designer and front-end developer, specializing in unique branding and websites for startups. She places a high value on self-taught technical skills and is passionate about education reform. Lara is pursuing a career in game-like curriculum design for undergraduate programs at hopes to attend the CMU's Entertainment Technology Center in 2014. When she's not at Catapult, you can find her at the <a href="http://steelcityimprov.com" target="blank">Steel City Improv Theater</a> in Shadyside.</p>
                         </div>
                     </div>
                 </div> <!-- member row -->

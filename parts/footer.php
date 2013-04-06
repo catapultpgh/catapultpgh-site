@@ -15,6 +15,10 @@
     
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <!-- We should use the map API instead of an iframe, added to todos -->
+        <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs7pwJR2UazpCXdmAdcCnl0jjn1ML9Du0&sensor=false"></script>-->
+        
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
