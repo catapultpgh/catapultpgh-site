@@ -1,5 +1,10 @@
 <?php include('parts/header.php'); ?>
 
+<body id="catapultpgh-community">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
         <header class="header animated fadeInDown">
             <div class="logo-container">
                 <img class="logo" src="img/logo.png" alt="CatapultPGH logo" />

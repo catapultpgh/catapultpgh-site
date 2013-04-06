@@ -27,28 +27,5 @@ $root = 'catapultpgh'; // Local
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
 
-    <?php
-        function generate_id($uri) {
-        /* regular expressions */
-        $regex1 = '/[^a-zA-Z0-9]/'; //remove anything but letters and numbers
-        $regex2 = '/[\-]+/'; //remove multiple "-"'s in a row
-        $regex3 = '/^[-]+/'; //remove starting "-"
-        $regex4 = '/[-]+$/'; //remove ending "-"
-        /* return... */
-        return preg_replace(
-        array($regex1,$regex2,$regex3,$regex4),
-        array('-','-','',''),
-        $_SERVER['REQUEST_URI']
-        );
-        }
 
-        /* do it! */
-        $body_id = generate_id($_SERVER['REQUEST_URI']);
-
-        //returns:  some-directory-deeper-my-page
-        echo '<body id="',$body_id,'">';
-    ?>
-
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
+    
