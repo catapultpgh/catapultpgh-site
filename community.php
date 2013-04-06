@@ -1,7 +1,9 @@
 <?php include('parts/header.php'); ?>
 
         <header class="header animated fadeInDown">
-            <img class="logo" alt="CatapultPGH logo" />
+            <div class="logo-container">
+                <img class="logo" src="img/logo.png" alt="CatapultPGH logo" />
+            </div>
             <img src="img/communityHeaderImage.jpg" alt="CatapultPGH"/>
             <?php include('parts/nav.php'); ?>
         </header>
