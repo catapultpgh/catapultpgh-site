@@ -1256,24 +1256,25 @@ a {
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  color: #f04c23;
 }
 
-/* line 79, ../scss/_base.scss */
+/* line 80, ../scss/_base.scss */
 #catapultpgh a, a:visited {
   color: #f04c23;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 82, ../scss/_base.scss */
+/* line 83, ../scss/_base.scss */
 #catapultpgh a.current, a:visited.current {
   color: black;
 }
-/* line 87, ../scss/_base.scss */
+/* line 88, ../scss/_base.scss */
 #catapultpgh a:hover, #catapultpgh a:focus, a:visited:hover, a:visited:focus {
   color: black;
 }
-/* line 97, ../scss/_base.scss */
+/* line 98, ../scss/_base.scss */
 #catapultpgh a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -1283,22 +1284,22 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 107, ../scss/_base.scss */
+/* line 108, ../scss/_base.scss */
 #catapultpgh-community a, a:visited {
   color: #5ab448;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 111, ../scss/_base.scss */
+/* line 112, ../scss/_base.scss */
 #catapultpgh-community a:hover, #catapultpgh-community a:focus, a:visited:hover, a:visited:focus {
   color: black;
 }
-/* line 120, ../scss/_base.scss */
+/* line 121, ../scss/_base.scss */
 #catapultpgh-community a.current, a:visited.current {
   color: black;
 }
-/* line 125, ../scss/_base.scss */
+/* line 126, ../scss/_base.scss */
 #catapultpgh-community a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -1308,22 +1309,22 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 135, ../scss/_base.scss */
+/* line 136, ../scss/_base.scss */
 #catapultpgh-agency a, a:visited {
   color: #5089c1;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 138, ../scss/_base.scss */
+/* line 139, ../scss/_base.scss */
 #catapultpgh-agency a.current, a:visited.current {
   color: black;
 }
-/* line 143, ../scss/_base.scss */
+/* line 144, ../scss/_base.scss */
 #catapultpgh-agency a:hover, #catapultpgh-agency a:focus, a:visited:hover, a:visited:focus {
   color: black;
 }
-/* line 153, ../scss/_base.scss */
+/* line 154, ../scss/_base.scss */
 #catapultpgh-agency a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -1333,18 +1334,18 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 163, ../scss/_base.scss */
+/* line 164, ../scss/_base.scss */
 #catapultpgh-weblog a, a:visited {
   color: #036434;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 167, ../scss/_base.scss */
+/* line 168, ../scss/_base.scss */
 #catapultpgh-weblog a:hover, #catapultpgh-weblog a:focus, a:visited:hover, a:visited:focus {
   color: black;
 }
-/* line 177, ../scss/_base.scss */
+/* line 178, ../scss/_base.scss */
 #catapultpgh-weblog a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -1357,7 +1358,7 @@ a {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-/* line 191, ../scss/_base.scss */
+/* line 192, ../scss/_base.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, .programs-nav p, h5, .h5 {
   font-family: "Merriweather", Georgia, serif;
   text-rendering: optimizelegibility;
@@ -1367,37 +1368,37 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .programs-nav p, h5, .h5 {
   */
   /* removing text decoration from all headline links */
 }
-/* line 200, ../scss/_base.scss */
+/* line 201, ../scss/_base.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, .programs-nav p a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 205, ../scss/_base.scss */
+/* line 206, ../scss/_base.scss */
 h1, .h1 {
   font-size: 2em;
   line-height: 1.5em;
   margin: 60px 0;
 }
 
-/* line 211, ../scss/_base.scss */
+/* line 212, ../scss/_base.scss */
 h2, .h2 {
   font-size: 1.75em;
   line-height: 1.15em;
   margin: 60px 0 40px;
 }
 
-/* line 217, ../scss/_base.scss */
+/* line 218, ../scss/_base.scss */
 h3, .h3 {
   font-size: 1.25em;
 }
 
-/* line 221, ../scss/_base.scss */
+/* line 222, ../scss/_base.scss */
 h4, .h4, .programs-nav p {
   font-size: 1em;
   margin: 1em 0;
 }
 
-/* line 226, ../scss/_base.scss */
+/* line 227, ../scss/_base.scss */
 h5, .h5 {
   font-size: 0.75em;
   line-height: 1.5em;
@@ -1409,35 +1410,35 @@ h5, .h5 {
 /*********************
 TYPOGRAPHY ROOT
 *********************/
-/* line 240, ../scss/_base.scss */
+/* line 241, ../scss/_base.scss */
 strong {
   font-weight: normal;
   font-family: "OpenSansSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 245, ../scss/_base.scss */
+/* line 246, ../scss/_base.scss */
 em {
   font-style: normal;
   font-family: "OpenSansItalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 250, ../scss/_base.scss */
+/* line 251, ../scss/_base.scss */
 ul, ol {
   padding-left: 2em;
   font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 255, ../scss/_base.scss */
+/* line 256, ../scss/_base.scss */
 ul {
   list-style-type: disc;
 }
 
-/* line 259, ../scss/_base.scss */
+/* line 260, ../scss/_base.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 263, ../scss/_base.scss */
+/* line 264, ../scss/_base.scss */
 p {
   font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -1448,16 +1449,16 @@ HEADER SYTLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 277, ../scss/_base.scss */
+/* line 278, ../scss/_base.scss */
 .nav {
   text-align: center;
 }
-/* line 280, ../scss/_base.scss */
+/* line 281, ../scss/_base.scss */
 .nav a {
   text-decoration: none;
   color: black;
 }
-/* line 285, ../scss/_base.scss */
+/* line 286, ../scss/_base.scss */
 .nav ul {
   padding: 0;
 }
@@ -1465,104 +1466,104 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 301, ../scss/_base.scss */
+/* line 302, ../scss/_base.scss */
 .contact-info {
   list-style-type: none;
   padding: 0;
 }
 
-/* line 308, ../scss/_base.scss */
+/* line 309, ../scss/_base.scss */
 .agency-tagline {
   background: #5089c1;
   width: 100%;
 }
-/* line 312, ../scss/_base.scss */
+/* line 313, ../scss/_base.scss */
 .agency-tagline div {
   color: white;
 }
 
-/* line 317, ../scss/_base.scss */
+/* line 318, ../scss/_base.scss */
 .member {
   border-bottom: 1px solid #cccccc;
   padding-top: 30px;
 }
 
-/* line 322, ../scss/_base.scss */
+/* line 323, ../scss/_base.scss */
 .agency-contact {
   background: #5089c1;
   width: 100%;
 }
-/* line 326, ../scss/_base.scss */
+/* line 327, ../scss/_base.scss */
 .agency-contact div {
   color: white;
 }
-/* line 330, ../scss/_base.scss */
+/* line 331, ../scss/_base.scss */
 .agency-contact div h1 {
   margin: 15px 0;
 }
-/* line 334, ../scss/_base.scss */
+/* line 335, ../scss/_base.scss */
 .agency-contact div h1 a {
   color: white !important;
   border-bottom: 4px solid white;
 }
-/* line 337, ../scss/_base.scss */
+/* line 338, ../scss/_base.scss */
 .agency-contact div h1 a:hover {
   color: black !important;
   border-bottom: 4px solid black;
 }
 
-/* line 346, ../scss/_base.scss */
+/* line 347, ../scss/_base.scss */
 .programs-nav {
   text-align: center;
   margin-top: 60px;
 }
-/* line 350, ../scss/_base.scss */
+/* line 351, ../scss/_base.scss */
 .programs-nav a {
   width: 50%;
   float: left;
   color: #5ab448;
 }
-/* line 357, ../scss/_base.scss */
+/* line 358, ../scss/_base.scss */
 .programs-nav img {
   display: none;
 }
-/* line 361, ../scss/_base.scss */
+/* line 362, ../scss/_base.scss */
 .programs-nav .current {
   color: #5ab448;
   background: #cccccc;
 }
-/* line 366, ../scss/_base.scss */
+/* line 367, ../scss/_base.scss */
 .programs-nav p {
   font-weight: 900;
   font-size: 1em;
 }
 
-/* line 373, ../scss/_base.scss */
+/* line 374, ../scss/_base.scss */
 .tabs {
   padding: 0;
 }
 
-/* line 377, ../scss/_base.scss */
+/* line 378, ../scss/_base.scss */
 .tab-content {
   display: none;
 }
-/* line 380, ../scss/_base.scss */
+/* line 381, ../scss/_base.scss */
 .tab-content#showntell {
   display: block;
 }
-/* line 384, ../scss/_base.scss */
+/* line 385, ../scss/_base.scss */
 .tab-content .h2 {
   color: #5ab448;
 }
 
-/* line 389, ../scss/_base.scss */
+/* line 390, ../scss/_base.scss */
 .presenter {
   width: 50%;
   float: left;
   padding: 0.2em;
 }
 
-/* line 397, ../scss/_base.scss */
+/* line 398, ../scss/_base.scss */
 #microloans img {
   width: auto;
 }
@@ -1570,12 +1571,12 @@ CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 406, ../scss/_base.scss */
+/* line 407, ../scss/_base.scss */
 .footer {
   margin-top: 120px;
 }
 
-/* line 410, ../scss/_base.scss */
+/* line 411, ../scss/_base.scss */
 .footer-container {
   font-size: 0.9em;
   font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1586,7 +1587,7 @@ FOOTER STYLES
   top: 45%;
   width: 100%;
 }
-/* line 420, ../scss/_base.scss */
+/* line 421, ../scss/_base.scss */
 .footer-container a:hover {
   color: white !important;
 }
