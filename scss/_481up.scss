@@ -28,10 +28,9 @@ HEADER STYLES
 
 .logo-container {
 	position: absolute;
-	top: 15%;
-	width: 200px;
-	height: 200px;
-	margin-left: -50px;
+	width: 250px;
+	height: 250px;
+	margin-left: -120px;
 	left: 50%;
 	background: $trans-white;
 	@include border-radius(50%);
@@ -39,8 +38,8 @@ HEADER STYLES
 
 .logo {
 	position: relative;
-	top: 30px;
-	left: 20px;
+	top: 40px;
+	left: 30px;
 	width: 80%;
 }
 

@@ -107,7 +107,7 @@ http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
 /* line 148, ../scss/_mixins.scss */
 span.amp {
-  font-family: Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", serif !important;
+  font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
   font-style: italic;
 }
 
@@ -325,10 +325,9 @@ HEADER STYLES
 /* line 29, ../scss/_481up.scss */
 .logo-container {
   position: absolute;
-  top: 15%;
-  width: 200px;
-  height: 200px;
-  margin-left: -50px;
+  width: 250px;
+  height: 250px;
+  margin-left: -120px;
   left: 50%;
   background: rgba(255, 255, 255, 0.65);
   -webkit-border-radius: 50%;
@@ -339,18 +338,18 @@ HEADER STYLES
   border-radius: 50%;
 }
 
-/* line 40, ../scss/_481up.scss */
+/* line 39, ../scss/_481up.scss */
 .logo {
   position: relative;
-  top: 30px;
-  left: 20px;
+  top: 40px;
+  left: 30px;
   width: 80%;
 }
 
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 51, ../scss/_481up.scss */
+/* line 50, ../scss/_481up.scss */
 .nav {
   width: 100%;
   position: absolute;
@@ -358,13 +357,13 @@ NAVIGATION STYLES
   background: rgba(255, 255, 255, 0.65);
   bottom: 15%;
 }
-/* line 58, ../scss/_481up.scss */
+/* line 57, ../scss/_481up.scss */
 .nav ul {
   background: rgba(255, 255, 255, 0.65);
   padding: 5px 0;
   margin: 15px 0;
 }
-/* line 63, ../scss/_481up.scss */
+/* line 62, ../scss/_481up.scss */
 .nav ul li {
   display: inline;
   padding: 0 5%;
@@ -373,27 +372,27 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 77, ../scss/_481up.scss */
+/* line 76, ../scss/_481up.scss */
 .member {
   border: none;
   margin-bottom: 30px;
 }
-/* line 80, ../scss/_481up.scss */
+/* line 79, ../scss/_481up.scss */
 .member .photo, .member .member-info {
   position: relative;
   float: left;
 }
-/* line 85, ../scss/_481up.scss */
+/* line 84, ../scss/_481up.scss */
 .member .photo {
   width: 31.491712705%;
 }
-/* line 89, ../scss/_481up.scss */
+/* line 88, ../scss/_481up.scss */
 .member .member-info {
   width: 65.74585634900001%;
   margin-left: 2.762430939%;
 }
 
-/* line 95, ../scss/_481up.scss */
+/* line 94, ../scss/_481up.scss */
 .presenter {
   width: 33%;
 }
@@ -431,7 +430,7 @@ HEADER SYTLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 44, ../scss/_768up.scss */
+/* line 41, ../scss/_768up.scss */
 .nav li {
   padding: 0 3em;
 }
@@ -439,20 +438,20 @@ NAVIGATION STYLES
 /*********************
 CONTENT
 *********************/
-/* line 56, ../scss/_768up.scss */
+/* line 53, ../scss/_768up.scss */
 .member.first {
   margin-left: 0;
 }
-/* line 60, ../scss/_768up.scss */
+/* line 57, ../scss/_768up.scss */
 .member .member-info {
   width: 74.30939%;
 }
-/* line 64, ../scss/_768up.scss */
+/* line 61, ../scss/_768up.scss */
 .member .photo {
   width: 22.92818%;
 }
 
-/* line 70, ../scss/_768up.scss */
+/* line 67, ../scss/_768up.scss */
 .programs-nav a, .programs-nav img, .presenter-gallery a, .presenter-gallery img {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -461,7 +460,7 @@ CONTENT
   -transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 73, ../scss/_768up.scss */
+/* line 70, ../scss/_768up.scss */
 .programs-nav a:hover, .programs-nav img:hover, .presenter-gallery a:hover, .presenter-gallery img:hover {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -471,37 +470,37 @@ CONTENT
   transition: all 0.2s ease-in-out;
 }
 
-/* line 81, ../scss/_768up.scss */
+/* line 78, ../scss/_768up.scss */
 .programs-nav a {
   text-align: center;
   width: 100%;
 }
-/* line 86, ../scss/_768up.scss */
+/* line 83, ../scss/_768up.scss */
 .programs-nav img {
   display: block;
   border: 6px #cccccc solid;
   opacity: 0.6;
 }
-/* line 92, ../scss/_768up.scss */
+/* line 89, ../scss/_768up.scss */
 .programs-nav img:hover {
   opacity: 1;
 }
-/* line 97, ../scss/_768up.scss */
+/* line 94, ../scss/_768up.scss */
 .programs-nav .current {
   background: none;
   color: #f04c23;
 }
-/* line 101, ../scss/_768up.scss */
+/* line 98, ../scss/_768up.scss */
 .programs-nav .current img {
   border: 6px #5ab448 solid;
   opacity: 1;
 }
-/* line 104, ../scss/_768up.scss */
+/* line 101, ../scss/_768up.scss */
 .programs-nav .current img:hover {
   opacity: 1;
 }
 
-/* line 111, ../scss/_768up.scss */
+/* line 108, ../scss/_768up.scss */
 .presenter {
   width: 25%;
 }
@@ -525,13 +524,29 @@ be seen on the Desktop.
 /*********************
 HEADER SYTLES
 *********************/
+/* line 19, ../scss/_1030up.scss */
+.logo-container {
+  width: 380px;
+  height: 380px;
+  margin-left: -200px;
+  top: 3%;
+}
+
+/* line 26, ../scss/_1030up.scss */
+.logo {
+  position: relative;
+  top: 80px;
+  left: 40px;
+  width: 80%;
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
 /*********************
 CONTENT STYLES
 *********************/
-/* line 29, ../scss/_1030up.scss */
+/* line 42, ../scss/_1030up.scss */
 .presenter {
   width: 20%;
 }
