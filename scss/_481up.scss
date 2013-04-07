@@ -43,6 +43,11 @@ HEADER STYLES
 	width: 80%;
 }
 
+.agency-tagline {
+	// Hack to fix space at end of header
+	margin-top: -10px;
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/

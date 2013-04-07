@@ -75,6 +75,7 @@ a {
     -ms-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     color: $orange;
+    text-decoration: none;
 }
 
 #catapultpgh a, a:visited {
@@ -318,6 +319,15 @@ CONTENT STYLES
 .member {
 	border-bottom: 1px solid $light-grey;
 	padding-top: 30px;
+
+	h4 {
+		margin-bottom: 0;
+	}
+
+	h5 {
+		font-family: $sans-serif-light;
+		margin-top: 0;
+	}
 }
 
 .agency-contact {

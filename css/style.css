@@ -1257,24 +1257,25 @@ a {
   -ms-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   color: #f04c23;
+  text-decoration: none;
 }
 
-/* line 80, ../scss/_base.scss */
+/* line 81, ../scss/_base.scss */
 #catapultpgh a, a:visited {
   color: #f04c23;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 83, ../scss/_base.scss */
+/* line 84, ../scss/_base.scss */
 #catapultpgh a.current, a:visited.current {
   color: black;
 }
-/* line 88, ../scss/_base.scss */
+/* line 89, ../scss/_base.scss */
 #catapultpgh a:hover, #catapultpgh a:focus, a:visited:hover, a:visited:focus {
   color: black;
 }
-/* line 98, ../scss/_base.scss */
+/* line 99, ../scss/_base.scss */
 #catapultpgh a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -1284,22 +1285,22 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 108, ../scss/_base.scss */
+/* line 109, ../scss/_base.scss */
 #catapultpgh-community a, a:visited {
   color: #5ab448;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 112, ../scss/_base.scss */
+/* line 113, ../scss/_base.scss */
 #catapultpgh-community a:hover, #catapultpgh-community a:focus, a:visited:hover, a:visited:focus {
   color: black;
 }
-/* line 121, ../scss/_base.scss */
+/* line 122, ../scss/_base.scss */
 #catapultpgh-community a.current, a:visited.current {
   color: black;
 }
-/* line 126, ../scss/_base.scss */
+/* line 127, ../scss/_base.scss */
 #catapultpgh-community a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -1309,22 +1310,22 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 136, ../scss/_base.scss */
+/* line 137, ../scss/_base.scss */
 #catapultpgh-agency a, a:visited {
   color: #5089c1;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 139, ../scss/_base.scss */
+/* line 140, ../scss/_base.scss */
 #catapultpgh-agency a.current, a:visited.current {
   color: black;
 }
-/* line 144, ../scss/_base.scss */
+/* line 145, ../scss/_base.scss */
 #catapultpgh-agency a:hover, #catapultpgh-agency a:focus, a:visited:hover, a:visited:focus {
   color: black;
 }
-/* line 154, ../scss/_base.scss */
+/* line 155, ../scss/_base.scss */
 #catapultpgh-agency a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -1334,18 +1335,18 @@ a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
 
-/* line 164, ../scss/_base.scss */
+/* line 165, ../scss/_base.scss */
 #catapultpgh-weblog a, a:visited {
   color: #036434;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
-/* line 168, ../scss/_base.scss */
+/* line 169, ../scss/_base.scss */
 #catapultpgh-weblog a:hover, #catapultpgh-weblog a:focus, a:visited:hover, a:visited:focus {
   color: black;
 }
-/* line 178, ../scss/_base.scss */
+/* line 179, ../scss/_base.scss */
 #catapultpgh-weblog a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
@@ -1358,7 +1359,7 @@ a {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-/* line 192, ../scss/_base.scss */
+/* line 193, ../scss/_base.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, .programs-nav p, h5, .h5 {
   font-family: "Merriweather", Georgia, serif;
   text-rendering: optimizelegibility;
@@ -1368,37 +1369,37 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .programs-nav p, h5, .h5 {
   */
   /* removing text decoration from all headline links */
 }
-/* line 201, ../scss/_base.scss */
+/* line 202, ../scss/_base.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, .programs-nav p a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 206, ../scss/_base.scss */
+/* line 207, ../scss/_base.scss */
 h1, .h1 {
   font-size: 2em;
   line-height: 1.5em;
   margin: 60px 0;
 }
 
-/* line 212, ../scss/_base.scss */
+/* line 213, ../scss/_base.scss */
 h2, .h2 {
   font-size: 1.75em;
   line-height: 1.15em;
   margin: 60px 0 40px;
 }
 
-/* line 218, ../scss/_base.scss */
+/* line 219, ../scss/_base.scss */
 h3, .h3 {
   font-size: 1.25em;
 }
 
-/* line 222, ../scss/_base.scss */
+/* line 223, ../scss/_base.scss */
 h4, .h4, .programs-nav p {
   font-size: 1em;
   margin: 1em 0;
 }
 
-/* line 227, ../scss/_base.scss */
+/* line 228, ../scss/_base.scss */
 h5, .h5 {
   font-size: 0.75em;
   line-height: 1.5em;
@@ -1410,35 +1411,35 @@ h5, .h5 {
 /*********************
 TYPOGRAPHY ROOT
 *********************/
-/* line 241, ../scss/_base.scss */
+/* line 242, ../scss/_base.scss */
 strong {
   font-weight: normal;
   font-family: "OpenSansSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 246, ../scss/_base.scss */
+/* line 247, ../scss/_base.scss */
 em {
   font-style: normal;
   font-family: "OpenSansItalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 251, ../scss/_base.scss */
+/* line 252, ../scss/_base.scss */
 ul, ol {
   padding-left: 2em;
   font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 256, ../scss/_base.scss */
+/* line 257, ../scss/_base.scss */
 ul {
   list-style-type: disc;
 }
 
-/* line 260, ../scss/_base.scss */
+/* line 261, ../scss/_base.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 264, ../scss/_base.scss */
+/* line 265, ../scss/_base.scss */
 p {
   font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -1449,16 +1450,16 @@ HEADER SYTLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 278, ../scss/_base.scss */
+/* line 279, ../scss/_base.scss */
 .nav {
   text-align: center;
 }
-/* line 281, ../scss/_base.scss */
+/* line 282, ../scss/_base.scss */
 .nav a {
   text-decoration: none;
   color: black;
 }
-/* line 286, ../scss/_base.scss */
+/* line 287, ../scss/_base.scss */
 .nav ul {
   padding: 0;
 }
@@ -1466,104 +1467,113 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 302, ../scss/_base.scss */
+/* line 303, ../scss/_base.scss */
 .contact-info {
   list-style-type: none;
   padding: 0;
 }
 
-/* line 309, ../scss/_base.scss */
+/* line 310, ../scss/_base.scss */
 .agency-tagline {
   background: #5089c1;
   width: 100%;
 }
-/* line 313, ../scss/_base.scss */
+/* line 314, ../scss/_base.scss */
 .agency-tagline div {
   color: white;
 }
 
-/* line 318, ../scss/_base.scss */
+/* line 319, ../scss/_base.scss */
 .member {
   border-bottom: 1px solid #cccccc;
   padding-top: 30px;
 }
-
 /* line 323, ../scss/_base.scss */
+.member h4 {
+  margin-bottom: 0;
+}
+/* line 327, ../scss/_base.scss */
+.member h5 {
+  font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 0;
+}
+
+/* line 333, ../scss/_base.scss */
 .agency-contact {
   background: #5089c1;
   width: 100%;
 }
-/* line 327, ../scss/_base.scss */
+/* line 337, ../scss/_base.scss */
 .agency-contact div {
   color: white;
 }
-/* line 331, ../scss/_base.scss */
+/* line 341, ../scss/_base.scss */
 .agency-contact div h1 {
   margin: 15px 0;
 }
-/* line 335, ../scss/_base.scss */
+/* line 345, ../scss/_base.scss */
 .agency-contact div h1 a {
   color: white !important;
   border-bottom: 4px solid white;
 }
-/* line 338, ../scss/_base.scss */
+/* line 348, ../scss/_base.scss */
 .agency-contact div h1 a:hover {
   color: black !important;
   border-bottom: 4px solid black;
 }
 
-/* line 347, ../scss/_base.scss */
+/* line 357, ../scss/_base.scss */
 .programs-nav {
   text-align: center;
   margin-top: 60px;
 }
-/* line 351, ../scss/_base.scss */
+/* line 361, ../scss/_base.scss */
 .programs-nav a {
   width: 50%;
   float: left;
   color: #5ab448;
 }
-/* line 358, ../scss/_base.scss */
+/* line 368, ../scss/_base.scss */
 .programs-nav img {
   display: none;
 }
-/* line 362, ../scss/_base.scss */
+/* line 372, ../scss/_base.scss */
 .programs-nav .current {
   color: #5ab448;
   background: #cccccc;
 }
-/* line 367, ../scss/_base.scss */
+/* line 377, ../scss/_base.scss */
 .programs-nav p {
   font-weight: 900;
   font-size: 1em;
 }
 
-/* line 374, ../scss/_base.scss */
+/* line 384, ../scss/_base.scss */
 .tabs {
   padding: 0;
 }
 
-/* line 378, ../scss/_base.scss */
+/* line 388, ../scss/_base.scss */
 .tab-content {
   display: none;
 }
-/* line 381, ../scss/_base.scss */
+/* line 391, ../scss/_base.scss */
 .tab-content#showntell {
   display: block;
 }
-/* line 385, ../scss/_base.scss */
+/* line 395, ../scss/_base.scss */
 .tab-content .h2 {
   color: #5ab448;
 }
 
-/* line 390, ../scss/_base.scss */
+/* line 400, ../scss/_base.scss */
 .presenter {
   width: 50%;
   float: left;
   padding: 0.2em;
 }
 
-/* line 398, ../scss/_base.scss */
+/* line 408, ../scss/_base.scss */
 #microloans img {
   width: auto;
 }
@@ -1571,12 +1581,12 @@ CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 407, ../scss/_base.scss */
+/* line 417, ../scss/_base.scss */
 .footer {
   margin-top: 120px;
 }
 
-/* line 411, ../scss/_base.scss */
+/* line 421, ../scss/_base.scss */
 .footer-container {
   font-size: 0.9em;
   font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1587,7 +1597,7 @@ FOOTER STYLES
   top: 45%;
   width: 100%;
 }
-/* line 421, ../scss/_base.scss */
+/* line 431, ../scss/_base.scss */
 .footer-container a:hover {
   color: white !important;
 }
@@ -1648,10 +1658,15 @@ tweeners.
     width: 80%;
   }
 
+  /* line 46, ../scss/_481up.scss */
+  .agency-tagline {
+    margin-top: -10px;
+  }
+
   /*********************
   NAVIGATION STYLES
   *********************/
-  /* line 50, ../scss/_481up.scss */
+  /* line 55, ../scss/_481up.scss */
   .nav {
     width: 100%;
     position: absolute;
@@ -1659,13 +1674,13 @@ tweeners.
     background: rgba(255, 255, 255, 0.65);
     bottom: 15%;
   }
-  /* line 57, ../scss/_481up.scss */
+  /* line 62, ../scss/_481up.scss */
   .nav ul {
     background: rgba(255, 255, 255, 0.65);
     padding: 5px 0;
     margin: 15px 0;
   }
-  /* line 62, ../scss/_481up.scss */
+  /* line 67, ../scss/_481up.scss */
   .nav ul li {
     display: inline;
     padding: 0 5%;
@@ -1674,27 +1689,27 @@ tweeners.
   /*********************
   CONTENT STYLES
   *********************/
-  /* line 76, ../scss/_481up.scss */
+  /* line 81, ../scss/_481up.scss */
   .member {
     border: none;
     margin-bottom: 30px;
   }
-  /* line 79, ../scss/_481up.scss */
+  /* line 84, ../scss/_481up.scss */
   .member .photo, .member .member-info {
     position: relative;
     float: left;
   }
-  /* line 84, ../scss/_481up.scss */
+  /* line 89, ../scss/_481up.scss */
   .member .photo {
     width: 31.491712705%;
   }
-  /* line 88, ../scss/_481up.scss */
+  /* line 93, ../scss/_481up.scss */
   .member .member-info {
     width: 65.74585634900001%;
     margin-left: 2.762430939%;
   }
 
-  /* line 94, ../scss/_481up.scss */
+  /* line 99, ../scss/_481up.scss */
   .presenter {
     width: 33%;
   }

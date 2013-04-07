@@ -346,10 +346,15 @@ HEADER STYLES
   width: 80%;
 }
 
+/* line 46, ../scss/_481up.scss */
+.agency-tagline {
+  margin-top: -10px;
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 50, ../scss/_481up.scss */
+/* line 55, ../scss/_481up.scss */
 .nav {
   width: 100%;
   position: absolute;
@@ -357,13 +362,13 @@ NAVIGATION STYLES
   background: rgba(255, 255, 255, 0.65);
   bottom: 15%;
 }
-/* line 57, ../scss/_481up.scss */
+/* line 62, ../scss/_481up.scss */
 .nav ul {
   background: rgba(255, 255, 255, 0.65);
   padding: 5px 0;
   margin: 15px 0;
 }
-/* line 62, ../scss/_481up.scss */
+/* line 67, ../scss/_481up.scss */
 .nav ul li {
   display: inline;
   padding: 0 5%;
@@ -372,27 +377,27 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 76, ../scss/_481up.scss */
+/* line 81, ../scss/_481up.scss */
 .member {
   border: none;
   margin-bottom: 30px;
 }
-/* line 79, ../scss/_481up.scss */
+/* line 84, ../scss/_481up.scss */
 .member .photo, .member .member-info {
   position: relative;
   float: left;
 }
-/* line 84, ../scss/_481up.scss */
+/* line 89, ../scss/_481up.scss */
 .member .photo {
   width: 31.491712705%;
 }
-/* line 88, ../scss/_481up.scss */
+/* line 93, ../scss/_481up.scss */
 .member .member-info {
   width: 65.74585634900001%;
   margin-left: 2.762430939%;
 }
 
-/* line 94, ../scss/_481up.scss */
+/* line 99, ../scss/_481up.scss */
 .presenter {
   width: 33%;
 }
