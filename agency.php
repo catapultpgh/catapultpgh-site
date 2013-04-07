@@ -24,11 +24,10 @@
             <h2>Welcome to Catapult, a Coöperative Creative Agency.</h2>
 
             <div class="sixcol first">
-                <p>Working with us is a bit different. Projects start with building a team that suites your needs and not the other way around. Want a WordPress website with hand illustrations, we team you with a web designer and an artist. Need a video, we've got someone who does that too. We come to work because we like working together, not because we're getting paid to, and now we're finding interesting ways to work together more often.</p>
+                <p>We are a creative agency of independent people who choose to work together on interesting projects. Working with us is a bit different. Projects start with building a team that suites your needs and not the other way around. Want a WordPress website with hand illustrations, we team you with a web designer and an artist. Need a video, we've got someone who does that too. We come to work because we like working together, not because we're getting paid to, and now we're finding interesting ways to work together more often.</p>
             </div>
             <div class="sixcol last">
                 <p>We like helping clients sort through complex projects where we can rely on our many talents and collaborate in ways that a regular job wouldn't allow. Check out some members below and contact us if you think we're a good fit for your next project.</p>
-                <p>Want more than a freelancer but less than an agency? Hire Catapult PGH for your next design project.</p>
             </div>
 
         </div>
