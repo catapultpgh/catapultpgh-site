@@ -107,7 +107,7 @@ http://simplebits.com/notebook/2008/08/14/ampersands-2/
 */
 /* line 148, ../scss/_mixins.scss */
 span.amp {
-  font-family: Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;
+  font-family: Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", serif !important;
   font-style: italic;
 }
 
@@ -325,28 +325,21 @@ HEADER STYLES
 /* line 29, ../scss/_481up.scss */
 .logo-container {
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 500px;
+  height: 500px;
   margin-left: -120px;
   left: 50%;
-  background: rgba(255, 255, 255, 0.65);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  -border-radius: 50%;
-  border-radius: 50%;
 }
 
-/* line 39, ../scss/_481up.scss */
+/* line 37, ../scss/_481up.scss */
 .logo {
   position: relative;
   top: 40px;
   left: 30px;
-  width: 80%;
+  width: 100%;
 }
 
-/* line 46, ../scss/_481up.scss */
+/* line 44, ../scss/_481up.scss */
 .agency-tagline {
   margin-top: -10px;
 }
@@ -354,7 +347,7 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 55, ../scss/_481up.scss */
+/* line 53, ../scss/_481up.scss */
 .nav {
   width: 100%;
   position: absolute;
@@ -362,13 +355,13 @@ NAVIGATION STYLES
   background: rgba(255, 255, 255, 0.65);
   bottom: 15%;
 }
-/* line 62, ../scss/_481up.scss */
+/* line 60, ../scss/_481up.scss */
 .nav ul {
   background: rgba(255, 255, 255, 0.65);
   padding: 5px 0;
   margin: 15px 0;
 }
-/* line 67, ../scss/_481up.scss */
+/* line 65, ../scss/_481up.scss */
 .nav ul li {
   display: inline;
   padding: 0 5%;
@@ -377,27 +370,27 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 81, ../scss/_481up.scss */
+/* line 79, ../scss/_481up.scss */
 .member {
   border: none;
   margin-bottom: 30px;
 }
-/* line 84, ../scss/_481up.scss */
+/* line 82, ../scss/_481up.scss */
 .member .photo, .member .member-info {
   position: relative;
   float: left;
 }
-/* line 89, ../scss/_481up.scss */
+/* line 87, ../scss/_481up.scss */
 .member .photo {
   width: 31.491712705%;
 }
-/* line 93, ../scss/_481up.scss */
+/* line 91, ../scss/_481up.scss */
 .member .member-info {
   width: 65.74585634900001%;
   margin-left: 2.762430939%;
 }
 
-/* line 99, ../scss/_481up.scss */
+/* line 97, ../scss/_481up.scss */
 .presenter {
   width: 33%;
 }

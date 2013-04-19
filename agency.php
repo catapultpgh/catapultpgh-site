@@ -15,7 +15,7 @@
 
         <div class="agency-tagline animated fadeIn">
             <div class="wrap clearfix">
-                <h1>Want the personal touch of a freelancer but the skillset of an agency?</h1>
+                <h1>Want the personal touch of a freelancer <br />but the skillset of an agency?</h1>
             </div>
         </div>
 
@@ -57,7 +57,7 @@
                         <div class="member-info last">
                             <h5>Web Design</h5>
                             <h4><a href="http://notlaura.com" target="blank">Lara Schenck</a></h4>
-                            <p>Lara is a designer and front-end developer, specializing in unique branding and websites for startups. She places a high value on self-taught technical skills and is passionate about education reform. Lara is pursuing a career in game-like curriculum design for undergraduate programs at hopes to attend the CMU's Entertainment Technology Center in 2014. When she's not at Catapult, you can find her at the <a href="http://steelcityimprov.com" target="blank">Steel City Improv Theater</a> in Shadyside.</p>
+                            <p>Lara is a designer and front-end developer, specializing in unique branding and websites for startups. She places a high value on self-taught technical skills and is passionate about education reform. Lara is pursuing a career in game-based curriculum design for undergraduate programs at hopes to attend the CMU's Entertainment Technology Center in 2014. When she's not at Catapult, you can find her at the <a href="http://steelcityimprov.com" target="blank">Steel City Improv Theater</a> in Shadyside.</p>
                         </div>
                     </div> <!-- member -->
                 
@@ -75,7 +75,7 @@
                     
                     <div class="member clearfix">
                         <div class="photo first">
-                            <img src="img/members/alex.jpeg" alt="Elex Leeson-Brown" />
+                            <img src="img/members/alex.jpg" alt="Alex Leeson-Brown" />
                         </div>
                         <div class="member-info last">
                             <h5>Web &amp; UI Design</h5>
