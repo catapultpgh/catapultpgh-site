@@ -94,8 +94,6 @@
                             <p>Raquel Rodriguez is a Pittsburgh-based creative specializing in lettering, graphic design and web design. Formerly a doctoral student, librarian, and graffiti writer she employs a bit of what she learned in all those arenas in her current practice and especially enjoys collaborating with creatives, entrepreneurs, non-profits and educational organizations. She is also co-creator of the podcast <a href="http://queerandbrown.tumblr.com/" target="blank">Queer &amp; Brown in Steeltown</a>.</p>
                         </div>
                     </div> <!-- member -->
-                
-
 
                     <div class="member clearfix">
                         <div class="photo first">
@@ -105,6 +103,22 @@
                             <h5>Social Media Consulting</h5>
                             <h4><a href="http://about.me/brian.shope" target="blank">Brian Shope</a></h4>
                             <p>Brian has been professionally using social media for the last seven years, and consulting &amp; managing online communities for the last two. Clients have included Waffles, INCaffeinated; Antioch College; Haiti H2O; Walking Thumbs; and (re)integrate, among others. In addition, his background in organizational culture and an MA in Intercultural Studies (think anthropology) on social media, spirituality, and institutional change provide a robust approach to helping organizations focus on their services &amp; clients. Brian is also a grateful husband, proud daddy of two, and an urban bike commuter. French Press powered.</p>
+                        </div>
+                    </div> <!-- member -->
+
+                    <div class="member clearfix">
+                        <div class="photo first">
+                            <img src="img/members/greg.jpeg" alt="Brian Shope" />
+                        </div>
+                        <div class="member-info last">
+                            <h5>Software Developer</h5>
+                            <h4><a href="http://gregariousdev.com" target="blank">Greg Nicholas</a></h4>
+                            <p>Greg is a jack-of-all-trades software developer who really enjoys writing 
+                                beautiful code. He spends most of his time on back- and front-end web 
+                                development, but he's been known to dabble in other domains, such as mobile 
+                                apps and scientific computing. In addition to his freelance work at Catapult,
+                                he is currently exploring the intersection of autism education and technology
+                                with researchers at Carnegie Mellon University.</p>
                         </div>
                     </div> <!-- member -->
 
