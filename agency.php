@@ -118,7 +118,8 @@
                                 development, but he's been known to dabble in other domains, such as mobile 
                                 apps and scientific computing. In addition to his freelance work at Catapult,
                                 he is currently exploring the intersection of autism education and technology
-                                with researchers at Carnegie Mellon University.</p>
+                                with researchers at Carnegie Mellon University. He hates the fact that this
+                                site is PHP-powered, but hasn't gotten around to changing that quite yet.</p>
                         </div>
                     </div> <!-- member -->
 
