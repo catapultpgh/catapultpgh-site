@@ -1,25 +1,19 @@
 $(document).ready(function() {
 
-	initialize();
+	//initialize();
 
 	// Mark current menu item
 	var url = window.location.pathname;
-	$('.nav li a').removeClass('current')
+	$('.nav li a').removeClass('current');
 	$('.nav').find('a[href="'+url+'"]')
 					.addClass('current');
 
 	// Simple tabs for Community page
-	$('.tabs li a').click(function(){
-
+	$('.tabs li a').click(function(e){
+		e.preventDefault();
 		// Remove active tab style from all tabs
 		$('.tabs li a').each(function(e){
 			$(this).removeClass('current');
-			e.preventDefault;
-		});
-
-		$('.tabs li a').each(function(e){
-			$(this).removeClass('current');
-			e.preventDefault;
 		});
 
 		// Add active tab style to clicked tab
@@ -36,13 +30,12 @@ $(document).ready(function() {
 		$('.tab-content'+tab).fadeIn();
 
 		// Remove link functionality
-		return false;	
+		return false;
 	});
 
 });
 
 
-    
 function initialize() {
   if (GBrowserIsCompatible()) {
     var map = new GMap2(document.getElementById("map_canvas"));
