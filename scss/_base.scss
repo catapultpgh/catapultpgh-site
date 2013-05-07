@@ -15,29 +15,29 @@ and will be used across all viewports.
 TEXT AND IMAGE SELECTION COLORS
 ***********************************/
 
-#catapultpgh ::selection { background: $orange; color: $black }
-#catapultpgh ::-moz-selection { background: $orange; color: $black }
+// #catapultpgh ::selection { background: $orange; color: $black }
+// #catapultpgh ::-moz-selection { background: $orange; color: $black }
 
-#catapultpgh img::selection { background: $orange }
-#catapultpgh img::-moz-selection { background: $orange }
+// #catapultpgh img::selection { background: $orange }
+// #catapultpgh img::-moz-selection { background: $orange }
 
-#catapultpgh-community ::selection { background: $green; color: $black }
-#catapultpgh-community ::-moz-selection { background: $green; color: $black }
+// #catapultpgh-community ::selection { background: $green; color: $black }
+// #catapultpgh-community ::-moz-selection { background: $green; color: $black }
 
-#catapultpgh-community img::selection { background: $green }
-#catapultpgh-community img::-moz-selection { background: $green }
+// #catapultpgh-community img::selection { background: $green }
+// #catapultpgh-community img::-moz-selection { background: $green }
 
-#catapultpgh-agency ::selection { background: $blue; color: $black }
-#catapultpgh-agency ::-moz-selection { background: $blue; color: $black }
+// #catapultpgh-agency ::selection { background: $blue; color: $black }
+// #catapultpgh-agency ::-moz-selection { background: $blue; color: $black }
 
-#catapultpgh-agency img::selection { background: $blue }
-#catapultpgh-agency img::-moz-selection { background: $blue }
+// #catapultpgh-agency img::selection { background: $blue }
+// #catapultpgh-agency img::-moz-selection { background: $blue }
 
-#catapultpgh-weblog ::selection { background: $dark-green; color: $black }
-#catapultpgh-weblog ::-moz-selection { background: $dark-green; color: $black }
+// #catapultpgh-weblog ::selection { background: $dark-green; color: $black }
+// #catapultpgh-weblog ::-moz-selection { background: $dark-green; color: $black }
 
-#catapultpgh-weblog img::selection { background: $dark-green }
-#catapultpgh-weblog img::-moz-selection { background: $dark-green }
+// #catapultpgh-weblog img::selection { background: $dark-green }
+// #catapultpgh-weblog img::-moz-selection { background: $dark-green }
 
 /*********************
 GENERAL STYLES
@@ -48,6 +48,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	color: $black;
+	background: url(../img/clean_textile.png);
 }
 
 img {
@@ -61,6 +62,7 @@ LAYOUT & GRID STYLES
 
 .wrap {
 	width: 96%;
+	padding: 30px 30px 0;
 	margin: 0 auto;
 }
 
@@ -74,29 +76,10 @@ a {
     -moz-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    color: $orange;
+    color: $blue;
     text-decoration: none;
-}
 
-#catapultpgh a, a:visited {
-	color: $orange;
-
-	&.current {
-		color: $black;
-	}
-
-	/* on hover */
-	&:hover, &:focus {
-		color: $link-hover;
-	}
-
-	/* on click */
-	&:active {
-
-	}
-
-	/* mobile tap color */
-	&:link {
+    &:link {
 		/*
 		this highlights links on iPhones/iPads.
 		so it basically works like the :hover selector
@@ -106,85 +89,6 @@ a {
 	}
 }
 
-#catapultpgh-community a, a:visited {
-	color: $green;
-
-	/* on hover */
-	&:hover, &:focus {
-		color: $link-hover;
-	}
-
-	/* on click */
-	&:active {
-
-	}
-
-	&.current {
-		color: $black;
-	}
-
-	/* mobile tap color */
-	&:link {
-		/*
-		this highlights links on iPhones/iPads.
-		so it basically works like the :hover selector
-		for mobile devices.
-		*/
-		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
-	}
-}
-
-#catapultpgh-agency a, a:visited {
-	color: $blue;
-
-	&.current {
-		color: $black;
-	}
-
-	/* on hover */
-	&:hover, &:focus {
-		color: $link-hover;
-	}
-
-	/* on click */
-	&:active {
-
-	}
-
-	/* mobile tap color */
-	&:link {
-		/*
-		this highlights links on iPhones/iPads.
-		so it basically works like the :hover selector
-		for mobile devices.
-		*/
-		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
-	}
-}
-
-#catapultpgh-weblog a, a:visited {
-	color: $dark-green;
-
-	/* on hover */
-	&:hover, &:focus {
-		color: $link-hover;
-	}
-
-	/* on click */
-	&:active {
-
-	}
-
-	/* mobile tap color */
-	&:link {
-		/*
-		this highlights links on iPhones/iPads.
-		so it basically works like the :hover selector
-		for mobile devices.
-		*/
-		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
-	}
-}
 
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
@@ -251,7 +155,7 @@ em {
 
 ul, ol {
 	padding-left: 2em;
-	font-family: $sans-serif-light;
+	//font-family: $sans-serif-light;
 }
 
 ul {
@@ -270,6 +174,9 @@ p {
 HEADER SYTLES
 *********************/
 
+.logo {
+	padding: 20px 0 0;
+}
 
 
 /*********************
@@ -278,19 +185,31 @@ NAVIGATION STYLES
 
 .nav {
 	text-align: center;
+	font-family: $serif;
+
+	li {
+		margin: 5px 0;
+	}
 
 	a {
 		text-decoration: none;
-		color: $black;
+		color: $blue;
+		padding: 5px;
+		display: block;
+
+		&.current {
+			background: #fff;
+			@include border-radius(3px);
+			border: 1px solid $light-grey;
+			color: $black;
+			font-weight: bold;
+		}
 	}	
 
 	ul {
 		padding: 0;
 	}
 
-	li {
-
-	}
 }
 
 
@@ -299,22 +218,37 @@ NAVIGATION STYLES
 CONTENT STYLES
 *********************/
 
+
+.tagline {
+	margin-top: 30px;
+	font-size: 1.75em;
+}
+
+.keyword {
+	color: $blue;
+	text-shadow: 1px 1px 0 $white;
+}
+
+
 // Home page
+
 .contact-info {
 	list-style-type: none;
 	padding: 0;
+	font-family: $sans-serif-light;
 }
+
 
 // Agency
 
-.agency-tagline {
-	background: $blue;
-	width: 100%;
+// .agency-tagline {
+// 	background: $blue;
+// 	width: 100%;
 
-	div {
-		color: $white;
-		}
-}
+// 	div {
+// 		color: $white;
+// 		}
+// }
 
 .member {
 	border-bottom: 1px solid $light-grey;
@@ -356,13 +290,12 @@ CONTENT STYLES
 
 .programs-nav {
 	text-align: center;
-	margin-top: 60px;
 
 	a {
 		@extend .unstyled-link;
-		width: 50%;
+		width: 48.618784527%;
 		float: left;
-		color: $green;
+		color: $med-grey;
 	}
 
 	img {
@@ -370,7 +303,6 @@ CONTENT STYLES
 	}
 
 	.current {
-		color: $green;
 		background: $light-grey;
 	}
 
@@ -383,6 +315,15 @@ CONTENT STYLES
 
 .tabs {
 	padding: 0;
+	
+	a {
+
+		&.current {
+			p {
+				color: $black;
+			}
+		}
+	}
 }
 
 .tab-content {
@@ -391,16 +332,16 @@ CONTENT STYLES
 	&#showntell {
 		display: block;
 	}
+}
 
-	.h2 {
-		color: $green;
-	}
+.showntell-logo {
+	margin-top: 30px;
+	padding: 30px;
 }
 
 .presenter {
-	// Manually adding twocol
 	width: 50%;
-	float: left;
+	display: inline;
 	padding: 0.2em;
 }
 
@@ -416,19 +357,15 @@ FOOTER STYLES
 
 .footer {
 	margin-top: 120px;
-}
-
-.footer-container {
 	font-size: 0.9em;
-	font-family: $sans-serif-light;
-	background: $black;
-	color: $white;
+	color: $med-grey;
 	padding: 5px;
-	position: absolute;
-	top: 45%;
 	width: 100%;
-
-	a:hover {
-		color: $white !important;
+	margin-bottom: 10px;
+	a {
+		display: block;
+	}
+	span {
+		display: none;
 	}
 }

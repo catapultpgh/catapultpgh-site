@@ -22,28 +22,14 @@ HEADER STYLES
 *********************/
 
 .header {
-	overflow: hidden;
-	position: relative;
-}
 
-.logo-container {
-	position: absolute;
-	width: 500px;
-	height: 500px;
-	margin-left: -120px;
-	left: 50%;
 }
 
 .logo {
-	position: relative;
-	top: 40px;
-	left: 30px;
-	width: 100%;
-}
-
-.agency-tagline {
-	// Hack to fix space at end of header
-	margin-top: -10px;
+	max-width: 450px;
+	display: block;
+	margin: 30px auto 20px;
+	padding: 0;
 }
 
 /*********************
@@ -52,19 +38,18 @@ NAVIGATION STYLES
 
 .nav {
 	width: 100%;
-	position: absolute;
-	z-index: 1;
-	background: $trans-white;
-	bottom: 15%;
 
 	ul {
-		background: $trans-white;
 		padding: 5px 0;
 		margin: 15px 0;
+		border-bottom: 1px solid #ddd;
+		border-top: 1px solid #ddd;
 
 		li {
-			display: inline;
-			padding: 0 5%;
+			width: 45%;
+			float: left;
+			padding: 5px 5%;
+			height: 35px;
 		}
 	}
 }

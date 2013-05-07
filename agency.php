@@ -1,27 +1,13 @@
-<?php include('parts/header.php'); ?>
+<?php 
 
-<body id="catapultpgh-agency">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
+$page_id="catapultpgh-agency";
+include('parts/header.php'); 
 
-        <header class="header animated fadeInDown">
-            <div class="logo-container">
-                <img class="logo" src="img/logo.png" alt="CatapultPGH logo" />
-            </div>
-            <img src="img/agencyHeaderImage.jpg" alt="CatapultPGH"/>
-            <?php include('parts/nav.php'); ?>
-        </header>
-
-        <div class="agency-tagline animated fadeIn">
-            <div class="wrap clearfix">
-                <h1>Want the personal touch of a freelancer <br />but the skillset of an agency?</h1>
-            </div>
-        </div>
-
+?>
+        
         <div class="wrap clearfix">
-       
-            <h2>Welcome to Catapult, a Coöperative Creative Agency.</h2>
+            <h1 class="tagline">Welcome to Catapult, a Coöperative Creative Agency.</h1>
+            <p class="h3">Want the personal touch of a freelancer but the skillset of an agency?</p>
 
             <div class="sixcol first">
                 <p>We are a creative agency of independent people who choose to work together on interesting projects. Working with us is a bit different. Projects start with building a team that suits your needs and not the other way around. Want a WordPress website with hand illustrations, we team you with a web designer and an artist. Need a video, we've got someone who does that too. We come to work because we like working together, not because we're getting paid to, and now we're finding interesting ways to work together more often.</p>
@@ -32,9 +18,10 @@
 
         </div>
 
-        <div class="main wrap animated fadeIn clearfix">
+        <div class="main wrap clearfix">
            
             <section>
+        
                 <h2>Team</h2>
                 
 
@@ -45,7 +32,6 @@
                         <div class="member-info last">
                             <h5>Interaction Design</h5>
                             <h4><a href="http://elliott.io" target="blank">Elliott Williams</a></h4>
-                            
                             <p>Elliott has spent the last four years focusing on User-Centered Design to help companies such as GSK and Africa Aid create new strategies and product prototypes. Despite his degrees from MIT and CMU, he wishes there was a website that teaches long division to grown-ups.</p>
                         </div>
                     </div> <!-- member -->
@@ -57,7 +43,7 @@
                         <div class="member-info last">
                             <h5>Web Design</h5>
                             <h4><a href="http://notlaura.com" target="blank">Lara Schenck</a></h4>
-                            <p>Lara is a designer and front-end developer, specializing in unique branding and websites for startups. She places a high value on self-taught technical skills and is passionate about education reform. Lara is pursuing a career in game-based curriculum design for undergraduate programs at hopes to attend the CMU's Entertainment Technology Center in 2014. When she's not at Catapult, you can find her at the <a href="http://steelcityimprov.com" target="blank">Steel City Improv Theater</a> in Shadyside.</p>
+                            <p>Lara is a designer and front-end developer, specializing in unique branding and websites for startups. She places a high value on self-taught technical skills and is pursuing a career in game-based curriculum design for undergraduate programs. When she's not at Catapult, you can find her at the <a href="http://steelcityimprov.com" target="blank">Steel City Improv Theater</a> in Shadyside.</p>
                         </div>
                     </div> <!-- member -->
                 
@@ -127,10 +113,10 @@
 
         </div> <!-- .main -->
 
-        <div class="agency-contact animated fadeIn">
+
             <div class="wrap clearfix">
-                <h1>Get in touch. <a href="mailto:inbox@catapultpgh.org">Email us</a> or call at: (412) 407-3327</h1>
+                <p class="h3">Get in touch. <a href="mailto:inbox@catapultpgh.org">Email us</a> or call at: (412) 407-3327</h1>
             </div>
-        </div>
+        
  
 <?php include('parts/footer.php'); ?>

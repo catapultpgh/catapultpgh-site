@@ -1,16 +1,13 @@
        <footer class="footer animated fadeInUp">
-            <div class="footer-container">
-                <div class="wrap clearfix">
-                    <div class="threecol first">
-                        <a href="http://twitter.com/CatapultPGH" target="blank"><!-- <i class="icon-twitter" style="font-size: 18px; font-weight: normal;"></i>  -->@CatapultPGH</a>
-                    </div>
-                    <div class="threecol">
-                        <a href="mailto:inbox@catapultpgh.org" target="blank"><!-- <i class="icon-envelope" style="font-size: 18px; font-weight: normal;"></i>  -->inbox@catapultpgh.org</a></div>
-                    <div class="threecol"><a href="tel:4124073327" target="blank">(412) 407-3327</a></div>
-                    <div class="threecol last">Built by us.</div>
-                </div>
+            <div class="wrap">        
+                    <a href="http://twitter.com/CatapultPGH" target="blank">@CatapultPGH</a>
+                    <span>&bull;</span>
+                    <a href="mailto:inbox@catapultpgh.org" target="blank">inbox@catapultpgh.org</a>
+                    <span>&bull;</span>
+                    <a href="tel:4124073327" target="blank">(412) 407-3327</a>
+                    <span>&bull;</span>
+                    Built by us.
             </div>
-            <img src="img/arts.svg" alt="Window art by Laurie Trok" />
         </footer> <!-- .footer -->
     
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

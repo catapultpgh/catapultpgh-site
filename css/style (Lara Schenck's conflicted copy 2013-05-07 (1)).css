@@ -1134,6 +1134,94 @@ and will be used across all viewports.
 /***********************************
 TEXT AND IMAGE SELECTION COLORS
 ***********************************/
+/* line 18, ../scss/_base.scss */
+#catapultpgh ::selection {
+  background: #f04c23;
+  color: black;
+}
+
+/* line 19, ../scss/_base.scss */
+#catapultpgh ::-moz-selection {
+  background: #f04c23;
+  color: black;
+}
+
+/* line 21, ../scss/_base.scss */
+#catapultpgh img::selection {
+  background: #f04c23;
+}
+
+/* line 22, ../scss/_base.scss */
+#catapultpgh img::-moz-selection {
+  background: #f04c23;
+}
+
+/* line 24, ../scss/_base.scss */
+#catapultpgh-community ::selection {
+  background: #5ab448;
+  color: black;
+}
+
+/* line 25, ../scss/_base.scss */
+#catapultpgh-community ::-moz-selection {
+  background: #5ab448;
+  color: black;
+}
+
+/* line 27, ../scss/_base.scss */
+#catapultpgh-community img::selection {
+  background: #5ab448;
+}
+
+/* line 28, ../scss/_base.scss */
+#catapultpgh-community img::-moz-selection {
+  background: #5ab448;
+}
+
+/* line 30, ../scss/_base.scss */
+#catapultpgh-agency ::selection {
+  background: #5089c1;
+  color: black;
+}
+
+/* line 31, ../scss/_base.scss */
+#catapultpgh-agency ::-moz-selection {
+  background: #5089c1;
+  color: black;
+}
+
+/* line 33, ../scss/_base.scss */
+#catapultpgh-agency img::selection {
+  background: #5089c1;
+}
+
+/* line 34, ../scss/_base.scss */
+#catapultpgh-agency img::-moz-selection {
+  background: #5089c1;
+}
+
+/* line 36, ../scss/_base.scss */
+#catapultpgh-weblog ::selection {
+  background: #036434;
+  color: black;
+}
+
+/* line 37, ../scss/_base.scss */
+#catapultpgh-weblog ::-moz-selection {
+  background: #036434;
+  color: black;
+}
+
+/* line 39, ../scss/_base.scss */
+#catapultpgh-weblog img::selection {
+  background: #036434;
+}
+
+/* line 40, ../scss/_base.scss */
+#catapultpgh-weblog img::-moz-selection {
+  background: #036434;
+}
+
 /*********************
 GENERAL STYLES
 *********************/
@@ -1157,7 +1245,7 @@ LAYOUT & GRID STYLES
 /* line 63, ../scss/_base.scss */
 .wrap {
   width: 96%;
-  padding: 30px 30px 0;
+  padding: 30px;
   margin: 0 auto;
 }
 
@@ -1170,11 +1258,98 @@ a {
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  color: #2d567e;
+  color: #f04c23;
   text-decoration: none;
 }
-/* line 82, ../scss/_base.scss */
-a:link {
+
+/* line 83, ../scss/_base.scss */
+#catapultpgh a, a:visited {
+  color: #f04c23;
+  /* on hover */
+  /* on click */
+  /* mobile tap color */
+}
+/* line 86, ../scss/_base.scss */
+#catapultpgh a.current, a:visited.current {
+  color: black;
+}
+/* line 91, ../scss/_base.scss */
+#catapultpgh a:hover, #catapultpgh a:focus, a:visited:hover, a:visited:focus {
+  color: black;
+}
+/* line 101, ../scss/_base.scss */
+#catapultpgh a:link, a:visited:link {
+  /*
+  this highlights links on iPhones/iPads.
+  so it basically works like the :hover selector
+  for mobile devices.
+  */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 111, ../scss/_base.scss */
+#catapultpgh-community a, a:visited {
+  color: #5ab448;
+  /* on hover */
+  /* on click */
+  /* mobile tap color */
+}
+/* line 115, ../scss/_base.scss */
+#catapultpgh-community a:hover, #catapultpgh-community a:focus, a:visited:hover, a:visited:focus {
+  color: black;
+}
+/* line 124, ../scss/_base.scss */
+#catapultpgh-community a.current, a:visited.current {
+  color: black;
+}
+/* line 129, ../scss/_base.scss */
+#catapultpgh-community a:link, a:visited:link {
+  /*
+  this highlights links on iPhones/iPads.
+  so it basically works like the :hover selector
+  for mobile devices.
+  */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 139, ../scss/_base.scss */
+#catapultpgh-agency a, a:visited {
+  color: #5089c1;
+  /* on hover */
+  /* on click */
+  /* mobile tap color */
+}
+/* line 142, ../scss/_base.scss */
+#catapultpgh-agency a.current, a:visited.current {
+  color: black;
+}
+/* line 147, ../scss/_base.scss */
+#catapultpgh-agency a:hover, #catapultpgh-agency a:focus, a:visited:hover, a:visited:focus {
+  color: black;
+}
+/* line 157, ../scss/_base.scss */
+#catapultpgh-agency a:link, a:visited:link {
+  /*
+  this highlights links on iPhones/iPads.
+  so it basically works like the :hover selector
+  for mobile devices.
+  */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+/* line 167, ../scss/_base.scss */
+#catapultpgh-weblog a, a:visited {
+  color: #036434;
+  /* on hover */
+  /* on click */
+  /* mobile tap color */
+}
+/* line 171, ../scss/_base.scss */
+#catapultpgh-weblog a:hover, #catapultpgh-weblog a:focus, a:visited:hover, a:visited:focus {
+  color: black;
+}
+/* line 181, ../scss/_base.scss */
+#catapultpgh-weblog a:link, a:visited:link {
   /*
   this highlights links on iPhones/iPads.
   so it basically works like the :hover selector
@@ -1186,7 +1361,7 @@ a:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-/* line 97, ../scss/_base.scss */
+/* line 195, ../scss/_base.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, .programs-nav p, h5, .h5 {
   font-family: "Merriweather", Georgia, serif;
   text-rendering: optimizelegibility;
@@ -1196,37 +1371,37 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .programs-nav p, h5, .h5 {
   */
   /* removing text decoration from all headline links */
 }
-/* line 106, ../scss/_base.scss */
+/* line 204, ../scss/_base.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, .programs-nav p a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 111, ../scss/_base.scss */
+/* line 209, ../scss/_base.scss */
 h1, .h1 {
   font-size: 2em;
   line-height: 1.5em;
   margin: 60px 0;
 }
 
-/* line 117, ../scss/_base.scss */
+/* line 215, ../scss/_base.scss */
 h2, .h2 {
   font-size: 1.75em;
   line-height: 1.15em;
   margin: 60px 0 40px;
 }
 
-/* line 123, ../scss/_base.scss */
+/* line 221, ../scss/_base.scss */
 h3, .h3 {
   font-size: 1.25em;
 }
 
-/* line 127, ../scss/_base.scss */
+/* line 225, ../scss/_base.scss */
 h4, .h4, .programs-nav p {
   font-size: 1em;
   margin: 1em 0;
 }
 
-/* line 132, ../scss/_base.scss */
+/* line 230, ../scss/_base.scss */
 h5, .h5 {
   font-size: 0.75em;
   line-height: 1.5em;
@@ -1238,34 +1413,35 @@ h5, .h5 {
 /*********************
 TYPOGRAPHY ROOT
 *********************/
-/* line 146, ../scss/_base.scss */
+/* line 244, ../scss/_base.scss */
 strong {
   font-weight: normal;
   font-family: "OpenSansSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 151, ../scss/_base.scss */
+/* line 249, ../scss/_base.scss */
 em {
   font-style: normal;
   font-family: "OpenSansItalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 156, ../scss/_base.scss */
+/* line 254, ../scss/_base.scss */
 ul, ol {
   padding-left: 2em;
+  font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 161, ../scss/_base.scss */
+/* line 259, ../scss/_base.scss */
 ul {
   list-style-type: disc;
 }
 
-/* line 165, ../scss/_base.scss */
+/* line 263, ../scss/_base.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 169, ../scss/_base.scss */
+/* line 267, ../scss/_base.scss */
 p {
   font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -1273,44 +1449,28 @@ p {
 /*********************
 HEADER SYTLES
 *********************/
-/* line 177, ../scss/_base.scss */
+/* line 275, ../scss/_base.scss */
 .logo {
-  padding: 20px 0 0;
+  padding: 60px 60px 0;
 }
 
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 186, ../scss/_base.scss */
+/* line 283, ../scss/_base.scss */
 .nav {
   text-align: center;
-  font-family: "Merriweather", Georgia, serif;
 }
-/* line 190, ../scss/_base.scss */
-.nav li {
-  margin: 5px 0;
+/* line 286, ../scss/_base.scss */
+.nav .wrap {
+  padding-bottom: 0;
 }
-/* line 194, ../scss/_base.scss */
+/* line 290, ../scss/_base.scss */
 .nav a {
   text-decoration: none;
-  color: #2d567e;
-  padding: 5px;
-  display: block;
-}
-/* line 200, ../scss/_base.scss */
-.nav a.current {
-  background: #fff;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  -border-radius: 3px;
-  border-radius: 3px;
-  border: 1px solid #cccccc;
   color: black;
-  font-weight: bold;
 }
-/* line 209, ../scss/_base.scss */
+/* line 295, ../scss/_base.scss */
 .nav ul {
   padding: 0;
 }
@@ -1318,120 +1478,130 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 222, ../scss/_base.scss */
-.tagline {
-  margin-top: 30px;
+/* line 312, ../scss/_base.scss */
+.home-tagline {
+  margin-top: 0;
   font-size: 1.75em;
 }
 
-/* line 227, ../scss/_base.scss */
+/* line 317, ../scss/_base.scss */
+.contact-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 322, ../scss/_base.scss */
 .keyword {
   color: #2d567e;
   text-shadow: 1px 1px 0 white;
 }
 
-/* line 235, ../scss/_base.scss */
-.contact-info {
-  list-style-type: none;
-  padding: 0;
-  font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* line 329, ../scss/_base.scss */
+.agency-tagline {
+  background: #5089c1;
+  width: 100%;
+}
+/* line 333, ../scss/_base.scss */
+.agency-tagline div {
+  color: white;
 }
 
-/* line 253, ../scss/_base.scss */
+/* line 338, ../scss/_base.scss */
 .member {
   border-bottom: 1px solid #cccccc;
   padding-top: 30px;
 }
-/* line 257, ../scss/_base.scss */
+/* line 342, ../scss/_base.scss */
 .member h4 {
   margin-bottom: 0;
 }
-/* line 261, ../scss/_base.scss */
+/* line 346, ../scss/_base.scss */
 .member h5 {
   font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0;
 }
 
-/* line 267, ../scss/_base.scss */
+/* line 352, ../scss/_base.scss */
 .agency-contact {
-  background: #2d567e;
+  background: #5089c1;
   width: 100%;
 }
-/* line 271, ../scss/_base.scss */
+/* line 356, ../scss/_base.scss */
 .agency-contact div {
   color: white;
 }
-/* line 275, ../scss/_base.scss */
+/* line 360, ../scss/_base.scss */
 .agency-contact div h1 {
   margin: 15px 0;
 }
-/* line 279, ../scss/_base.scss */
+/* line 364, ../scss/_base.scss */
 .agency-contact div h1 a {
   color: white !important;
   border-bottom: 4px solid white;
 }
-/* line 282, ../scss/_base.scss */
+/* line 367, ../scss/_base.scss */
 .agency-contact div h1 a:hover {
   color: black !important;
   border-bottom: 4px solid black;
 }
 
-/* line 291, ../scss/_base.scss */
+/* line 376, ../scss/_base.scss */
 .programs-nav {
   text-align: center;
 }
-/* line 294, ../scss/_base.scss */
+/* line 379, ../scss/_base.scss */
 .programs-nav a {
   width: 48.618784527%;
   float: left;
-  color: #888888;
+  color: #5ab448;
 }
-/* line 301, ../scss/_base.scss */
+/* line 386, ../scss/_base.scss */
 .programs-nav img {
   display: none;
 }
-/* line 305, ../scss/_base.scss */
+/* line 390, ../scss/_base.scss */
 .programs-nav .current {
+  color: #5ab448;
   background: #cccccc;
 }
-/* line 309, ../scss/_base.scss */
+/* line 395, ../scss/_base.scss */
 .programs-nav p {
   font-weight: 900;
   font-size: 1em;
 }
 
-/* line 316, ../scss/_base.scss */
+/* line 402, ../scss/_base.scss */
 .tabs {
   padding: 0;
 }
-/* line 322, ../scss/_base.scss */
-.tabs a.current p {
-  color: black;
-}
 
-/* line 329, ../scss/_base.scss */
+/* line 406, ../scss/_base.scss */
 .tab-content {
   display: none;
 }
-/* line 332, ../scss/_base.scss */
+/* line 409, ../scss/_base.scss */
 .tab-content#showntell {
   display: block;
 }
+/* line 413, ../scss/_base.scss */
+.tab-content .h2 {
+  color: #5ab448;
+}
 
-/* line 337, ../scss/_base.scss */
+/* line 418, ../scss/_base.scss */
 .showntell-logo {
   margin-top: 30px;
   padding: 30px;
 }
 
-/* line 342, ../scss/_base.scss */
+/* line 423, ../scss/_base.scss */
 .presenter {
   width: 50%;
-  display: inline;
+  float: left;
   padding: 0.2em;
 }
 
-/* line 349, ../scss/_base.scss */
+/* line 431, ../scss/_base.scss */
 #microloans img {
   width: auto;
 }
@@ -1439,22 +1609,23 @@ CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 358, ../scss/_base.scss */
+/* line 440, ../scss/_base.scss */
 .footer {
   margin-top: 120px;
+}
+
+/* line 444, ../scss/_base.scss */
+.footer-container {
   font-size: 0.9em;
+  font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #888888;
   padding: 5px;
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 365, ../scss/_base.scss */
-.footer a {
-  display: block;
-}
-/* line 368, ../scss/_base.scss */
-.footer span {
-  display: none;
+/* line 451, ../scss/_base.scss */
+.footer-container a:hover {
+  color: #cccccc !important;
 }
 
 /*
@@ -1485,9 +1656,9 @@ tweeners.
   *********************/
   /* line 28, ../scss/_481up.scss */
   .logo {
-    max-width: 450px;
+    max-width: 500px;
     display: block;
-    margin: 30px auto 20px;
+    margin: 60px auto 30px;
     padding: 0;
   }
 
@@ -1507,36 +1678,34 @@ tweeners.
   }
   /* line 48, ../scss/_481up.scss */
   .nav ul li {
-    width: 45%;
-    float: left;
+    display: inline;
     padding: 5px 5%;
-    height: 35px;
   }
 
   /*********************
   CONTENT STYLES
   *********************/
-  /* line 64, ../scss/_481up.scss */
+  /* line 66, ../scss/_481up.scss */
   .member {
     border: none;
     margin-bottom: 30px;
   }
-  /* line 67, ../scss/_481up.scss */
+  /* line 69, ../scss/_481up.scss */
   .member .photo, .member .member-info {
     position: relative;
     float: left;
   }
-  /* line 72, ../scss/_481up.scss */
+  /* line 74, ../scss/_481up.scss */
   .member .photo {
     width: 31.491712705%;
   }
-  /* line 76, ../scss/_481up.scss */
+  /* line 78, ../scss/_481up.scss */
   .member .member-info {
     width: 65.74585634900001%;
     margin-left: 2.762430939%;
   }
 
-  /* line 82, ../scss/_481up.scss */
+  /* line 84, ../scss/_481up.scss */
   .presenter {
     width: 33%;
   }
@@ -6447,27 +6616,9 @@ you can add resource intensive styles.
   GENERAL STYLES
   *********************/
   /*********************
-  LINK STYLES
-  *********************/
-  /* line 27, ../scss/_768up.scss */
-  a, a:visited {
-    /* on hover */
-    /* on click */
-  }
-  /* line 30, ../scss/_768up.scss */
-  a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: black;
-  }
-
-  /* line 40, ../scss/_768up.scss */
-  .main p a {
-    text-decoration: underline;
-  }
-
-  /*********************
   LAYOUT & GRID STYLES
   *********************/
-  /* line 106, ../scss/_768up.scss */
+  /* line 27, ../scss/_768up.scss */
   .wrap {
     max-width: 960px;
   }
@@ -6475,7 +6626,7 @@ you can add resource intensive styles.
   /*********************
   HEADER SYTLES
   *********************/
-  /* line 114, ../scss/_768up.scss */
+  /* line 35, ../scss/_768up.scss */
   .logo {
     padding: 0 30px;
   }
@@ -6483,45 +6634,29 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
-  /* line 125, ../scss/_768up.scss */
-  .nav .wrap {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* line 129, ../scss/_768up.scss */
-  .nav ul {
-    text-align: center;
-  }
-  /* line 132, ../scss/_768up.scss */
-  .nav ul li {
-    width: auto;
-    display: inline-block;
-    float: none;
-  }
-  /* line 138, ../scss/_768up.scss */
-  .nav ul li a.current {
-    background: none;
-    border: none;
+  /* line 43, ../scss/_768up.scss */
+  .nav li {
+    padding: 0 3em;
   }
 
   /*********************
   CONTENT
   *********************/
-  /* line 156, ../scss/_768up.scss */
+  /* line 80, ../scss/_768up.scss */
   .member.first {
     margin-left: 0;
   }
-  /* line 160, ../scss/_768up.scss */
+  /* line 84, ../scss/_768up.scss */
   .member .member-info {
     width: 74.30939226%;
     padding-right: 60px;
   }
-  /* line 165, ../scss/_768up.scss */
+  /* line 89, ../scss/_768up.scss */
   .member .photo {
     width: 22.92818%;
   }
 
-  /* line 171, ../scss/_768up.scss */
+  /* line 95, ../scss/_768up.scss */
   .programs-nav a, .programs-nav img, .presenter-gallery a, .presenter-gallery img {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -6530,7 +6665,7 @@ you can add resource intensive styles.
     -transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
-  /* line 174, ../scss/_768up.scss */
+  /* line 98, ../scss/_768up.scss */
   .programs-nav a:hover, .programs-nav img:hover, .presenter-gallery a:hover, .presenter-gallery img:hover {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -6540,40 +6675,37 @@ you can add resource intensive styles.
     transition: all 0.2s ease-in-out;
   }
 
-  /* line 182, ../scss/_768up.scss */
+  /* line 106, ../scss/_768up.scss */
   .programs-nav a {
     text-align: center;
     width: 100%;
   }
-  /* line 185, ../scss/_768up.scss */
-  .programs-nav a:hover {
-    color: black;
-  }
-  /* line 190, ../scss/_768up.scss */
+  /* line 111, ../scss/_768up.scss */
   .programs-nav img {
     display: block;
     border: 6px #cccccc solid;
     opacity: 0.6;
   }
-  /* line 196, ../scss/_768up.scss */
+  /* line 117, ../scss/_768up.scss */
   .programs-nav img:hover {
     opacity: 1;
   }
-  /* line 201, ../scss/_768up.scss */
+  /* line 122, ../scss/_768up.scss */
   .programs-nav .current {
     background: none;
     color: #f04c23;
   }
-  /* line 205, ../scss/_768up.scss */
+  /* line 126, ../scss/_768up.scss */
   .programs-nav .current img {
+    border: 6px #5ab448 solid;
     opacity: 1;
   }
-  /* line 208, ../scss/_768up.scss */
+  /* line 129, ../scss/_768up.scss */
   .programs-nav .current img:hover {
     opacity: 1;
   }
 
-  /* line 215, ../scss/_768up.scss */
+  /* line 136, ../scss/_768up.scss */
   .presenter {
     width: 25%;
   }
@@ -6584,18 +6716,6 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 229, ../scss/_768up.scss */
-  .footer {
-    text-align: center;
-  }
-  /* line 231, ../scss/_768up.scss */
-  .footer a, .footer span {
-    display: inline-block;
-  }
-  /* line 234, ../scss/_768up.scss */
-  .footer span {
-    margin: 0 15px;
-  }
 }
 /*
 DESKTOP
@@ -6603,7 +6723,7 @@ This is the average viewing window. So Desktops, Laptops, and
 in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1030px) {
   /******************************************************************
   Site Name: CatapultPGH
   Author: Lara Schenck
@@ -6623,7 +6743,7 @@ you can add resource intensive styles.
   /*********************
   CONTENT STYLES
   *********************/
-  /* line 25, ../scss/_960up.scss */
+  /* line 25, ../scss/_1030up.scss */
   .presenter {
     width: 20%;
   }

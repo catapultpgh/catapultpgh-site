@@ -62,11 +62,12 @@ $bones-blue: 		#5089C1;
 $black:             #000;
 $white:             #fff;
 $light-grey:		#ccc;
+$med-grey:			#888;
 
 $orange:        	#F04C23;
 $dark-green: 		#036434;
 $green:        		#5AB448;
-$blue: 				#5089C1;
+$blue: 				darken($bones-blue, 20%);
 $light-blue: 		#5DC6E6;
 
 $link-color: 		$orange;

@@ -1,21 +1,13 @@
-<?php include('parts/header.php'); ?>
+<?php 
 
-<body id="catapultpgh-community">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
+$page_id = "catapultpgh-community";
+include('parts/header.php');
 
-        <header class="header animated fadeInDown">
-            <div class="logo-container">
-                <img class="logo" src="img/logo.png" alt="CatapultPGH logo" />
-            </div>
-            <img src="img/communityHeaderImage.jpg" alt="CatapultPGH"/>
-            <?php include('parts/nav.php'); ?>
-        </header>
+?>
 
-        <div class="main wrap animated fadeIn clearfix">
-            <nav class="programs-nav clearfix">
-                <ul class="tabs">
+        <div class="main wrap clearfix">
+            <nav class="programs-nav">
+                <ul class="tabs clearfix">
                 
                     <li class="threecol first"><a href="#showntell" class="current" title="Show 'n' Tell">
                         <p>Show &lsquo;N&rsquo; Tell</p>
@@ -41,14 +33,15 @@
             </nav>
 
             <section class="tab-content" id="showntell">
-                <h2 class="h2">Show &lsquo;N&rsquo; Tell</h2>
+
                 <div class="clearfix">
                     <div class="sixcol first">
+                        <h2 class="h2">Show &lsquo;N&rsquo; Tell</h2>
                         <p>Show-n-Tell is a monthly event showcasing interesting projects around town. Every first Friday at 5pm, we invite 4 speakers to come share what they are doing to make Pittsburgh awesome. Keep an eye on the Catapult weblog for details on the coming month's presenters.</p>
                         <p>Have an idea for a speaker? Looking to present something yourself? Stop by the space or shoot an email to <a href="mailto:lara@catapultpgh.org">Lara</a> for details.</p>
                     </div>
                     <div class="sixcol last">
-                        <img src="img/programs/showntell-page.jpg" alt="Show-n-Tell" />
+                        <img class="showntell-logo" src="img/programs/showntell-page.jpg" alt="Show-n-Tell" />
                     </div>
                 </div>
 
