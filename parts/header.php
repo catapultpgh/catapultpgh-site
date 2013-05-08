@@ -1,8 +1,18 @@
 <?php 
-// Put the subdirectory in a variable for easy switching between servers
 
-$root = 'catapultpgh'; // Local
-//$root = ''; // Staging & Production
+ // Loop through image directory and print markup for each
+function printAll($dir) {
+    $fdir = 'img/' . $dir . '/*';
+    foreach(glob($fdir) as $img_path) {  
+        printPresenter($img_path);
+    }
+}
+
+// Print each presenter
+function printPresenter($path) {
+    $content = '<img class="presenter" src="' . $path . '" alt="Show-n-Tell Presenter" />';
+    echo $content;
+}
 
 ?>
 
@@ -35,3 +45,5 @@ $root = 'catapultpgh'; // Local
             <img class="logo" src="img/text-logo.png" alt="CatapultPGH logo" />
             <?php include('parts/nav.php'); ?>
         </header>
+
+        <div class="main wrap clearfix animated fadeIn">

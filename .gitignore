@@ -1,6 +1,7 @@
 # Sam stuff
 .DS_Store
 local_config.php
+.dropbox
 
 public_html/assets/images/captchas/*
 public_html/assets/images/forum_attachments/*

@@ -1,32 +1,51 @@
 <?php 
 
-$page_id="catapultpgh";
-include('parts/header.php'); 
+$page_id="splash";
+?>
+
+<?php 
+// Put the subdirectory in a variable for easy switching between servers
+
+$root = 'catapultpgh'; // Local
+//$root = ''; // Staging & Production
 
 ?>
 
-        <div class="main wrap clearfix">
-            <h2 class="h1 tagline">Catapult is a <span class="keyword">coworking</span> space, a <span class="keyword">community</span>, a full stack <span class="keyword">agency</span>, and a small batch coffee <span class="keyword">roastery</span>.</h2>
-            <p class="h3">Catapult is a lot of disparate things that somehow work very well together. Stop by sometime.</p>
-            <section class="sixcol first">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CatapultPGH Co-working</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        
+        <link href='http://fonts.googleapis.com/css?family=Merriweather:900|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>
 
-                <p>To join the community is free. Come hang out any weekday and meet some members. If it's a good fit, <a href="https://groups.google.com/d/forum/catapultpgh" target="blank">join our mailing list</a> and setup a <a href="https://www.gittip.com/catapultpgh/" target="blank">reoccuring donation</a>. If you love what we're doing and you want to contribute more, come talk to us about getting a key (90 dollars a month) and maybe even a permanent desk (another 60 a month). We're pretty relaxed. There are no contracts, start and stop whenever you want.</p>
+        <link rel="stylesheet" href="css/style.css?v1.0">
 
-                <ul class="contact-info">
-                    <li><strong>Catapult PGH</strong></li>
-                    <li>5139 Penn Ave.</li>
-                    <li>Pittsburgh, PA 15224</li>
-                    <li><a href="mailto:inbox@catapultpgh.org">inbox@catapultpgh.org</a></li>
-                    <li>(412) 407-3327</li>
-                </ul>
-                
-                <!-- Change url for production -->
-                <!-- <p><a href="/catapultpgh/agency">Hire us.</a></p> -->
-            </section>  
-            <section class="sixcol last">
-                <a href="https://maps.google.com/maps?q=5139+Penn+Ave,+Pittsburgh,+PA&hl=en&ll=40.465299,-79.941888&spn=0.031246,0.035062&sll=40.431368,-79.9805&sspn=0.250094,0.280495&hnear=5139+Penn+Ave,+Pittsburgh,+Allegheny,+Pennsylvania+15224&t=m&z=15"><img src="img/map.png" alt="5139 Penn Ave" /></a>
-            </section>
-            
-        </div> <!-- .main -->
- 
-<?php include('parts/footer.php'); ?>
+        <link rel="stylesheet" href="css/animate-custom.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+
+    <body id="<?php echo $page_id; ?>">
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+        <header class="header clearfix wrap">
+            <img class="crest animated fadeInDown" src="img/crest.png" alt="CatapultPGH logo" />
+            <?php include('parts/nav.php'); ?>
+        </header>
+
+        <div class="main wrap clearfix animated fadeIn">
+
+
+<?php 
+
+include('parts/footer.php'); 
+
+?>

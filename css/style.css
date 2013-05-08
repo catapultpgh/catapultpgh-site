@@ -562,8 +562,8 @@ table {
 }
 
 /******************************************************************
-Site Name:
-Author:
+Site Name: CatapultPGH
+Author: Lara Schenck
 
 Stylesheet: Mixins & Constants Stylesheet
 
@@ -1278,26 +1278,32 @@ HEADER SYTLES
   padding: 20px 0 0;
 }
 
+/* line 182, ../scss/_base.scss */
+.crest {
+  display: block;
+  margin: 10% auto 0;
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
-/* line 186, ../scss/_base.scss */
+/* line 191, ../scss/_base.scss */
 .nav {
   text-align: center;
   font-family: "Merriweather", Georgia, serif;
 }
-/* line 190, ../scss/_base.scss */
+/* line 195, ../scss/_base.scss */
 .nav li {
   margin: 5px 0;
 }
-/* line 194, ../scss/_base.scss */
+/* line 199, ../scss/_base.scss */
 .nav a {
   text-decoration: none;
   color: #2d567e;
   padding: 5px;
   display: block;
 }
-/* line 200, ../scss/_base.scss */
+/* line 205, ../scss/_base.scss */
 .nav a.current {
   background: #fff;
   -webkit-border-radius: 3px;
@@ -1310,7 +1316,7 @@ NAVIGATION STYLES
   color: black;
   font-weight: bold;
 }
-/* line 209, ../scss/_base.scss */
+/* line 214, ../scss/_base.scss */
 .nav ul {
   padding: 0;
 }
@@ -1318,120 +1324,120 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 222, ../scss/_base.scss */
+/* line 227, ../scss/_base.scss */
 .tagline {
   margin-top: 30px;
   font-size: 1.75em;
 }
 
-/* line 227, ../scss/_base.scss */
+/* line 232, ../scss/_base.scss */
 .keyword {
   color: #2d567e;
   text-shadow: 1px 1px 0 white;
 }
 
-/* line 235, ../scss/_base.scss */
+/* line 240, ../scss/_base.scss */
 .contact-info {
   list-style-type: none;
   padding: 0;
   font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 253, ../scss/_base.scss */
+/* line 258, ../scss/_base.scss */
 .member {
   border-bottom: 1px solid #cccccc;
   padding-top: 30px;
 }
-/* line 257, ../scss/_base.scss */
+/* line 262, ../scss/_base.scss */
 .member h4 {
   margin-bottom: 0;
 }
-/* line 261, ../scss/_base.scss */
+/* line 266, ../scss/_base.scss */
 .member h5 {
   font-family: "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 0;
 }
 
-/* line 267, ../scss/_base.scss */
+/* line 272, ../scss/_base.scss */
 .agency-contact {
   background: #2d567e;
   width: 100%;
 }
-/* line 271, ../scss/_base.scss */
+/* line 276, ../scss/_base.scss */
 .agency-contact div {
   color: white;
 }
-/* line 275, ../scss/_base.scss */
+/* line 280, ../scss/_base.scss */
 .agency-contact div h1 {
   margin: 15px 0;
 }
-/* line 279, ../scss/_base.scss */
+/* line 284, ../scss/_base.scss */
 .agency-contact div h1 a {
   color: white !important;
   border-bottom: 4px solid white;
 }
-/* line 282, ../scss/_base.scss */
+/* line 287, ../scss/_base.scss */
 .agency-contact div h1 a:hover {
   color: black !important;
   border-bottom: 4px solid black;
 }
 
-/* line 291, ../scss/_base.scss */
+/* line 296, ../scss/_base.scss */
 .programs-nav {
   text-align: center;
 }
-/* line 294, ../scss/_base.scss */
+/* line 299, ../scss/_base.scss */
 .programs-nav a {
   width: 48.618784527%;
   float: left;
   color: #888888;
 }
-/* line 301, ../scss/_base.scss */
+/* line 306, ../scss/_base.scss */
 .programs-nav img {
   display: none;
 }
-/* line 305, ../scss/_base.scss */
+/* line 310, ../scss/_base.scss */
 .programs-nav .current {
   background: #cccccc;
 }
-/* line 309, ../scss/_base.scss */
+/* line 314, ../scss/_base.scss */
 .programs-nav p {
   font-weight: 900;
   font-size: 1em;
 }
 
-/* line 316, ../scss/_base.scss */
+/* line 321, ../scss/_base.scss */
 .tabs {
   padding: 0;
 }
-/* line 322, ../scss/_base.scss */
+/* line 327, ../scss/_base.scss */
 .tabs a.current p {
   color: black;
 }
 
-/* line 329, ../scss/_base.scss */
+/* line 334, ../scss/_base.scss */
 .tab-content {
   display: none;
 }
-/* line 332, ../scss/_base.scss */
+/* line 337, ../scss/_base.scss */
 .tab-content#showntell {
   display: block;
 }
 
-/* line 337, ../scss/_base.scss */
+/* line 342, ../scss/_base.scss */
 .showntell-logo {
   margin-top: 30px;
   padding: 30px;
 }
 
-/* line 342, ../scss/_base.scss */
+/* line 347, ../scss/_base.scss */
 .presenter {
   width: 50%;
   display: inline;
-  padding: 0.2em;
+  padding: 5px;
 }
 
-/* line 349, ../scss/_base.scss */
+/* line 354, ../scss/_base.scss */
 #microloans img {
   width: auto;
 }
@@ -1439,20 +1445,21 @@ CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 358, ../scss/_base.scss */
+/* line 363, ../scss/_base.scss */
 .footer {
-  margin-top: 120px;
+  margin-top: 60px;
+  text-align: center;
   font-size: 0.9em;
   color: #888888;
   padding: 5px;
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 365, ../scss/_base.scss */
+/* line 371, ../scss/_base.scss */
 .footer a {
   display: block;
 }
-/* line 368, ../scss/_base.scss */
+/* line 374, ../scss/_base.scss */
 .footer span {
   display: none;
 }
@@ -1516,27 +1523,27 @@ tweeners.
   /*********************
   CONTENT STYLES
   *********************/
-  /* line 64, ../scss/_481up.scss */
+  /* line 65, ../scss/_481up.scss */
   .member {
     border: none;
     margin-bottom: 30px;
   }
-  /* line 67, ../scss/_481up.scss */
+  /* line 68, ../scss/_481up.scss */
   .member .photo, .member .member-info {
     position: relative;
     float: left;
   }
-  /* line 72, ../scss/_481up.scss */
+  /* line 73, ../scss/_481up.scss */
   .member .photo {
     width: 31.491712705%;
   }
-  /* line 76, ../scss/_481up.scss */
+  /* line 77, ../scss/_481up.scss */
   .member .member-info {
     width: 65.74585634900001%;
     margin-left: 2.762430939%;
   }
 
-  /* line 82, ../scss/_481up.scss */
+  /* line 83, ../scss/_481up.scss */
   .presenter {
     width: 33%;
   }
@@ -6476,29 +6483,30 @@ you can add resource intensive styles.
   HEADER SYTLES
   *********************/
   /* line 114, ../scss/_768up.scss */
-  .logo {
+  .crest {
     padding: 0 30px;
+    max-width: 700px;
   }
 
   /*********************
   NAVIGATION STYLES
   *********************/
-  /* line 125, ../scss/_768up.scss */
+  /* line 126, ../scss/_768up.scss */
   .nav .wrap {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 129, ../scss/_768up.scss */
+  /* line 130, ../scss/_768up.scss */
   .nav ul {
     text-align: center;
   }
-  /* line 132, ../scss/_768up.scss */
+  /* line 133, ../scss/_768up.scss */
   .nav ul li {
     width: auto;
     display: inline-block;
     float: none;
   }
-  /* line 138, ../scss/_768up.scss */
+  /* line 139, ../scss/_768up.scss */
   .nav ul li a.current {
     background: none;
     border: none;
@@ -6507,21 +6515,21 @@ you can add resource intensive styles.
   /*********************
   CONTENT
   *********************/
-  /* line 156, ../scss/_768up.scss */
+  /* line 157, ../scss/_768up.scss */
   .member.first {
     margin-left: 0;
   }
-  /* line 160, ../scss/_768up.scss */
+  /* line 161, ../scss/_768up.scss */
   .member .member-info {
     width: 74.30939226%;
     padding-right: 60px;
   }
-  /* line 165, ../scss/_768up.scss */
+  /* line 166, ../scss/_768up.scss */
   .member .photo {
     width: 22.92818%;
   }
 
-  /* line 171, ../scss/_768up.scss */
+  /* line 172, ../scss/_768up.scss */
   .programs-nav a, .programs-nav img, .presenter-gallery a, .presenter-gallery img {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -6530,7 +6538,7 @@ you can add resource intensive styles.
     -transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
   }
-  /* line 174, ../scss/_768up.scss */
+  /* line 175, ../scss/_768up.scss */
   .programs-nav a:hover, .programs-nav img:hover, .presenter-gallery a:hover, .presenter-gallery img:hover {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
@@ -6540,40 +6548,40 @@ you can add resource intensive styles.
     transition: all 0.2s ease-in-out;
   }
 
-  /* line 182, ../scss/_768up.scss */
+  /* line 183, ../scss/_768up.scss */
   .programs-nav a {
     text-align: center;
     width: 100%;
   }
-  /* line 185, ../scss/_768up.scss */
+  /* line 186, ../scss/_768up.scss */
   .programs-nav a:hover {
     color: black;
   }
-  /* line 190, ../scss/_768up.scss */
+  /* line 191, ../scss/_768up.scss */
   .programs-nav img {
     display: block;
     border: 6px #cccccc solid;
     opacity: 0.6;
   }
-  /* line 196, ../scss/_768up.scss */
+  /* line 197, ../scss/_768up.scss */
   .programs-nav img:hover {
     opacity: 1;
   }
-  /* line 201, ../scss/_768up.scss */
+  /* line 202, ../scss/_768up.scss */
   .programs-nav .current {
     background: none;
     color: #f04c23;
   }
-  /* line 205, ../scss/_768up.scss */
+  /* line 206, ../scss/_768up.scss */
   .programs-nav .current img {
     opacity: 1;
   }
-  /* line 208, ../scss/_768up.scss */
+  /* line 209, ../scss/_768up.scss */
   .programs-nav .current img:hover {
     opacity: 1;
   }
 
-  /* line 215, ../scss/_768up.scss */
+  /* line 216, ../scss/_768up.scss */
   .presenter {
     width: 25%;
   }
@@ -6584,16 +6592,12 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 229, ../scss/_768up.scss */
-  .footer {
-    text-align: center;
-  }
-  /* line 231, ../scss/_768up.scss */
+  /* line 232, ../scss/_768up.scss */
   .footer a, .footer span {
     display: inline-block;
   }
-  /* line 234, ../scss/_768up.scss */
-  .footer span {
+  /* line 236, ../scss/_768up.scss */
+  .footer .bull {
     margin: 0 15px;
   }
 }
@@ -6623,11 +6627,6 @@ you can add resource intensive styles.
   /*********************
   CONTENT STYLES
   *********************/
-  /* line 25, ../scss/_960up.scss */
-  .presenter {
-    width: 20%;
-  }
-
   /*********************
   FOOTER STYLES
   *********************/
