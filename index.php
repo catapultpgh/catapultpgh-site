@@ -13,7 +13,7 @@ include('parts/header.php');
     <div class="clearfix">
         <section class="sixcol first">
 
-            <p>To join the community is free. Come hang out any weekday and meet some members. If it's a good fit, <a href="https://groups.google.com/d/forum/catapultpgh" target="blank">join our mailing list</a> and setup a <a href="https://www.gittip.com/catapultpgh/" target="blank">reoccuring donation</a>. If you love what we're doing and you want to contribute more, come talk to us about getting a key (90 dollars a month) and maybe even a permanent desk (another 60 a month). We're pretty relaxed. There are no contracts, start and stop whenever you want.</p>
+            <p>To join the community is free. Come hang out any weekday and meet some members. If it's a good fit, <a href="http://eepurl.com/rQ2Kn" target="blank">join our mailing list</a> and setup a <a href="https://www.gittip.com/catapultpgh/" target="blank">reoccuring donation</a>. If you love what we're doing and you want to contribute more, come talk to us about getting a key (90 dollars a month) and maybe even a permanent desk (another 60 a month). We're pretty relaxed. There are no contracts, start and stop whenever you want.</p>
 
             <ul class="contact-info">
                 <li><strong>Catapult PGH</strong></li>
