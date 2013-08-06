@@ -13,19 +13,21 @@ include('parts/header.php');
     <div class="clearfix">
         <section class="sixcol first">
 
-            <p>To join the community is free. Come hang out any weekday and meet some members. If it's a good fit, <a href="https://groups.google.com/d/forum/catapultpgh" target="blank">join our mailing list</a> and setup a <a href="https://www.gittip.com/catapultpgh/" target="blank">reoccuring donation</a>. If you love what we're doing and you want to contribute more, come talk to us about getting a key (90 dollars a month) and maybe even a permanent desk (another 60 a month). We're pretty relaxed. There are no contracts, start and stop whenever you want.</p>
+             <p>We are a group Pittsburgh-based entrepreneurs, designers, developers, writers, and creatives who simply don't want to work at home, and don't want to work alone.</p>
+
+             <p>To join the community is free. Come hang out any weekday and meet some members. If it's a good fit, setup a <a href="https://www.gittip.com/catapultpgh/" target="blank">reoccuring donation</a>. If you love what we're doing and you want to contribute more, come talk to us about getting a shared desk (50 dollars a month, including key and coffee) and maybe even a permanent desk (another 100 a month), or ask us about hosting events at the space. We're pretty relaxed. There are no contracts, start and stop whenever you want.</p>
 
             <ul class="contact-info">
                 <li><strong>Catapult PGH</strong></li>
-                <li>5139 Penn Ave.</li>
-                <li>Pittsburgh, PA 15224</li>
+                <li>4327 Butler St. 2nd Floor</li>
+                <li>Pittsburgh, PA 15201</li>
                 <li><a href="mailto:inbox@catapultpgh.org">inbox@catapultpgh.org</a></li>
                 <li>(412) 407-3327</li>
             </ul>
             
         </section>  
         <section class="sixcol last">
-            <a href="https://maps.google.com/maps?q=5139+Penn+Ave,+Pittsburgh,+PA&hl=en&ll=40.465299,-79.941888&spn=0.031246,0.035062&sll=40.431368,-79.9805&sspn=0.250094,0.280495&hnear=5139+Penn+Ave,+Pittsburgh,+Allegheny,+Pennsylvania+15224&t=m&z=15"><img src="img/map.png" alt="5139 Penn Ave" /></a>
+            <a href="https://www.google.com/maps/preview#!q=4327+Butler+St%2C+Pittsburgh%2C+PA+15201&data=!4m11!1m10!4m8!1m3!1d97183!2d-79.9805005!3d40.4313684!3m2!1i1024!2i768!4f13.1!17b1"><img src="http://maps.google.com/maps/api/staticmap?center=40.471437,-79.960127&zoom=14&markers=40.470574,-79.960389&size=600x600&sensor=false" alt="4327 Butler St." /></a>
         </section>
     </div>
 
