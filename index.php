@@ -15,7 +15,7 @@ include('parts/header.php');
 
              <p>We are a group Pittsburgh-based entrepreneurs, designers, developers, writers, and creatives who simply don't want to work at home, and don't want to work alone.</p>
 
-             <p>To join the community is free. Come hang out any weekday and meet some members. If it's a good fit, If it's a good fit, <a href="http://eepurl.com/rQ2Kn" target="blank">join our mailing list</a> and setup a <a href="https://www.gittip.com/catapultpgh/" target="blank">reoccuring donation</a>. If you love what we're doing and you want to contribute more, come talk to us about getting a shared desk (50 dollars a month, including key and coffee) and maybe even a permanent desk (another 100 a month), or ask us about hosting events at the space. We're pretty relaxed. There are no contracts, start and stop whenever you want.</p>
+             <p>To join the community is free. Come hang out any weekday and meet some members. If it's a good fit, <a href="http://eepurl.com/rQ2Kn" target="blank">join our mailing list</a> and setup a <a href="https://www.gittip.com/catapultpgh/" target="blank">reoccuring donation</a>. If you love what we're doing and you want to contribute more, come talk to us about getting a shared desk (50 dollars a month, including key and coffee) and maybe even a permanent desk (another 100 a month), or ask us about hosting events at the space. We're pretty relaxed. There are no contracts, start and stop whenever you want.</p>
 
             <ul class="contact-info">
                 <li><strong>Catapult PGH</strong></li>
