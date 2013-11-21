@@ -4,7 +4,7 @@ $page_id="catapultpgh";
 include('parts/header.php'); 
 
 ?>
-    <h2 class="h1 tagline">Catapult is a <span class="keyword">coworking</span> space, a <span class="keyword">community</span>, a full stack <span class="keyword">agency</span>, and a small batch coffee <span class="keyword">roastery</span>.</h2>
+    <h2 class="h1 tagline">Catapult is a <span class="keyword">community</span>, a <span class="keyword">coworking</span> space, and a small batch coffee <span class="keyword">roastery</span>.</h2>
     <p class="h3">Catapult is a lot of disparate things that somehow work very well together.</p>
     <div class="clearfix space-photos">    
         <?php printAll('space'); ?>
