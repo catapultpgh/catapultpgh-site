@@ -6,7 +6,7 @@
                 <span class="bull">&bull;</span>
                 <a href="mailto:inbox@catapultpgh.org" target="blank">inbox@catapultpgh.org</a>
                 <span class="bull">&bull;</span>
-                <a href="tel:4124073327" target="blank">(412) 407-3327</a>
+                <a href="tel:4129791774" target="blank">(412) 979-1774</a>
                 <span class="bull">&bull;</span>
                 <span>Built by us.</span>
             

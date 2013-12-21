@@ -22,7 +22,7 @@ include('parts/header.php');
                 <li>4327 Butler St. 2nd Floor</li>
                 <li>Pittsburgh, PA 15201</li>
                 <li><a href="mailto:inbox@catapultpgh.org">inbox@catapultpgh.org</a></li>
-                <li>(412) 407-3327</li>
+                <li>(412) 979-1774</li>
             </ul>
             
         </section>  
