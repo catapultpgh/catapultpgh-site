@@ -1,13 +1,9 @@
 /******************************************************************
-Site Name:
-Author:
 
 Stylesheet: Main Stylesheet
 
-Here's where the magic happens. Here, you'll see we are calling in
-the separate media queries. The base mobile goes outside any query
-and is called at the beginning, after that we call the rest
-of the styles inside media queries.
+Errything is imported here. Don't add styles to dis.
+
 ******************************************************************/
 
 
@@ -21,8 +17,7 @@ of the styles inside media queries.
 // import mixins
 @import "mixins";
 
-// import flexslider stylesheet
-@import "flexslider";
+@import "../fonts/font-awesome-4.0.3/scss/font-awesome";
 
 /*
 BASE (MOBILE) SIZE
@@ -54,12 +49,6 @@ in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 */
 @media only screen and (min-width: 768px) {
-
-	// import animate.css
-	// had to rename it to _animate.scss to account for this:
-	// https://github.com/chriseppstein/compass/issues/302
-	// TODO: figure that out
-	@import "animate";
 
 	// import grids
 	@import "grid";

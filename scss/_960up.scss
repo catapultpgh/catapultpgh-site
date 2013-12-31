@@ -13,6 +13,13 @@ be seen on the Desktop.
 HEADER SYTLES
 *********************/
 
+.site-title {
+	.h1 {
+		font-size: $h1*2.5;
+		padding: $h1 0;
+	}
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/

@@ -41,181 +41,33 @@ a, a:visited {
 	text-decoration: underline;
 }
 
-// 	/* mobile tap color */
-
-// }
-
-
-// #catapultpgh-agency a, a:visited {
-// 	color: $blue;
-
-// 	&.current {
-// 		color: $black;
-// 	}
-
-// 	/* on hover */
-// 	&:hover, &:focus {
-// 		color: $link-hover;
-// 	}
-
-// 	/* on click */
-// 	&:active {
-
-// 	}
-
-// 	/* mobile tap color */
-// 	&:link {
-// 		/*
-// 		this highlights links on iPhones/iPads.
-// 		so it basically works like the :hover selector
-// 		for mobile devices.
-// 		*/
-// 		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
-// 	}
-// }
-
-// #catapultpgh-weblog a, a:visited {
-// 	color: $dark-green;
-
-// 	/* on hover */
-// 	&:hover, &:focus {
-// 		color: $link-hover;
-// 	}
-
-// 	/* on click */
-// 	&:active {
-
-// 	}
-
-// 	/* mobile tap color */
-// 	&:link {
-// 		/*
-// 		this highlights links on iPhones/iPads.
-// 		so it basically works like the :hover selector
-// 		for mobile devices.
-// 		*/
-// 		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
-// 	}
-// }
-
 
 /*********************
 LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	max-width: 960px;
+	max-width: 860px;
 }
 
 /*********************
 HEADER SYTLES
 *********************/
 
-.crest {
-	padding: 0 30px;
-	max-width: 700px;
-}
 
+.site-title {
+	padding: $h2 0;
+}
 /*********************
 NAVIGATION STYLES
 *********************/
 
-
-.nav {
-
-	.wrap {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	ul {
-		text-align: center;
-
-		li {
-			width: auto;
-			display: inline-block;
-			float: none;
-
-			a {	
-				&.current {
-					background: none;
-					border: none;		
-				}
-
-			}
-		} 
-	}
-	
-}
 
 /*********************
 CONTENT
 *********************/
 
 
-.member {
-	
-	&.first {
-		margin-left: 0;
-	}
-
-	.member-info {
-		width: 74.30939226%;
-		padding-right: 60px;
-	}
-
-	.photo {
-		width: 22.928176794%
-	}
-}
-
-.programs-nav, .presenter-gallery {
-	a, img {
-		@include transition(all 0.2s ease-in-out);
-
-		&:hover {
-			@include transition(all 0.2s ease-in-out);
-		}
-	}
-}
-
-.programs-nav {
-
-	a {
-		text-align: center;
-		width: 100%;
-		&:hover {
-			color: $black;
-		}
-	}
-
-	img {
-		// Remove these when actually photos are there
-		display: block;
-		border: 6px $light-grey solid;
-		opacity: 0.6;
-
-		&:hover {
-			opacity: 1;
-		}
-	}
-
-	.current {
-		background: none;
-		color: $link-color;
-		
-		img {
-			//border: 6px #777 solid;
-			opacity: 1;
-			&:hover {
-				opacity: 1;	
-			}
-		}
-	}
-}
-
-.presenter {
-	width: 25%;
-}
 
 
 /*********************

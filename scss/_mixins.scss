@@ -1,21 +1,3 @@
-/******************************************************************
-Site Name: CatapultPGH
-Author: Lara Schenck
-
-Stylesheet: Mixins & Constants Stylesheet
-
-This is where you can take advantage of Sass' great features:
-Mixins & Constants. I won't go in-depth on how they work exactly,
-there are a few articles below that will help do that. What I will
-tell you is that this will help speed up simple changes like
-changing a color or adding CSS3 techniques like box shadow and
-border-radius.
-
-A WORD OF WARNING: It's very easy to overdo it here. Be careful and
-remember less is more.
-
-******************************************************************/
-
 /*********************
 CLEARFIXIN'
 *********************/
@@ -59,7 +41,7 @@ $alert-blue:        #d5edf8;
 
 $bones-blue: 		#5089C1;
 
-$black:             #000;
+$black:             #222;
 $white:             #fff;
 $light-grey:		#ccc;
 $med-grey:			#888;
@@ -73,45 +55,31 @@ $light-blue: 		#5DC6E6;
 $link-color: 		$orange;
 $link-hover: 		$black;
 
-$community-link-color: 		$green;
-$agency-link-color:   		$blue;
-$weblog-link-color:   		$dark-green;
+$bright-accent: 	$orange;
 
-$community-link-hover:        	darken($community-link-color, 10%);
-$agency-link-hover:        		darken($agency-link-color, 10%);
-$weblog-link-hover:        		darken($weblog-link-color, 10%);
-
-$trans-white: rgba(100%, 100%, 100%, 0.65);
-
-/*
-Here's a great tutorial on how to
-use color variables properly:
-http://sachagreif.com/sass-color-variables/
-*/
 
 
 /*********************
 TYPOGRAPHY
 *********************/
 
+// Units
+
+$sml: 1.4rem;
+$default: 1.8rem;
+
+
+$h1: 4.7rem;
+$h2: 2.9rem;
+$h3: 2.3rem;
+$h4: $default;
+$h5: $sml;
+
+
+
 // Serif and sans serif font variants. I usually have 3 fonts, each of those and a display or script font
 
-$sans-serif:        "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$sans-serif-light:  "OpenSansLight", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$sans-serif-italic:	"OpenSansItalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$sans-serif-light-italic:	
-					"OpenSansLightItalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$sans-serif-bold:	"OpenSansBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$sans-serif-semibold:	"OpenSansSemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$sans-serif-bold-italic:	"OpenSansBoldItalic", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-$serif:             "Merriweather", Georgia, serif;
-
-
-// Use font variants instead of font-weight/style
-
-$em: $sans-serif-italic;
-$strong: $sans-serif-semibold;
+$sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
 /* 	To embed your own fonts, use this syntax
