@@ -294,6 +294,10 @@ upon your base.scss styles.
 /*********************
 HEADER STYLES
 *********************/
+/* line 29, ../scss/_481up.scss */
+.site-title {
+  background-size: 100% auto;
+}
 /* line 31, ../scss/_481up.scss */
 .site-title .h1 {
   padding: 2.3rem 0;
@@ -353,6 +357,7 @@ LAYOUT & GRID STYLES
 /* line 49, ../scss/_768up.scss */
 .wrap {
   max-width: 860px;
+  margin: 0 auto;
 }
 
 /*********************
@@ -375,11 +380,11 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 84, ../scss/_768up.scss */
+/* line 85, ../scss/_768up.scss */
 .footer a, .footer span {
   display: inline-block;
 }
-/* line 88, ../scss/_768up.scss */
+/* line 89, ../scss/_768up.scss */
 .footer .bull {
   margin: 0 15px;
 }

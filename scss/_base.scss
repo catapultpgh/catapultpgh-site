@@ -14,7 +14,6 @@ body {
 	font-size: $default;
 	line-height: 1.5;
 	color: $black;
-	border-top: 1rem solid $bright-accent;
 }
 
 img {
@@ -27,10 +26,8 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	width: 96%;
-	margin: 0 auto;
+	padding: 0 $sml;
 }
-
 
 /*********************
 LINK STYLES
@@ -131,20 +128,22 @@ HEADER SYTLES
 .site-header {
 	text-align: center;	
 	color: $white;
+	border-top: 0.9rem solid $bright-accent;
+	border-bottom: 0.9rem solid $bright-accent;
 }
 
 .site-title {
 	text-transform: uppercase;
 	background-image: url('../img/space.jpeg');
-	background-size: 100% auto;
+	background-size: auto 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
 
 	.h1 {
-
-		font-size: $h2;
+		line-height: 1;
+		font-size: $h2*1.2;
 		margin: 0;
-		padding: $h2;	
+		padding: $h1 0;	
 		text-shadow:  0 1px 0 $black, 
 					  0 2px 0 #444, 
 					  0 3px 0 #333, 
@@ -156,7 +155,14 @@ HEADER SYTLES
 					  0 3px 5px rgba(0, 0, 0, 0.2), 
 					  0 5px 10px rgba(0, 0, 0, 0.25), 
 					  0 20px 20px rgba(0, 0, 0, 0.15);
+		.secondary {
+			font-size: 0.75em;
+		}
 	}
+}
+
+.site-description {
+	background-color: $bright-accent;
 }
 
 .tagline {

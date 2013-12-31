@@ -28,9 +28,15 @@
         <![endif]-->
         <header class="site-header">
             <div class="site-title">
-                <h1 class="h1">Catapult<span class="special">PGH</span></h1>
+                <h1 class="h1">Catapult<span class="special">PGH</span><br /><span class="secondary">Coworking</span></h1>
+
             </div>
-            <p class="tagline">Coworking in Lawrenceville</p>
+            <div class="site-description">
+                <div class="wrap">
+                    <h2 class="tagline">A community of independent workers in Lawrenceville.</h2>
+                    <p>Catapult is a community of independents who choose to work together in a cool space. We are designers, developers, writers, entrepreneurs, and creatives of all types. Stop by sometime.</p>
+                </div>
+            </div>
         </header>
 
         <div class="main wrap clearfix">

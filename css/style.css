@@ -2981,10 +2981,9 @@ body {
   font-size: 1.8rem;
   line-height: 1.5;
   color: #222222;
-  border-top: 1rem solid #f04c23;
 }
 
-/* line 20, ../scss/_base.scss */
+/* line 19, ../scss/_base.scss */
 img {
   width: 100%;
 }
@@ -2992,21 +2991,20 @@ img {
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-/* line 29, ../scss/_base.scss */
+/* line 28, ../scss/_base.scss */
 .wrap {
-  width: 96%;
-  margin: 0 auto;
+  padding: 0 1.4rem;
 }
 
 /*********************
 LINK STYLES
 *********************/
-/* line 39, ../scss/_base.scss */
+/* line 36, ../scss/_base.scss */
 a {
   color: #2d567e;
   text-decoration: none;
 }
-/* line 43, ../scss/_base.scss */
+/* line 40, ../scss/_base.scss */
 a:link {
   /*
   this highlights links on iPhones/iPads.
@@ -3019,7 +3017,7 @@ a:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-/* line 58, ../scss/_base.scss */
+/* line 55, ../scss/_base.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   /*
@@ -3028,37 +3026,37 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   */
   /* removing text decoration from all headline links */
 }
-/* line 66, ../scss/_base.scss */
+/* line 63, ../scss/_base.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 71, ../scss/_base.scss */
+/* line 68, ../scss/_base.scss */
 h1, .h1 {
   font-size: 4.7rem;
   line-height: 1.5em;
   margin: 4.7rem 0;
 }
 
-/* line 77, ../scss/_base.scss */
+/* line 74, ../scss/_base.scss */
 h2, .h2 {
   font-size: 2.9rem;
   line-height: 1.15em;
   margin: 60px 0 40px;
 }
 
-/* line 83, ../scss/_base.scss */
+/* line 80, ../scss/_base.scss */
 h3, .h3 {
   font-size: 2.3rem;
 }
 
-/* line 87, ../scss/_base.scss */
+/* line 84, ../scss/_base.scss */
 h4, .h4 {
   font-size: 1.8rem;
   margin: 1em 0;
 }
 
-/* line 92, ../scss/_base.scss */
+/* line 89, ../scss/_base.scss */
 h5, .h5 {
   font-size: 1.4rem;
   line-height: 1.5em;
@@ -3070,22 +3068,22 @@ h5, .h5 {
 /*********************
 TYPOGRAPHY ROOT
 *********************/
-/* line 110, ../scss/_base.scss */
+/* line 107, ../scss/_base.scss */
 em {
   font-style: normal;
 }
 
-/* line 114, ../scss/_base.scss */
+/* line 111, ../scss/_base.scss */
 ul, ol {
   padding-left: 2em;
 }
 
-/* line 118, ../scss/_base.scss */
+/* line 115, ../scss/_base.scss */
 ul {
   list-style-type: disc;
 }
 
-/* line 122, ../scss/_base.scss */
+/* line 119, ../scss/_base.scss */
 ol {
   list-style-type: decimal;
 }
@@ -3093,29 +3091,41 @@ ol {
 /*********************
 HEADER SYTLES
 *********************/
-/* line 131, ../scss/_base.scss */
+/* line 128, ../scss/_base.scss */
 .site-header {
   text-align: center;
   color: white;
+  border-top: 0.9rem solid #f04c23;
+  border-bottom: 0.9rem solid #f04c23;
 }
 
-/* line 136, ../scss/_base.scss */
+/* line 135, ../scss/_base.scss */
 .site-title {
   text-transform: uppercase;
   background-image: url("../img/space.jpeg");
-  background-size: 100% auto;
+  background-size: auto 100%;
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 143, ../scss/_base.scss */
+/* line 142, ../scss/_base.scss */
 .site-title .h1 {
-  font-size: 2.9rem;
+  line-height: 1;
+  font-size: 3.48rem;
   margin: 0;
-  padding: 2.9rem;
+  padding: 4.7rem 0;
   text-shadow: 0 1px 0 #222222, 0 2px 0 #444444, 0 3px 0 #333333, 0 4px 0 #222222, 0 5px 0 #111111, 0 6px 1px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
 }
+/* line 158, ../scss/_base.scss */
+.site-title .h1 .secondary {
+  font-size: 0.75em;
+}
 
-/* line 162, ../scss/_base.scss */
+/* line 164, ../scss/_base.scss */
+.site-description {
+  background-color: #f04c23;
+}
+
+/* line 168, ../scss/_base.scss */
 .tagline {
   padding: 1.8rem;
   font-size: 2.3rem;
@@ -3131,7 +3141,7 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 185, ../scss/_base.scss */
+/* line 191, ../scss/_base.scss */
 .zinger {
   background-color: #f04c23;
 }
@@ -3139,7 +3149,7 @@ CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 194, ../scss/_base.scss */
+/* line 200, ../scss/_base.scss */
 .footer {
   margin-top: 60px;
   text-align: center;
@@ -3149,11 +3159,11 @@ FOOTER STYLES
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 202, ../scss/_base.scss */
+/* line 208, ../scss/_base.scss */
 .footer a {
   display: block;
 }
-/* line 205, ../scss/_base.scss */
+/* line 211, ../scss/_base.scss */
 .footer span {
   display: none;
 }
@@ -3161,7 +3171,7 @@ FOOTER STYLES
 /*********************
 UTILITIES
 *********************/
-/* line 215, ../scss/_base.scss */
+/* line 221, ../scss/_base.scss */
 .special {
   color: #f04c23;
 }
@@ -3172,7 +3182,7 @@ This is for devices like the Galaxy Note or something that's
 larger than an iPhone but smaller than a tablet. Let's call them
 tweeners.
 */
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 25em) {
   /******************************************************************
   Site Name: CatapultPGH
   Author: Lara Schenck
@@ -3192,6 +3202,10 @@ tweeners.
   /*********************
   HEADER STYLES
   *********************/
+  /* line 29, ../scss/_481up.scss */
+  .site-title {
+    background-size: 100% auto;
+  }
   /* line 31, ../scss/_481up.scss */
   .site-title .h1 {
     padding: 2.3rem 0;
@@ -3218,7 +3232,7 @@ This is the average viewing window. So Desktops, Laptops, and
 in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 35em) {
   /******************************************************************
   Site Name:
   Author:
@@ -3371,6 +3385,7 @@ you can add resource intensive styles.
   /* line 49, ../scss/_768up.scss */
   .wrap {
     max-width: 860px;
+    margin: 0 auto;
   }
 
   /*********************
@@ -3393,11 +3408,11 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 84, ../scss/_768up.scss */
+  /* line 85, ../scss/_768up.scss */
   .footer a, .footer span {
     display: inline-block;
   }
-  /* line 88, ../scss/_768up.scss */
+  /* line 89, ../scss/_768up.scss */
   .footer .bull {
     margin: 0 15px;
   }
@@ -3408,7 +3423,7 @@ This is the average viewing window. So Desktops, Laptops, and
 in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1090px) {
   /******************************************************************
   Site Name: CatapultPGH
   Author: Lara Schenck
