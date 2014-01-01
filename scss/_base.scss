@@ -3,17 +3,21 @@
 GENERAL STYLES
 *********************/
 
+* {
+	box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
 
 
 body {
-	background-color: $white;
+	background-color: $blue;
 	font-family: $sans-serif;
 	font-size: $default;
 	line-height: 1.5;
-	color: $black;
+	color: $white;
 }
 
 img {
@@ -105,7 +109,7 @@ strong {
 }
 
 em {
-	font-style: normal;
+	
 }
 
 ul, ol {
@@ -120,6 +124,11 @@ ol {
 	list-style-type: decimal;
 }
 
+blockquote {
+	border-left: 0.1rem solid $white;
+	padding-left: $h2;
+	margin: $h3 $h2;
+}
 
 /*********************
 HEADER SYTLES
@@ -128,11 +137,14 @@ HEADER SYTLES
 .site-header {
 	text-align: center;	
 	color: $white;
-	border-top: 0.9rem solid $bright-accent;
-	border-bottom: 0.9rem solid $bright-accent;
 }
 
 .site-title {
+
+	border-top: 1rem solid $bright-accent;
+	
+	border-bottom: 1rem solid $bright-accent;
+
 	text-transform: uppercase;
 	background-image: url('../img/space.jpeg');
 	background-size: auto 100%;
@@ -169,9 +181,9 @@ HEADER SYTLES
 	padding: $h4;
 	font-size: $h3;
 	margin: 0;
-	background-color: $bright-accent;
 	font-weight: 500;
-	letter-spacing: 1px
+	letter-spacing: 1px;
+	background-color: $black;
 }
 
 
@@ -187,11 +199,21 @@ NAVIGATION STYLES
 CONTENT STYLES
 *********************/
 
-
-.zinger {
-	background-color: $bright-accent;
+.content-unit {
+	@extend .clearfix;
 }
 
+.zinger {
+	background-color: $black;
+}
+
+.rotation {
+	background-color: $medium-accent;
+}
+
+.summary {
+	font-size: $h3;
+}
 
 /*********************
 FOOTER STYLES
@@ -219,5 +241,5 @@ UTILITIES
 *********************/
 
 .special {
-	color: $bright-accent;
+	color: $alert-yellow;
 }

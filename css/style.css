@@ -561,16 +561,16 @@ table {
 CLEARFIXIN'
 *********************/
 /* line 6, ../scss/_mixins.scss */
-.clearfix {
+.clearfix, .content-unit {
   zoom: 1;
 }
 /* line 8, ../scss/_mixins.scss */
-.clearfix:before, .clearfix:after {
+.clearfix:before, .content-unit:before, .clearfix:after, .content-unit:after {
   content: "";
   display: table;
 }
 /* line 9, ../scss/_mixins.scss */
-.clearfix:after {
+.clearfix:after, .content-unit:after {
   clear: both;
 }
 
@@ -2970,20 +2970,25 @@ the other stylesheets. Remember, keep it light: Speed is Important.
 GENERAL STYLES
 *********************/
 /* line 6, ../scss/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 10, ../scss/_base.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 11, ../scss/_base.scss */
+/* line 15, ../scss/_base.scss */
 body {
-  background-color: white;
+  background-color: #2d567e;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
-  color: #222222;
+  color: white;
 }
 
-/* line 19, ../scss/_base.scss */
+/* line 23, ../scss/_base.scss */
 img {
   width: 100%;
 }
@@ -2991,7 +2996,7 @@ img {
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-/* line 28, ../scss/_base.scss */
+/* line 32, ../scss/_base.scss */
 .wrap {
   padding: 0 1.4rem;
 }
@@ -2999,12 +3004,12 @@ LAYOUT & GRID STYLES
 /*********************
 LINK STYLES
 *********************/
-/* line 36, ../scss/_base.scss */
+/* line 40, ../scss/_base.scss */
 a {
   color: #2d567e;
   text-decoration: none;
 }
-/* line 40, ../scss/_base.scss */
+/* line 44, ../scss/_base.scss */
 a:link {
   /*
   this highlights links on iPhones/iPads.
@@ -3017,7 +3022,7 @@ a:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-/* line 55, ../scss/_base.scss */
+/* line 59, ../scss/_base.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   /*
@@ -3026,37 +3031,37 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   */
   /* removing text decoration from all headline links */
 }
-/* line 63, ../scss/_base.scss */
+/* line 67, ../scss/_base.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 68, ../scss/_base.scss */
+/* line 72, ../scss/_base.scss */
 h1, .h1 {
   font-size: 4.7rem;
   line-height: 1.5em;
   margin: 4.7rem 0;
 }
 
-/* line 74, ../scss/_base.scss */
+/* line 78, ../scss/_base.scss */
 h2, .h2 {
   font-size: 2.9rem;
   line-height: 1.15em;
   margin: 60px 0 40px;
 }
 
-/* line 80, ../scss/_base.scss */
+/* line 84, ../scss/_base.scss */
 h3, .h3 {
   font-size: 2.3rem;
 }
 
-/* line 84, ../scss/_base.scss */
+/* line 88, ../scss/_base.scss */
 h4, .h4 {
   font-size: 1.8rem;
   margin: 1em 0;
 }
 
-/* line 89, ../scss/_base.scss */
+/* line 93, ../scss/_base.scss */
 h5, .h5 {
   font-size: 1.4rem;
   line-height: 1.5em;
@@ -3068,46 +3073,48 @@ h5, .h5 {
 /*********************
 TYPOGRAPHY ROOT
 *********************/
-/* line 107, ../scss/_base.scss */
-em {
-  font-style: normal;
-}
-
-/* line 111, ../scss/_base.scss */
+/* line 115, ../scss/_base.scss */
 ul, ol {
   padding-left: 2em;
 }
 
-/* line 115, ../scss/_base.scss */
+/* line 119, ../scss/_base.scss */
 ul {
   list-style-type: disc;
 }
 
-/* line 119, ../scss/_base.scss */
+/* line 123, ../scss/_base.scss */
 ol {
   list-style-type: decimal;
+}
+
+/* line 127, ../scss/_base.scss */
+blockquote {
+  border-left: 0.1rem solid white;
+  padding-left: 2.9rem;
+  margin: 2.3rem 2.9rem;
 }
 
 /*********************
 HEADER SYTLES
 *********************/
-/* line 128, ../scss/_base.scss */
+/* line 137, ../scss/_base.scss */
 .site-header {
   text-align: center;
   color: white;
-  border-top: 0.9rem solid #f04c23;
-  border-bottom: 0.9rem solid #f04c23;
 }
 
-/* line 135, ../scss/_base.scss */
+/* line 142, ../scss/_base.scss */
 .site-title {
+  border-top: 1rem solid #2d567e;
+  border-bottom: 1rem solid #2d567e;
   text-transform: uppercase;
   background-image: url("../img/space.jpeg");
   background-size: auto 100%;
   background-position: center center;
   background-repeat: no-repeat;
 }
-/* line 142, ../scss/_base.scss */
+/* line 154, ../scss/_base.scss */
 .site-title .h1 {
   line-height: 1;
   font-size: 3.48rem;
@@ -3115,24 +3122,24 @@ HEADER SYTLES
   padding: 4.7rem 0;
   text-shadow: 0 1px 0 #222222, 0 2px 0 #444444, 0 3px 0 #333333, 0 4px 0 #222222, 0 5px 0 #111111, 0 6px 1px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
 }
-/* line 158, ../scss/_base.scss */
+/* line 170, ../scss/_base.scss */
 .site-title .h1 .secondary {
   font-size: 0.75em;
 }
 
-/* line 164, ../scss/_base.scss */
+/* line 176, ../scss/_base.scss */
 .site-description {
-  background-color: #f04c23;
+  background-color: #2d567e;
 }
 
-/* line 168, ../scss/_base.scss */
+/* line 180, ../scss/_base.scss */
 .tagline {
   padding: 1.8rem;
   font-size: 2.3rem;
   margin: 0;
-  background-color: #f04c23;
   font-weight: 500;
   letter-spacing: 1px;
+  background-color: #222222;
 }
 
 /*********************
@@ -3141,15 +3148,25 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 191, ../scss/_base.scss */
+/* line 206, ../scss/_base.scss */
 .zinger {
-  background-color: #f04c23;
+  background-color: #222222;
+}
+
+/* line 210, ../scss/_base.scss */
+.rotation {
+  background-color: #5089c1;
+}
+
+/* line 214, ../scss/_base.scss */
+.summary {
+  font-size: 2.3rem;
 }
 
 /*********************
 FOOTER STYLES
 *********************/
-/* line 200, ../scss/_base.scss */
+/* line 222, ../scss/_base.scss */
 .footer {
   margin-top: 60px;
   text-align: center;
@@ -3159,11 +3176,11 @@ FOOTER STYLES
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 208, ../scss/_base.scss */
+/* line 230, ../scss/_base.scss */
 .footer a {
   display: block;
 }
-/* line 211, ../scss/_base.scss */
+/* line 233, ../scss/_base.scss */
 .footer span {
   display: none;
 }
@@ -3171,9 +3188,9 @@ FOOTER STYLES
 /*********************
 UTILITIES
 *********************/
-/* line 221, ../scss/_base.scss */
+/* line 243, ../scss/_base.scss */
 .special {
-  color: #f04c23;
+  color: #ebe16f;
 }
 
 /*

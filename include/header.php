@@ -10,15 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         
-        <link href='http://fonts.googleapis.com/css?family=Merriweather:400' rel='stylesheet' type='text/css'>
-
-        <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-
-
-        <link rel="stylesheet" href="css/style.css?v1.0">
-
-        <link rel="stylesheet" href="css/animate-custom.css">
-
+        <link rel="stylesheet" href="css/style.css?v1.2">
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
 
@@ -32,11 +24,11 @@
 
             </div>
             <div class="site-description">
-                <div class="wrap">
-                    <h2 class="tagline">A community of independent workers in Lawrenceville.</h2>
-                    <p>Catapult is a community of independents who choose to work together in a cool space. We are designers, developers, writers, entrepreneurs, and creatives of all types. Stop by sometime.</p>
+                <h2 class="tagline">Working from home? Come work with us.</h2>
+                <div class="wrap clearfix">    
+                    <p class="summary">Catapult is a community of independent workers with an awesome space in the heart of Lawrenceville. We are designers, developers, writers, entrepreneurs, and creatives of all types. Stop by sometime.</p>
                 </div>
             </div>
         </header>
 
-        <div class="main wrap clearfix">
+        <div class="main clearfix" role="main">
