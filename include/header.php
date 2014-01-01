@@ -25,10 +25,11 @@
             </div>
             <div class="site-description">
                 <h2 class="tagline">Working from home? Come work with us.</h2>
-                <div class="wrap clearfix">    
+                <div class="wrap zinger clearfix">    
+                    <h2 class="h1">What is Catapult?</h2>
                     <p class="summary">Catapult is a community of independent workers with an awesome space in the heart of Lawrenceville. We are designers, developers, writers, entrepreneurs, and creatives of all types. Stop by sometime.</p>
                 </div>
             </div>
         </header>
 
-        <div class="main clearfix" role="main">
+        <div class="main" role="main">

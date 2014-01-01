@@ -37,9 +37,6 @@ a, a:visited {
 	}
 }
 
-.main p a {
-	text-decoration: underline;
-}
 
 
 /*********************
@@ -47,8 +44,9 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	max-width: 860px;
-	margin: 0 auto;
+	max-width: 960px;
+	padding: $h2;
+	margin: $h2 auto 0;
 }
 
 /*********************
@@ -69,7 +67,9 @@ CONTENT
 *********************/
 
 
-
+.unit-title {
+	font-size: $h1;
+}
 
 /*********************
 SIDEBARS & ASIDES

@@ -1,13 +1,13 @@
 
         </div> <!-- .main -->
 
-       <footer class="footer animated fadeInUp wrap">
-            <a href="http://twitter.com/CatapultPGH" target="blank">@CatapultPGH</a>
+       <footer class="footer">
+<!--             <a href="http://twitter.com/CatapultPGH" target="blank">@CatapultPGH</a>
             <span class="bull">&bull;</span>
             <a href="mailto:inbox@catapultpgh.org" target="blank">inbox@catapultpgh.org</a>
             <span class="bull">&bull;</span>
             <a href="tel:4124073327" target="blank">(412) 407-3327</a>
-            <span class="bull">&bull;</span>
+            <span class="bull">&bull;</span> -->
             <span>Built by us.</span>
         </footer> <!-- .footer -->
     

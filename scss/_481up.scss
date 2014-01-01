@@ -14,7 +14,9 @@ so you still want to keep it pretty light and simply expand
 upon your base.scss styles.
 
 ******************************************************************/
-
+#community {
+	background-image: url('../img/alex.jpeg');
+}
 
 	
 /*********************
@@ -28,6 +30,7 @@ HEADER STYLES
 
 .site-title {
 	background-size: 100% auto;
+	
 	.h1 {
 		padding: $h3 0;
 		font-size: $h1;
