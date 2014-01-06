@@ -18,17 +18,13 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
-        <header class="site-header">
-            <div class="site-title">
-                <h1 class="h1">Catapult<span class="special">PGH</span><br /><span class="secondary">Coworking</span></h1>
 
-            </div>
+        <header class="site-header">
+            <!-- <div class="site-title"> -->
+                <h1 class="h1">Catapult<span class="special">PGH</span> <span class="secondary">Coworking</span></h1>
+            <!-- </div> -->
             <div class="site-description">
-                <h2 class="tagline">Working from home? Come work with us.</h2>
-                <div class="wrap zinger clearfix">    
-                    <h2 class="h1">What is Catapult?</h2>
-                    <p class="summary">Catapult is a community of independent workers with an awesome space in the heart of Lawrenceville. We are designers, developers, writers, entrepreneurs, and creatives of all types. Stop by sometime.</p>
-                </div>
+                <h2 class="tagline">Working from home? Ew, why? Come work with us.</h2>
             </div>
         </header>
 

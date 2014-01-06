@@ -42,7 +42,7 @@ $alert-blue:        #d5edf8;
 $bones-blue: 		#5089C1;
 
 $black:             #222;
-$white:             #F2FAF4;
+$white:             #fefefe;
 $light-grey:		#ccc;
 $med-grey:			#888;
 
@@ -53,12 +53,12 @@ $green:        		#15A38D;
 $light-blue: 		#B5EBF2;
 $blue: 				darken($light-blue, 20%);
 
-$link-color: 		$alert-yellow;
-$link-hover: 		$orange;
+$link-color: 		$orange;
+$link-hover: 		darken($link-color, 20%);
 
-$bright-accent: 	$green;
-$medium-accent: 	$green;
-$dark-accent: 		$dark-green;
+$bright-accent: 	$orange;
+$medium-accent: 	#999;
+$dark-accent: 		#666;
 
 $btn-color: 		$dark-green;
 

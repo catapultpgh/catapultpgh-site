@@ -13,11 +13,12 @@ html {
 
 
 body {
-	background-color: $dark-accent;
+	background-color: $black;
 	font-family: $sans-serif;
 	font-size: $default;
 	line-height: 1.5;
-	color: $white;
+	color: $black;
+	overflow-x: hidden;
 }
 
 img {
@@ -31,6 +32,8 @@ LAYOUT & GRID STYLES
 
 .wrap {
 	padding: $sml;
+	margin: $h3 auto;
+	background-color: $white;
 }
 
 /*********************
@@ -148,33 +151,29 @@ HEADER SYTLES
 }
 
 .site-title {
-
 	border-top: 1rem solid $bright-accent;
-	
 	border-bottom: 1rem solid $bright-accent;
-
 	text-transform: uppercase;
-	background-image: url('../img/space.jpeg');
-	background-size: auto 100%;
-	background-position: center center;
-	background-repeat: no-repeat;
-
+	
 	.h1 {
 		line-height: 1;
 		font-size: $h2*1.2;
 		margin: 0;
 		padding: $h1 0;	
-		text-shadow:  0 1px 0 $black, 
-					  0 2px 0 #444, 
-					  0 3px 0 #333, 
-					  0 4px 0 #222, 
-					  0 5px 0 #111, 
-					  0 6px 1px rgba(0, 0, 0, 0.3), 
-					  0 0 5px rgba(0, 0, 0, 0.3), 
-					  0 1px 3px rgba(0, 0, 0, 0.3), 
-					  0 3px 5px rgba(0, 0, 0, 0.2), 
-					  0 5px 10px rgba(0, 0, 0, 0.25), 
-					  0 20px 20px rgba(0, 0, 0, 0.15);
+		// text-shadow:  0 1px 0 $black, 
+		// 			  0 2px 0 #444, 
+		// 			  0 3px 0 #333, 
+		// 			  0 4px 0 #222, 
+		// 			  0 5px 0 #111, 
+		// 			  0 6px 1px rgba(0, 0, 0, 0.3), 
+		// 			  0 0 5px rgba(0, 0, 0, 0.3), 
+		// 			  0 1px 3px rgba(0, 0, 0, 0.3), 
+		// 			  0 3px 5px rgba(0, 0, 0, 0.2), 
+		// 			  0 5px 10px rgba(0, 0, 0, 0.25), 
+		// 			  0 20px 20px rgba(0, 0, 0, 0.15);
+
+		text-shadow: 4px 3px 0 #eee,9px 8px 0 rgba(0,0,0,0.15);
+
 		.secondary {
 			font-size: 0.75em;
 		}
@@ -182,7 +181,10 @@ HEADER SYTLES
 }
 
 .site-description {
-	background-color: $bright-accent;
+	background-image: url('../img/space.jpeg');
+	background-size: 100% auto;
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 .tagline {
@@ -193,7 +195,6 @@ HEADER SYTLES
 	letter-spacing: 1px;
 	background-color: $black;
 }
-
 
 
 
@@ -213,10 +214,10 @@ CONTENT STYLES
 
 	.unit-title {
 		text-align: center;
-		text-shadow: 4px 3px 0 $dark-green, 9px 8px 0 rgba(0,0,0,0.15);			
+		//text-shadow: 4px 3px 0 rgba(0,0,0,0.4),9px 8px 0 rgba(0,0,0,0.15);
 		
 		.rotation & {
-			text-shadow: 4px 3px 0 #1d9d74,9px 8px 0 rgba(0,0,0,0.15);
+			
 		}
 		padding: $sml 0;
 		margin-top: 0;
@@ -225,8 +226,13 @@ CONTENT STYLES
 	}
 
 .zinger {
+	padding: $h1 0;
+}
+
+.zinger-content {
 	color: $black;
 	background-color: $white;
+
 }
 
 .rotation {
@@ -245,6 +251,16 @@ CONTENT STYLES
 	background-color: rgba(0, 0, 0, 0.1);
 	padding: $sml;
 	margin-bottom: $sml;
+}
+
+.fig-large {
+    width: 116%;
+    margin-left: -8%;
+    
+    img {
+        border: 2px solid $dark-accent;        
+        width: 100%;
+    }
 }
 
 /*********************

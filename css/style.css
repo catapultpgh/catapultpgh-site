@@ -722,7 +722,7 @@ BUTTONS
   border-top-color: #0d2931;
   border-left-color: #0d2931;
   padding: 4px 12px;
-  color: #f2faf4;
+  color: #fefefe;
   display: inline-block;
   font-size: 1.4rem;
   font-weight: bold;
@@ -746,7 +746,7 @@ BUTTONS
 }
 /* line 281, ../scss/_mixins.scss */
 .btn:hover, .btn:focus, .btn:visited:hover, .btn:visited:focus {
-  color: #f2faf4;
+  color: #fefefe;
   border: 1px solid #071519;
   border-top-color: black;
   border-left-color: black;
@@ -2981,14 +2981,15 @@ html {
 
 /* line 15, ../scss/_base.scss */
 body {
-  background-color: #15414d;
+  background-color: #222222;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
-  color: #f2faf4;
+  color: #222222;
+  overflow-x: hidden;
 }
 
-/* line 23, ../scss/_base.scss */
+/* line 24, ../scss/_base.scss */
 img {
   width: 100%;
 }
@@ -2996,20 +2997,22 @@ img {
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-/* line 32, ../scss/_base.scss */
+/* line 33, ../scss/_base.scss */
 .wrap {
   padding: 1.4rem;
+  margin: 2.3rem auto;
+  background-color: #fefefe;
 }
 
 /*********************
 LINK STYLES
 *********************/
-/* line 40, ../scss/_base.scss */
+/* line 43, ../scss/_base.scss */
 a {
-  color: #ebe16f;
+  color: #ed8c1f;
   text-decoration: none;
 }
-/* line 44, ../scss/_base.scss */
+/* line 47, ../scss/_base.scss */
 a:link {
   text-decoration: none;
   /*
@@ -3023,7 +3026,7 @@ a:link {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-/* line 60, ../scss/_base.scss */
+/* line 63, ../scss/_base.scss */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   /*
@@ -3032,37 +3035,37 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   */
   /* removing text decoration from all headline links */
 }
-/* line 68, ../scss/_base.scss */
+/* line 71, ../scss/_base.scss */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 73, ../scss/_base.scss */
+/* line 76, ../scss/_base.scss */
 h1, .h1 {
   font-size: 4.7rem;
   line-height: 1.5em;
   margin: 4.7rem 0;
 }
 
-/* line 79, ../scss/_base.scss */
+/* line 82, ../scss/_base.scss */
 h2, .h2 {
   font-size: 2.9rem;
   line-height: 1.15em;
   margin: 60px 0 40px;
 }
 
-/* line 85, ../scss/_base.scss */
+/* line 88, ../scss/_base.scss */
 h3, .h3 {
   font-size: 2.3rem;
 }
 
-/* line 89, ../scss/_base.scss */
+/* line 92, ../scss/_base.scss */
 h4, .h4 {
   font-size: 1.8rem;
   margin: 1em 0;
 }
 
-/* line 94, ../scss/_base.scss */
+/* line 97, ../scss/_base.scss */
 h5, .h5 {
   font-size: 1.4rem;
   line-height: 1.5em;
@@ -3074,28 +3077,28 @@ h5, .h5 {
 /*********************
 TYPOGRAPHY ROOT
 *********************/
-/* line 116, ../scss/_base.scss */
+/* line 119, ../scss/_base.scss */
 ul, ol {
   padding-left: 2em;
 }
 
-/* line 120, ../scss/_base.scss */
+/* line 123, ../scss/_base.scss */
 ul {
   list-style-type: disc;
 }
 
-/* line 124, ../scss/_base.scss */
+/* line 127, ../scss/_base.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 128, ../scss/_base.scss */
+/* line 131, ../scss/_base.scss */
 blockquote {
   font-style: italic;
   margin: 2.3rem 0;
 }
 
-/* line 136, ../scss/_base.scss */
+/* line 139, ../scss/_base.scss */
 cite {
   font-size: 1.8rem;
   font-style: normal;
@@ -3104,41 +3107,40 @@ cite {
 /*********************
 HEADER SYTLES
 *********************/
-/* line 145, ../scss/_base.scss */
+/* line 148, ../scss/_base.scss */
 .site-header {
   text-align: center;
-  color: #f2faf4;
+  color: #fefefe;
 }
 
-/* line 150, ../scss/_base.scss */
+/* line 153, ../scss/_base.scss */
 .site-title {
-  border-top: 1rem solid #15a38d;
-  border-bottom: 1rem solid #15a38d;
+  border-top: 1rem solid #ed8c1f;
+  border-bottom: 1rem solid #ed8c1f;
   text-transform: uppercase;
-  background-image: url("../img/space.jpeg");
-  background-size: auto 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
-/* line 162, ../scss/_base.scss */
+/* line 158, ../scss/_base.scss */
 .site-title .h1 {
   line-height: 1;
   font-size: 3.48rem;
   margin: 0;
   padding: 4.7rem 0;
-  text-shadow: 0 1px 0 #222222, 0 2px 0 #444444, 0 3px 0 #333333, 0 4px 0 #222222, 0 5px 0 #111111, 0 6px 1px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
+  text-shadow: 4px 3px 0 #eeeeee, 9px 8px 0 rgba(0, 0, 0, 0.15);
 }
-/* line 178, ../scss/_base.scss */
+/* line 177, ../scss/_base.scss */
 .site-title .h1 .secondary {
   font-size: 0.75em;
 }
 
-/* line 184, ../scss/_base.scss */
+/* line 183, ../scss/_base.scss */
 .site-description {
-  background-color: #15a38d;
+  background-image: url("../img/space.jpeg");
+  background-size: 100% auto;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-/* line 188, ../scss/_base.scss */
+/* line 190, ../scss/_base.scss */
 .tagline {
   padding: 1.8rem;
   font-size: 2.3rem;
@@ -3154,52 +3156,63 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 214, ../scss/_base.scss */
+/* line 215, ../scss/_base.scss */
 .unit-title {
   text-align: center;
-  text-shadow: 4px 3px 0 #15414d, 9px 8px 0 rgba(0, 0, 0, 0.15);
   padding: 1.4rem 0;
   margin-top: 0;
-  border-top: 1px solid #f2faf4;
-  border-bottom: 1px solid #f2faf4;
-}
-/* line 218, ../scss/_base.scss */
-.rotation .unit-title {
-  text-shadow: 4px 3px 0 #1d9d74, 9px 8px 0 rgba(0, 0, 0, 0.15);
+  border-top: 1px solid #fefefe;
+  border-bottom: 1px solid #fefefe;
 }
 
-/* line 227, ../scss/_base.scss */
+/* line 228, ../scss/_base.scss */
 .zinger {
-  color: #222222;
-  background-color: #f2faf4;
+  padding: 4.7rem 0;
 }
 
 /* line 232, ../scss/_base.scss */
-.rotation {
-  background-color: #15a38d;
+.zinger-content {
+  color: #222222;
+  background-color: #fefefe;
 }
 
-/* line 236, ../scss/_base.scss */
+/* line 238, ../scss/_base.scss */
+.rotation {
+  background-color: #999999;
+}
+
+/* line 242, ../scss/_base.scss */
 .summary {
   font-size: 2.3rem;
 }
 
-/* line 240, ../scss/_base.scss */
+/* line 246, ../scss/_base.scss */
 .perks .fa {
   font-size: 2.9rem;
 }
 
-/* line 244, ../scss/_base.scss */
+/* line 250, ../scss/_base.scss */
 .perk {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 1.4rem;
   margin-bottom: 1.4rem;
 }
 
+/* line 256, ../scss/_base.scss */
+.fig-large {
+  width: 116%;
+  margin-left: -8%;
+}
+/* line 260, ../scss/_base.scss */
+.fig-large img {
+  border: 2px solid #666666;
+  width: 100%;
+}
+
 /*********************
 FOOTER STYLES
 *********************/
-/* line 254, ../scss/_base.scss */
+/* line 270, ../scss/_base.scss */
 .footer {
   margin-top: 60px;
   text-align: center;
@@ -3209,11 +3222,11 @@ FOOTER STYLES
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 262, ../scss/_base.scss */
+/* line 278, ../scss/_base.scss */
 .footer a {
   display: block;
 }
-/* line 265, ../scss/_base.scss */
+/* line 281, ../scss/_base.scss */
 .footer span {
   display: none;
 }
@@ -3221,14 +3234,14 @@ FOOTER STYLES
 /*********************
 UTILITIES
 *********************/
-/* line 275, ../scss/_base.scss */
+/* line 291, ../scss/_base.scss */
 .special {
   color: #ebe16f;
 }
 
-/* line 279, ../scss/_base.scss */
+/* line 295, ../scss/_base.scss */
 .price {
-  color: #15414d;
+  color: #666666;
 }
 
 /*
@@ -3431,7 +3444,7 @@ you can add resource intensive styles.
   }
   /* line 30, ../scss/_768up.scss */
   a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #ed8c1f;
+    color: #9a570c;
   }
 
   /*********************
@@ -3441,13 +3454,12 @@ you can add resource intensive styles.
   .wrap {
     max-width: 960px;
     padding: 2.9rem;
-    margin: 2.9rem auto 0;
   }
 
   /*********************
   HEADER SYTLES
   *********************/
-  /* line 56, ../scss/_768up.scss */
+  /* line 55, ../scss/_768up.scss */
   .site-title {
     padding: 2.9rem 0;
   }
@@ -3458,7 +3470,7 @@ you can add resource intensive styles.
   /*********************
   CONTENT
   *********************/
-  /* line 70, ../scss/_768up.scss */
+  /* line 69, ../scss/_768up.scss */
   .unit-title {
     font-size: 4.7rem;
   }
@@ -3469,11 +3481,11 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
-  /* line 85, ../scss/_768up.scss */
+  /* line 84, ../scss/_768up.scss */
   .footer a, .footer span {
     display: inline-block;
   }
-  /* line 89, ../scss/_768up.scss */
+  /* line 88, ../scss/_768up.scss */
   .footer .bull {
     margin: 0 15px;
   }

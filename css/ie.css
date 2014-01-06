@@ -184,7 +184,7 @@ BUTTONS
   border-top-color: #0d2931;
   border-left-color: #0d2931;
   padding: 4px 12px;
-  color: #f2faf4;
+  color: #fefefe;
   display: inline-block;
   font-size: 1.4rem;
   font-weight: bold;
@@ -208,7 +208,7 @@ BUTTONS
 }
 /* line 281, ../scss/_mixins.scss */
 .btn:hover, .btn:focus, .btn:visited:hover, .btn:visited:focus {
-  color: #f2faf4;
+  color: #fefefe;
   border: 1px solid #071519;
   border-top-color: black;
   border-left-color: black;
@@ -348,7 +348,7 @@ a, a:visited {
 }
 /* line 30, ../scss/_768up.scss */
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #ed8c1f;
+  color: #9a570c;
 }
 
 /*********************
@@ -358,13 +358,12 @@ LAYOUT & GRID STYLES
 .wrap {
   max-width: 960px;
   padding: 2.9rem;
-  margin: 2.9rem auto 0;
 }
 
 /*********************
 HEADER SYTLES
 *********************/
-/* line 56, ../scss/_768up.scss */
+/* line 55, ../scss/_768up.scss */
 .site-title {
   padding: 2.9rem 0;
 }
@@ -375,7 +374,7 @@ NAVIGATION STYLES
 /*********************
 CONTENT
 *********************/
-/* line 70, ../scss/_768up.scss */
+/* line 69, ../scss/_768up.scss */
 .unit-title {
   font-size: 4.7rem;
 }
@@ -386,11 +385,11 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 85, ../scss/_768up.scss */
+/* line 84, ../scss/_768up.scss */
 .footer a, .footer span {
   display: inline-block;
 }
-/* line 89, ../scss/_768up.scss */
+/* line 88, ../scss/_768up.scss */
 .footer .bull {
   margin: 0 15px;
 }
