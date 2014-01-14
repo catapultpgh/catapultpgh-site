@@ -16,9 +16,6 @@ come into play. Have fun!
 GENERAL STYLES
 *********************/
 
-body {
-	
-}
 
 /*********************
 LINK STYLES
@@ -52,8 +49,35 @@ LAYOUT & GRID STYLES
 HEADER SYTLES
 *********************/
 
+.site-header {
+	// padding-top: $h1*3;
+	// padding-bottom: $h1;
+	// background: url('../img/space-panorama.jpg')
+	// no-repeat;
+}
+
 .site-title {
-	padding: $h2 0;
+	padding: $h2;
+	display: inline-block;
+	font-size: $h1*1.5;
+	text-shadow:  0 1px 0 $black, 
+			  0 2px 0 #444, 
+			  0 3px 0 #333, 
+			  0 4px 0 #222, 
+			  0 5px 0 #111, 
+			  0 6px 1px rgba(0, 0, 0, 0.3), 
+			  0 0 5px rgba(0, 0, 0, 0.3), 
+			  0 1px 3px rgba(0, 0, 0, 0.3), 
+			  0 3px 5px rgba(0, 0, 0, 0.2), 
+			  0 5px 10px rgba(0, 0, 0, 0.25), 
+			  0 20px 20px rgba(0, 0, 0, 0.15);
+
+	text-shadow: 4px 3px 0 #eee,9px 8px 0 rgba(0,0,0,0.15);
+
+}
+
+.secondary {
+	font-size: $h2;
 }
 
 /*********************
@@ -68,6 +92,10 @@ CONTENT
 
 .unit-title {
 	font-size: $h1;
+}
+
+.rotation {
+	background: none;
 }
 
 /*********************

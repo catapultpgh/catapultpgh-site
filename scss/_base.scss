@@ -13,12 +13,17 @@ html {
 
 
 body {
-	background-color: $black;
+	background: url('../img/bkgd/space_bw.jpg')
+				fixed
+				no-repeat;
+	// background-color: rgba($white, 0.9);
 	font-family: $sans-serif;
 	font-size: $default;
 	line-height: 1.5;
 	color: $black;
 	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
 }
 
 img {
@@ -33,7 +38,7 @@ LAYOUT & GRID STYLES
 .wrap {
 	padding: $sml;
 	margin: $h3 auto;
-	background-color: $white;
+	// background-color: rgba($white, 0.9);
 }
 
 /*********************
@@ -95,7 +100,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-	font-size: $sml;
+	font-size: $default;
 	line-height: 1.5em;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -147,44 +152,23 @@ HEADER SYTLES
 
 .site-header {
 	text-align: center;	
-	color: $white;
+	// color: $white;
+	// background-color: rgba($white, 0.7);
 }
 
-.site-title {
-	border-top: 1rem solid $bright-accent;
-	border-bottom: 1rem solid $bright-accent;
-	text-transform: uppercase;
-	
-	.h1 {
-		line-height: 1;
-		font-size: $h2*1.2;
-		margin: 0;
-		padding: $h1 0;	
-		// text-shadow:  0 1px 0 $black, 
-		// 			  0 2px 0 #444, 
-		// 			  0 3px 0 #333, 
-		// 			  0 4px 0 #222, 
-		// 			  0 5px 0 #111, 
-		// 			  0 6px 1px rgba(0, 0, 0, 0.3), 
-		// 			  0 0 5px rgba(0, 0, 0, 0.3), 
-		// 			  0 1px 3px rgba(0, 0, 0, 0.3), 
-		// 			  0 3px 5px rgba(0, 0, 0, 0.2), 
-		// 			  0 5px 10px rgba(0, 0, 0, 0.25), 
-		// 			  0 20px 20px rgba(0, 0, 0, 0.15);
+.site-title {	
+	line-height: 1;
+	font-size: $h2*1.2;
+	margin: 0;
+	padding: $h1 0;	
+}
 
-		text-shadow: 4px 3px 0 #eee,9px 8px 0 rgba(0,0,0,0.15);
-
-		.secondary {
-			font-size: 0.75em;
-		}
-	}
+.secondary {
+	font-size: $h3;
 }
 
 .site-description {
-	background-image: url('../img/space.jpeg');
-	background-size: 100% auto;
-	background-position: center center;
-	background-repeat: no-repeat;
+	
 }
 
 .tagline {
@@ -193,7 +177,8 @@ HEADER SYTLES
 	margin: 0;
 	font-weight: 500;
 	letter-spacing: 1px;
-	background-color: $black;
+	background-color: rgba($black, 0.5);
+	color: $white;
 }
 
 
@@ -214,30 +199,16 @@ CONTENT STYLES
 
 	.unit-title {
 		text-align: center;
-		//text-shadow: 4px 3px 0 rgba(0,0,0,0.4),9px 8px 0 rgba(0,0,0,0.15);
 		
 		.rotation & {
 			
 		}
 		padding: $sml 0;
 		margin-top: 0;
-		border-top: 1px solid $white;
-		border-bottom: 1px solid $white;
+		border-top: $sml/3 solid $white;
+		border-bottom: $sml/3 solid $white;
 	}
 
-.zinger {
-	padding: $h1 0;
-}
-
-.zinger-content {
-	color: $black;
-	background-color: $white;
-
-}
-
-.rotation {
-	background-color: $medium-accent;
-}
 
 .summary {
 	font-size: $h3;
@@ -248,20 +219,20 @@ CONTENT STYLES
 }
 
 .perk {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba($white, 0.7);
 	padding: $sml;
 	margin-bottom: $sml;
 }
 
-.fig-large {
-    width: 116%;
-    margin-left: -8%;
+// .fig-large {
+//     width: 116%;
+//     margin-left: -8%;
     
-    img {
-        border: 2px solid $dark-accent;        
-        width: 100%;
-    }
-}
+//     img {
+//         border: 2px solid $dark-accent;        
+//         width: 100%;
+//     }
+// }
 
 /*********************
 FOOTER STYLES

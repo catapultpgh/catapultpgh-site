@@ -183,10 +183,10 @@ BUTTONS
   border: 1px solid #071519;
   border-top-color: #0d2931;
   border-left-color: #0d2931;
-  padding: 4px 12px;
+  padding: 0.7rem 1.4rem;
   color: #fefefe;
   display: inline-block;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: bold;
   text-decoration: none;
   text-shadow: 0 1px rgba(0, 0, 0, 0.75);
@@ -229,47 +229,10 @@ BUTTONS
   background-image: linear-gradient(to bottom, #103039, #15414d);
 }
 
-/* line 294, ../scss/_mixins.scss */
-.blue-btn, .blue-btn:visited {
-  border-color: #3a6fa4;
-  text-shadow: 0 1px 1px #3a6fa4;
-  background-color: #417cb7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#5089c1), to(#417cb7));
-  background-image: -webkit-linear-gradient(top, #5089c1, #417cb7);
-  background-image: -moz-linear-gradient(top, #5089c1, #417cb7);
-  background-image: -o-linear-gradient(top, #5089c1, #417cb7);
-  background-image: linear-gradient(to bottom, #5089c1, #417cb7);
-  -webkit-box-shadow: inset 0 0 3px #8cb2d6;
-  -moz-box-shadow: inset 0 0 3px #8cb2d6;
-  -ms-box-shadow: inset 0 0 3px #8cb2d6;
-  -o-box-shadow: inset 0 0 3px #8cb2d6;
-  -box-shadow: inset 0 0 3px #8cb2d6;
-  box-shadow: inset 0 0 3px #8cb2d6;
-}
-/* line 301, ../scss/_mixins.scss */
-.blue-btn:hover, .blue-btn:focus, .blue-btn:visited:hover, .blue-btn:visited:focus {
-  border-color: #336391;
-  background-color: #3a6fa4;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#427fbb), to(#3a6fa4));
-  background-image: -webkit-linear-gradient(top, #427fbb, #3a6fa4);
-  background-image: -moz-linear-gradient(top, #427fbb, #3a6fa4);
-  background-image: -o-linear-gradient(top, #427fbb, #3a6fa4);
-  background-image: linear-gradient(to bottom, #427fbb, #3a6fa4);
-}
-/* line 305, ../scss/_mixins.scss */
-.blue-btn:active, .blue-btn:visited:active {
-  background-color: #5089c1;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#417cb7), to(#5089c1));
-  background-image: -webkit-linear-gradient(top, #417cb7, #5089c1);
-  background-image: -moz-linear-gradient(top, #417cb7, #5089c1);
-  background-image: -o-linear-gradient(top, #417cb7, #5089c1);
-  background-image: linear-gradient(to bottom, #417cb7, #5089c1);
-}
-
 /*********************
 MISC
 *********************/
-/* line 314, ../scss/_mixins.scss */
+/* line 299, ../scss/_mixins.scss */
 .unstyled-link {
   text-decoration: none !important;
   color: #222222;
@@ -341,12 +304,12 @@ GENERAL STYLES
 /*********************
 LINK STYLES
 *********************/
-/* line 27, ../scss/_768up.scss */
+/* line 24, ../scss/_768up.scss */
 a, a:visited {
   /* on hover */
   /* on click */
 }
-/* line 30, ../scss/_768up.scss */
+/* line 27, ../scss/_768up.scss */
 a:hover, a:focus, a:visited:hover, a:visited:focus {
   color: #9a570c;
 }
@@ -354,7 +317,7 @@ a:hover, a:focus, a:visited:hover, a:visited:focus {
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-/* line 46, ../scss/_768up.scss */
+/* line 43, ../scss/_768up.scss */
 .wrap {
   max-width: 960px;
   padding: 2.9rem;
@@ -363,9 +326,18 @@ LAYOUT & GRID STYLES
 /*********************
 HEADER SYTLES
 *********************/
-/* line 55, ../scss/_768up.scss */
+/* line 59, ../scss/_768up.scss */
 .site-title {
-  padding: 2.9rem 0;
+  padding: 2.9rem;
+  display: inline-block;
+  font-size: 7.05rem;
+  text-shadow: 0 1px 0 #222222, 0 2px 0 #444444, 0 3px 0 #333333, 0 4px 0 #222222, 0 5px 0 #111111, 0 6px 1px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
+  text-shadow: 4px 3px 0 #eeeeee, 9px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* line 79, ../scss/_768up.scss */
+.secondary {
+  font-size: 2.9rem;
 }
 
 /*********************
@@ -374,9 +346,14 @@ NAVIGATION STYLES
 /*********************
 CONTENT
 *********************/
-/* line 69, ../scss/_768up.scss */
+/* line 93, ../scss/_768up.scss */
 .unit-title {
   font-size: 4.7rem;
+}
+
+/* line 97, ../scss/_768up.scss */
+.rotation {
+  background: none;
 }
 
 /*********************
@@ -385,11 +362,11 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 84, ../scss/_768up.scss */
+/* line 112, ../scss/_768up.scss */
 .footer a, .footer span {
   display: inline-block;
 }
-/* line 88, ../scss/_768up.scss */
+/* line 116, ../scss/_768up.scss */
 .footer .bull {
   margin: 0 15px;
 }
@@ -404,13 +381,24 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop. 
 
 ******************************************************************/
+/* line 12, ../scss/_960up.scss */
+.wrap {
+  border-radius: 0.46667rem;
+}
+
 /*********************
 HEADER SYTLES
 *********************/
-/* line 17, ../scss/_960up.scss */
-.site-title .h1 {
-  font-size: 11.75rem;
-  padding: 4.7rem 0;
+/* line 20, ../scss/_960up.scss */
+.site-title {
+  font-size: 14.1rem;
+  padding-top: 9.4rem;
+  line-height: 0.9;
+}
+
+/* line 26, ../scss/_960up.scss */
+.secondary {
+  font-size: 7.05rem;
 }
 
 /*********************
