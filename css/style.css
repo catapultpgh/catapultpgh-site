@@ -3076,7 +3076,7 @@ HEADER SYTLES
   text-align: center;
 }
 
-/* line 159, ../scss/_base.scss */
+/* line 157, ../scss/_base.scss */
 .site-title {
   line-height: 1;
   font-size: 3.48rem;
@@ -3084,12 +3084,12 @@ HEADER SYTLES
   padding: 4.7rem 0;
 }
 
-/* line 166, ../scss/_base.scss */
+/* line 164, ../scss/_base.scss */
 .secondary {
   font-size: 2.3rem;
 }
 
-/* line 174, ../scss/_base.scss */
+/* line 172, ../scss/_base.scss */
 .tagline {
   padding: 1.8rem;
   font-size: 2.3rem;
@@ -3106,7 +3106,7 @@ NAVIGATION STYLES
 /*********************
 CONTENT STYLES
 *********************/
-/* line 200, ../scss/_base.scss */
+/* line 198, ../scss/_base.scss */
 .unit-title {
   text-align: center;
   padding: 1.4rem 0;
@@ -3115,17 +3115,17 @@ CONTENT STYLES
   border-bottom: 0.46667rem solid #fefefe;
 }
 
-/* line 213, ../scss/_base.scss */
+/* line 211, ../scss/_base.scss */
 .summary {
   font-size: 2.3rem;
 }
 
-/* line 217, ../scss/_base.scss */
+/* line 215, ../scss/_base.scss */
 .perks .fa {
   font-size: 2.9rem;
 }
 
-/* line 221, ../scss/_base.scss */
+/* line 219, ../scss/_base.scss */
 .perk {
   background-color: rgba(254, 254, 254, 0.7);
   padding: 1.4rem;
@@ -3135,7 +3135,7 @@ CONTENT STYLES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 241, ../scss/_base.scss */
+/* line 239, ../scss/_base.scss */
 .footer {
   margin-top: 60px;
   text-align: center;
@@ -3145,11 +3145,11 @@ FOOTER STYLES
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 249, ../scss/_base.scss */
+/* line 247, ../scss/_base.scss */
 .footer a {
   display: block;
 }
-/* line 252, ../scss/_base.scss */
+/* line 250, ../scss/_base.scss */
 .footer span {
   display: none;
 }
@@ -3157,12 +3157,12 @@ FOOTER STYLES
 /*********************
 UTILITIES
 *********************/
-/* line 262, ../scss/_base.scss */
+/* line 260, ../scss/_base.scss */
 .special {
   color: #ebe16f;
 }
 
-/* line 266, ../scss/_base.scss */
+/* line 264, ../scss/_base.scss */
 .price {
   color: #666666;
 }
