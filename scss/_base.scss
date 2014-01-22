@@ -187,6 +187,17 @@ NAVIGATION STYLES
 	font-size: $h1;
 }
 
+.sticky-shortcut {
+	display: none;
+	position: fixed;
+	width: 100%;
+	padding: 0.25em;
+	height: 2em;
+	background-color: $bkgd-clr;
+	border-top: 3px solid $link-color;
+	bottom: 0;
+	z-index: 999;
+}
 
 
 /*********************
