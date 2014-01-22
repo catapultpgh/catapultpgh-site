@@ -50,6 +50,7 @@ $orange:        	#ED8C1F;
 $dark-orange: 		darken($orange, 20%);
 
 $teal: 				#3cb696;
+$dark-teal: 		darken(#3cb696, 25%);
 
 $link-color: 		$teal;
 $link-hover: 		darken($link-color, 20%);
@@ -59,7 +60,7 @@ $bkgd-clr: 			$light-grey;
 $light-accent: 		$alert-yellow;
 $bright-accent: 	$orange;
 $medium-accent: 	#999;
-$dark-accent: 		#666;
+$dark-accent: 		$dark-teal;
 
 $btn-color: 		$teal;
 
@@ -73,7 +74,7 @@ TYPOGRAPHY
 // Units
 
 $sml: 1.4rem;
-$default: 1.8rem;
+$default: 2rem;
 
 
 $h1: 4.7rem;

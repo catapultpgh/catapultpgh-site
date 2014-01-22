@@ -29,6 +29,7 @@ body {
 
 img {
 	width: 100%;
+	border: 2px solid $dark-accent;
 }
 
 
@@ -81,7 +82,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 h1, .h1 {
 	font-size: $h1;
 	line-height: 1.5em;
-	margin: $h1 0;
+	margin: $h2 0;
 }
 
 h2, .h2 {
@@ -105,6 +106,7 @@ h5, .h5 {
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 2px;
+	// margin: 0;
 }
 
 
@@ -167,6 +169,7 @@ HEADER SYTLES
 
 .tagline {
 	font-weight: 100;
+	margin-top: 0;
 }
 
 
@@ -174,6 +177,21 @@ HEADER SYTLES
 /*********************
 NAVIGATION STYLES
 *********************/
+
+.nav-arrow-container {
+	text-align: center;
+	margin-top: $h1;
+}
+
+.nav-arrow {
+	color: $link-color;
+	font-size: $h1;
+	cursor: pointer;
+	
+	&:hover {
+		color: $link-hover;
+	}
+}
 
 
 
@@ -183,18 +201,29 @@ CONTENT STYLES
 
 .content-unit {
 	@extend .clearfix;
+	margin-bottom: $h1*10;
+
+
+	// &.site-header .wrap {
+	// 	border: none;
+	// }
+
+	// .wrap {
+	// 	border-top: $sml/4 solid $med-grey;
+	// }
 }
 
 	.unit-title {
 		text-align: center;
+		@extend .h1;
 		padding: $sml 0;
 		margin-top: 0;
-		border-top: $sml/4 solid $med-grey;
 	}
 
 
 .summary {
 	font-size: $h3;
+	text-align: center;
 }
 
 .perks .fa {
@@ -204,18 +233,17 @@ CONTENT STYLES
 .perk {
 	background-color: $white;
 	border: $accent-border;
-	padding: 0 $h2;
+	padding: 0 $h2 $h3;
 	margin-bottom: $sml;
+
+	h5 {
+		margin-bottom: 0;
+	}
 }
 
 .fig-large {
     width: 116%;
     margin-left: -8%;
-    
-    img {
-        border: 2px solid $dark-accent;        
-        width: 100%;
-    }
 }
 
 /*********************
@@ -253,4 +281,21 @@ UTILITIES
 
 .danger {
 	color: $alert-red;	
+}
+
+.unstyle-img {
+	border: none;
+}
+
+.rotation {
+	background-color: $dark-accent;
+	color: $white;
+	a {
+		color: ligten($link-color, 50%);
+	}
+
+	.perk {
+		background-color: darken($dark-accent, 10%);
+
+	}
 }

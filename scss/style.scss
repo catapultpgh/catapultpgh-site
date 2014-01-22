@@ -19,75 +19,42 @@ Errything is imported here. Don't add styles to dis.
 
 @import "../fonts/font-awesome-4.0.3/scss/font-awesome";
 
-/*
-BASE (MOBILE) SIZE
-This are the mobile styles. It's what people see on their phones. If
-you set a great foundation, you won't need to add too many styles in
-the other stylesheets. Remember, keep it light: Speed is Important.
-*/
+
+
+/* --- BASE (MOBILE) SIZE */
 
 // styles in base.scss
 @import "base";
 
-/*
-LARGER MOBILE DEVICES
-This is for devices like the Galaxy Note or something that's
-larger than an iPhone but smaller than a tablet. Let's call them
-tweeners.
-*/
-@media only screen and (min-width: 25em) {
+
+/* --- MOBILE/PHABLETS */
+@media only screen and (min-width: 30em) {
 
 	// styles in 481up.scss
-	@import "481up";
+	@import "mobile";
 
 } // end of media query
 
-/*
-TABLET & SMALLER LAPTOPS
-This is the average viewing window. So Desktops, Laptops, and
-in general anyone not viewing on a mobile device. Here's where
-you can add resource intensive styles.
-*/
-@media only screen and (min-width: 35em) {
 
-	// import grids
+/* --- TABLET & SMALLER LAPTOPS */
+@media only screen and (min-width: 38em) {
+
 	@import "grid";
-
-	// styles in 768up.scss
-	@import "768up";
+	@import "tablet";
 
 } // end of media query
 
-/*
-DESKTOP
-This is the average viewing window. So Desktops, Laptops, and
-in general anyone not viewing on a mobile device. Here's where
-you can add resource intensive styles.
-*/
-@media only screen and (min-width: 1090px) {
 
-	// styles in 960up.scss
-	@import "960up";
+/* -- DESKTOP */
+@media only screen and (min-width: 50em) {
+
+	@import "desktop";
 
 } // end of media query
 
-/*
-LARGE VIEWING SIZE
-This is for the larger monitors and possibly full screen viewers.
-*/
-@media only screen and (min-width: 1240px) {
 
-	// styles in 1240up.scss
-	@import "1240up";
 
-} // end of media query
-
-/*
-RETINA (2x RESOLUTION DEVICES)
-This applies to the retina iPhone (4s) and iPad (2,3) along with
-other displays with a 2x resolution. You can also create a media
-query for retina AND a certain size if you want. Go Nuts.
-*/
+/* --- RETINA */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min--moz-device-pixel-ratio: 1.5),
        only screen and (min-device-pixel-ratio: 1.5) {
@@ -107,12 +74,7 @@ Want to get fancy for no good reason? Knock yourself out.
   
 }
 
-/*
-PRINT STYLESHEET
-Feel free to customize this. Remember to add things that won't make
-sense to print at the bottom. Things like nav, ads, and forms should
-be set to display none.
-*/
+/* --- PRINT */
 @media print {
 	@import "print";
 }
