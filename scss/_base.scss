@@ -180,17 +180,11 @@ NAVIGATION STYLES
 
 .nav-arrow-container {
 	text-align: center;
-	margin-top: $h1;
+	// margin-top: $h2;
 }
 
 .nav-arrow {
-	color: $link-color;
 	font-size: $h1;
-	cursor: pointer;
-	
-	&:hover {
-		color: $link-hover;
-	}
 }
 
 
@@ -201,16 +195,16 @@ CONTENT STYLES
 
 .content-unit {
 	@extend .clearfix;
-	margin-bottom: $h1*10;
+	// margin-bottom: $h1*10;
 
 
-	// &.site-header .wrap {
-	// 	border: none;
-	// }
+	&.site-header .wrap {
+		border: none;
+	}
 
-	// .wrap {
-	// 	border-top: $sml/4 solid $med-grey;
-	// }
+	.wrap {
+		border-top: $sml/4 solid $med-grey;
+	}
 }
 
 	.unit-title {
@@ -245,6 +239,12 @@ CONTENT STYLES
     width: 116%;
     margin-left: -8%;
 }
+
+.contact-info {
+	text-align: center;
+}
+
+
 
 /*********************
 FOOTER STYLES

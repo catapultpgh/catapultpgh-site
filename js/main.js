@@ -30,13 +30,29 @@ $(document).ready(function() {
 	// 	return false;
 	// });
 
-	$('.nav-arrow').click(function() {
-		var next_section = $(this).parents('.content-unit').next('.content-unit');
+	// $('.nav-arrow').click(function() {
+	// 	var next_section = $(this).parents('.content-unit').next('.content-unit');
       		
-		$('html,body').animate({
-  			scrollTop: next_section.offset().top
-    	}, 1000);
-	});
+	// 	$('html,body').animate({
+ //  			scrollTop: next_section.offset().top
+ //    	}, 1000);
+	// });
+
+		// $(window).scroll(function () {
+		// 	if ($(this).scrollTop() > 100) {
+		// 		$('#back-top').fadeIn();
+		// 	} else {
+		// 		$('#back-top').fadeOut();
+		// 	}
+		// });
+
+		// // scroll body to 0px on click
+		// $('#back-top a').click(function () {
+		// 	$('body,html').animate({
+		// 		scrollTop: 0
+		// 	}, 500);
+		// 	return false;
+		// });
 
 
 

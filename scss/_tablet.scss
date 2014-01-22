@@ -60,6 +60,11 @@ HEADER SYTLES
 	font-size: $h2;
 }
 
+.logo {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -74,14 +79,13 @@ CONTENT
 	font-size: $h1*1.5;
 }
 
-.rotation {
-	background: none;
+.email {
+	font-size: $h2;
 }
 
-/*********************
-SIDEBARS & ASIDES
-*********************/
-
+.contact-info {
+	text-align: center;
+}
 
 /*********************
 FOOTER STYLES
