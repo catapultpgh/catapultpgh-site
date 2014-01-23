@@ -228,7 +228,6 @@ CONTENT STYLES
 
 .summary {
 	font-size: $h3;
-	text-align: center;
 }
 
 .perks .fa {
@@ -238,7 +237,7 @@ CONTENT STYLES
 .perk {
 	background-color: $white;
 	border: $accent-border;
-	padding: 0 $h2 $h3;
+	padding: 0 $default $sml;
 	margin-bottom: $sml;
 
 	h5 {

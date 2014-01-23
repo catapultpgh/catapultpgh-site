@@ -74,6 +74,9 @@ NAVIGATION STYLES
 CONTENT
 *********************/
 
+.summary {
+	text-align: center;	
+}
 
 .unit-title {
 	font-size: $h1*1.5;
@@ -86,6 +89,10 @@ CONTENT
 
 .contact-info {
 	text-align: center;
+}
+
+.perk {
+	padding: 0 $h2 $h3;
 }
 
 /*********************
