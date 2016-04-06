@@ -27,6 +27,14 @@ HEADER SYTLES
 	font-size: $h1*1.5;
 }
 
+.non-main-header {
+    @include col-center;
+
+    h2:first-of-type {
+	font-size: $h1*1.5;
+    }
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
