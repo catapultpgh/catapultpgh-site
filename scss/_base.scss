@@ -276,6 +276,22 @@ CONTENT STYLES
     font-size: $h2;
 }
 
+.directory-listing {
+    @extend .perk;
+
+    .directory-name {
+	width: 200px;
+
+	img {
+	    margin-top: 2rem;
+	}
+    }
+
+    h4:first-of-type {
+	margin-bottom: 0;
+    }
+}
+
 /*********************
 FOOTER STYLES
 *********************/

@@ -75,24 +75,28 @@ CONTENT
 *********************/
 
 .summary {
-	text-align: center;	
+    text-align: center;	
 }
 
 .unit-title {
-	font-size: $h1*1.5;
+    font-size: $h1*1.5;
 }
 
 .email {
-	font-size: $h1;
-	margin-top: 0;
+    font-size: $h1;
+    margin-top: 0;
 }
 
 .contact-info {
-	text-align: center;
+    text-align: center;
 }
 
 .perk {
-	padding: 0 $h2 $h3;
+    padding: 0 $h2 $h3;
+}
+
+.directory-listing {
+    width: 100%;
 }
 
 /*********************

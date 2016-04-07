@@ -10,7 +10,7 @@ be seen on the Desktop.
 ******************************************************************/
 
 .wrap {
-	border-radius: $sml/3;
+    border-radius: $sml/3;
 }
 
 /*********************
@@ -18,18 +18,18 @@ HEADER SYTLES
 *********************/
 
 .site-title {
-	font-size: $h1*3;
-	padding-top: $h1*2;
-	line-height: 0.9;
+    font-size: $h1*3;
+    padding-top: $h1*2;
+    line-height: 0.9;
 }
 
 .secondary {
-	font-size: $h1*1.5;
+    font-size: $h1*1.5;
 }
 
 .non-main-header {
     @include col-center;
-
+    
     h2:first-of-type {
 	font-size: $h1*1.5;
     }
@@ -46,6 +46,21 @@ CONTENT STYLES
 
 .email {
 	font-size: $h1*1.5;	
+}
+
+.directory-listing {
+    flex-basis: 49%;
+}
+
+.directory-listings {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+
+    .directory-category {
+	width: 100%;
+    }
 }
 
 /*********************
