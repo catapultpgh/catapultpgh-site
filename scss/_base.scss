@@ -183,7 +183,7 @@ HEADER SYTLES
     text-align: center;
 
     h2 {
-	margin: 1.5rem 0;
+	margin: 2rem 0;
     }
 
     img.logo {
@@ -280,9 +280,13 @@ CONTENT STYLES
     @extend .perk;
 
     .directory-name {
-	width: 200px;
-
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	
 	img {
+	    width: 200px;
+	    max-height: 200px;
 	    margin-top: 3.125rem;
 	}
     }

@@ -41,7 +41,7 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	max-width: 50em;
+	/* max-width: 50em; */
 	padding: $h2;
 }
 
@@ -91,12 +91,17 @@ CONTENT
     text-align: center;
 }
 
+.perks, .flexrow {
+    display: flex;
+    flex-flow: row;
+}
+
 .perk {
     padding: 0 $h2 $h3;
 }
 
-.directory-listing {
-    width: 100%;
+.directory-listings {
+    flex-basis: 50%;
 }
 
 /*********************

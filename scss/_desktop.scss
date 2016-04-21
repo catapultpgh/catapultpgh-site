@@ -45,18 +45,16 @@ CONTENT STYLES
 *********************/
 
 .email {
-	font-size: $h1*1.5;	
+    font-size: $h1*1.5;	
 }
 
-.directory-listing {
-    flex-basis: 49%;
+.last .directory-listing {
+    margin-left: 3rem;
 }
 
 .directory-listings {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    width: 100%;
+    flex-flow: row;
 
     .directory-category {
 	width: 100%;
