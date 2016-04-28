@@ -4,32 +4,32 @@ GENERAL STYLES
 *********************/
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
     font-size: 62.5%;
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 
 body {
-	background-color: $bkgd-clr;
-	
-	font-family: $sans-serif;
-	font-size: $default;
-	color: $black;
-	line-height: 1.5;
-	
-	overflow-x: hidden;
-	
-	margin: 0;
-	padding: 0;
+    background-color: $bkgd-clr;
+    
+    font-family: $sans-serif;
+    font-size: $default;
+    color: $black;
+    line-height: 1.5;
+    
+    overflow-x: hidden;
+    
+    margin: 0;
+    padding: 0;
 }
 
 img {
-	width: 100%;
-	border: 2px solid $dark-accent;
+    width: 100%;
+    border: 2px solid $dark-accent;
 }
 
 
@@ -38,8 +38,12 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	padding: $sml;
-	margin: $h3 auto;
+    padding: $sml;
+    margin: $h3 auto;
+}
+
+.directory-container {
+    @include col-center;
 }
 
 /*********************
@@ -52,13 +56,13 @@ a {
 
     &:link {
     	text-decoration: none;
-		/*
+	/*
 		this highlights links on iPhones/iPads.
 		so it basically works like the :hover selector
 		for mobile devices.
-		*/
-		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
-	}
+       */
+	-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
+    }
 }
 
 
@@ -67,46 +71,46 @@ H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-	text-rendering: optimizelegibility;
-	/*
+    text-rendering: optimizelegibility;
+    /*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
-	*/
+   */
 
-	/* removing text decoration from all headline links */
-	a {
-		text-decoration: none;
-	}
+    /* removing text decoration from all headline links */
+    a {
+	text-decoration: none;
+    }
 }
 
 h1, .h1 {
-	font-size: $h1;
-	line-height: 1.5em;
-	margin: $h2 0;
+    font-size: $h1;
+    line-height: 1.5em;
+    margin: $h2 0;
 }
 
 h2, .h2 {
-	font-size: $h2;
-	line-height: 1.15em;
-	margin: 60px 0 40px;
+    font-size: $h2;
+    line-height: 1.15em;
+    margin: 60px 0 40px;
 }
 
 h3, .h3 {
-	font-size: $h3;
+    font-size: $h3;
 }
 
 h4, .h4 {
-	font-size: $h4;
-	margin: 1em 0;
+    font-size: $h4;
+    margin: 1em 0;
 }
 
 h5, .h5 {
-	font-size: $default;
-	line-height: 1.5em;
-	text-transform: uppercase;
-	font-weight: 600;
-	letter-spacing: 2px;
-	// margin: 0;
+    font-size: $default;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    // margin: 0;
 }
 
 
@@ -124,28 +128,28 @@ em {
 }
 
 ul, ol {
-	padding-left: 2em;
+    padding-left: 2em;
 }
 
 ul {
-	list-style-type: disc;
+    list-style-type: disc;
 }
 
 ol {
-	list-style-type: decimal;
+    list-style-type: decimal;
 }
 
 blockquote {
-	font-style: italic;
-	//text-align: center;
-	//border-left: 0.1rem solid $white;
-	//padding-left: $h2;
-	margin: $h3 0;
+    font-style: italic;
+    //text-align: center;
+    //border-left: 0.1rem solid $white;
+    //padding-left: $h2;
+    margin: $h3 0;
 }
 
 cite {
-	font-size: $h4;
-	font-style: normal;
+    font-size: $h4;
+    font-style: normal;
 }
 
 /*********************
@@ -153,25 +157,39 @@ HEADER SYTLES
 *********************/
 
 .site-header {
-	text-align: center;
+    text-align: center;
 }
 
 .site-title {	
-	line-height: 1;
-	font-size: $h2*1.2;
-	margin: 0;
-	padding: $h1 0;	
+    line-height: 1;
+    font-size: $h2*1.2;
+    margin: 0;
+    padding: $h1 0;	
 }
 
 .secondary {
-	font-size: $h3;
+    font-size: $h3;
 }
 
 .tagline {
-	font-weight: 100;
-	margin-top: 0;
+    font-weight: 100;
+    margin-top: 0;
 }
 
+.non-main-header {
+    @include col-center;
+    
+    width: 80%;
+    text-align: center;
+
+    h2 {
+	margin: 2rem 0;
+    }
+
+    img.logo {
+	margin: 2rem 0 0;
+    }
+}
 
 
 /*********************
@@ -179,24 +197,24 @@ NAVIGATION STYLES
 *********************/
 
 .nav-arrow-container {
-	text-align: center;
-	// margin-top: $h2;
+    text-align: center;
+    // margin-top: $h2;
 }
 
 .nav-arrow {
-	font-size: $h1;
+    font-size: $h1;
 }
 
 .sticky-shortcut {
-	display: none;
-	position: fixed;
-	width: 100%;
-	padding: 0.25em;
-	height: 2em;
-	background-color: $bkgd-clr;
-	border-top: 3px solid $link-color;
-	bottom: 0;
-	z-index: 999;
+    display: none;
+    position: fixed;
+    width: 100%;
+    padding: 0.25em;
+    height: 2em;
+    background-color: $bkgd-clr;
+    border-top: 3px solid $link-color;
+    bottom: 0;
+    z-index: 999;
 }
 
 
@@ -205,44 +223,44 @@ CONTENT STYLES
 *********************/
 
 .content-unit {
-	@extend .clearfix;
-	// margin-bottom: $h1*10;
+    @extend .clearfix;
+    // margin-bottom: $h1*10;
 
 
-	&.site-header .wrap {
-		border: none;
-	}
+    &.site-header .wrap {
+	border: none;
+    }
 
-	.wrap {
-		border-top: $sml/4 solid $med-grey;
-	}
+    .wrap {
+	border-top: $sml/4 solid $med-grey;
+    }
 }
 
-	.unit-title {
-		text-align: center;
-		@extend .h1;
-		padding: $sml 0;
-		margin-top: 0;
-	}
+.unit-title {
+    text-align: center;
+    @extend .h1;
+    padding: $sml 0;
+    margin-top: 0;
+}
 
 
 .summary {
-	font-size: $h3;
+    font-size: $h3;
 }
 
 .perks .fa {
-	font-size: $h2;
+    font-size: $h2;
 }
 
 .perk {
-	background-color: $white;
-	border: $accent-border;
-	padding: 0 $default $sml;
-	margin-bottom: $sml;
+    background-color: $white;
+    border: $accent-border;
+    padding: 0 $default $sml;
+    margin-bottom: $sml;
 
-	h5 {
-		margin-bottom: 0;
-	}
+    h5 {
+	margin-bottom: 0;
+    }
 }
 
 .fig-large {
@@ -251,11 +269,31 @@ CONTENT STYLES
 }
 
 .contact-info {
-	text-align: center;
+    text-align: center;
 }
 
 .email {
-	font-size: $h2;
+    font-size: $h2;
+}
+
+.directory-listing {
+    @extend .perk;
+
+    .directory-name {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	
+	img {
+	    width: 150px;
+	    max-height: 200px;
+	    margin-top: 3.125rem;
+	}
+    }
+
+    h4:first-of-type {
+	margin-bottom: 0;
+    }
 }
 
 /*********************
@@ -263,19 +301,19 @@ FOOTER STYLES
 *********************/
 
 .footer {
-	margin-top: 60px;
-	text-align: center;
-	font-size: 0.9em;
-	color: $med-grey;
-	padding: 5px;
-	width: 100%;
-	margin-bottom: 10px;
-	a {
-		display: block;
-	}
-	span {
-		display: none;
-	}
+    margin-top: 60px;
+    text-align: center;
+    font-size: 0.9em;
+    color: $med-grey;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    a {
+	display: block;
+    }
+    span {
+	display: none;
+    }
 }
 
 
@@ -284,11 +322,11 @@ UTILITIES
 *********************/
 
 .special {
-	color: $alert-yellow;
+    color: $alert-yellow;
 }
 
 .price {
-	color: $bright-accent;
+    color: $bright-accent;
 }
 
 .danger {
@@ -296,18 +334,18 @@ UTILITIES
 }
 
 .unstyle-img {
-	border: none;
+    border: none;
 }
 
 .rotation {
-	background-color: $dark-accent;
-	color: $white;
-	a {
-		color: ligten($link-color, 50%);
-	}
+    background-color: $dark-accent;
+    color: $white;
+    a {
+	color: ligten($link-color, 50%);
+    }
 
-	.perk {
-		background-color: darken($dark-accent, 10%);
+    .perk {
+	background-color: darken($dark-accent, 10%);
 
-	}
+    }
 }

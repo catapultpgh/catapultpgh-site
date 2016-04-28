@@ -27,6 +27,21 @@ TOOLS
 	overflow: hidden;
 }
 
+/*********************
+LAYOUT
+*********************/
+
+@mixin row-center {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+@mixin col-center {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
 
 /*********************
 COLORS
